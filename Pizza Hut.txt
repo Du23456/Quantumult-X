@@ -1,0 +1,6 @@
+# > 必胜客
+^https?:\/\/res\.pizzahut\.com\.cn\/CRM\/phad\/apphome\/apphome url reject
+#####7⃣️#####
+# > 必胜客 微信小程序净化
+^https:\/\/res\.pizzahut\.com\.cn\/CRM url reject-dict
+hostname=res.pizzahut.com.cn
