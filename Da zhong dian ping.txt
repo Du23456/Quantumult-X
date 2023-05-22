@@ -1,0 +1,3 @@
+# > 大众点评   
+^https?:\/\/img\.meituan\.net\/dpmobile\/.*.(gif|jpg) url reject-200
+hostname=img.meituan.net

@@ -1,0 +1,22 @@
+# > 小米
+^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start url reject-200
+^https?:\/\/api\.jr\.mi\.com\/v\d\/adv\/ url reject-200
+^https?:\/\/api\.jr\.mi\.com\/jr\/api\/playScreen url reject-200
+^https?:\/\/api-mifit.+?\.huami\.com\/discovery\/mi\/discovery\/.+?_ad\? url reject-200
+^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/recommendation\/banner url reject
+^https?:\/\/(api-mifit|api-mifit-\w+)\.huami\.com\/discovery\/mi\/discovery\/\w+_ad\? url reject
+^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/homepage_ad\? url reject-img
+^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/sleep_ad\? url reject-img
+^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/sport_summary_ad\? url reject-img
+^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/sport_training_ad\? url reject-img
+^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/step_detail_ad\? url reject-img
+^https?:\/\/api-mifit\.huami\.com\/discovery\/mi\/discovery\/training_video_ad\? url reject-img
+# > 小米商城
+^https?:\/\/api\.m\.mi\.com\/v1\/app\/start url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
+# > 小米有品
+^https:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig url reject-200
+# > 小米运动
+^https:\/\/api-mifit-cn2\.huami\.com\/discovery\/mi\/cards\/startpage_ad url reject
+# > 米家
+^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|myTab)\? url reject-dict
+hostname=api.m.mi.com,api.jr.mi.com,api-mifit.huami.com,api-mifit-cn2.huami.com,home.mi.com,shopapi.io.mi.com,api-mifit.*.huami.com

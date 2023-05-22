@@ -1,0 +1,14 @@
+# > 芒果TV
+^https?:\/\/pcvideoyd\.titan\.mgtv\.com\/pb\/ url reject-img
+#####2⃣️#####
+^https?:\/\/nuc\.api\.mgtv.com\/Logout url reject-200
+^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/ url reject-200
+^https?:\/\/sf3-fe-tos\.pglstatp-toutiao\.com\/obj\/ad-pattern\/renderer\/package\.json url reject-200
+^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/server_bidding\/pre_fetch\/ url reject-200
+&src\=mgtv&suuid\=.*&testversion\=&ticket\=[A-Z0-9]{32} url 302 &src=mgtv&suuid=430bab112551f8b3d4b1fa60b3576f4d&testversion=&ticket=D8DBDC5C65D535DABAAE6484AEB7A90C
+^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/stats\/batch\/ url reject-200
+^https?:\/\/mob\.bz\.mgtv\.com\/odin\/c1\/channel\/ads\?_ url reject-200
+^https?:\/\/mobile\.da\.mgtv\.com\/json\/app\/bdboot url reject-200
+^https?:\/\/mobile\.api\.mgtv\.com\/mobile\/config\?_support url reject-200
+^https?:\/\/sf3-fe-tos\.pglstatp-toutiao\.com\/obj\/ad-pattern\/renderer\/ url reject-200
+hostname=pcvideoyd.titan.mgtv.com,nuc.api.mgtv.com,api-access.pangolin-sdk-toutiao.com,sf3-fe-tos.pglstatp-toutiao.com,mob.bz.mgtv.com,mobile.da.mgtv.com,mobile.api.mgtv.com
