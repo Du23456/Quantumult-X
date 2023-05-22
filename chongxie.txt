@@ -1,8 +1,6 @@
 #重写V2.0
 #更新时间   2023年5月10号
 
-^http[s]?:\/\/video-beats-api\.camera360\.com\/v1\/user\/vip.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/Blurrr.js
-
 # > 58同城
 ^https?:\/\/.+?\.58cdn\.com\.cn\/brandads\/ url reject-200
 ^https?:\/\/app\.58\.com\/api\/home\/invite\/popupAdv url reject-200
