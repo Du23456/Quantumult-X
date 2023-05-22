@@ -1,0 +1,50 @@
+# > 茶颜悦色 微信小程序净化
+^https:\/\/miniapp\.sexytea2013\.com\/cms\/slot\/queryByCodes\?codes=INDEX_TOP_BANNER url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/scripts/cyys.js
+
+#奈雪 微信小程序净化
+^https:\/\/tm-api\.pin-dao\.cn\/home\/api\/index\/activeConfig\/v2 url reject-dict
+^https:\/\/tm-api\.pin-dao\.cn\/home\/api\/resource\/config\/homeBannerNodes url reject-dict
+
+#喜茶 微信小程序净化
+^https:\/\/go\.heytea\.com\/api\/service-portal\/vip url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/heytea.js
+
+#蜜雪冰城 微信小程序净化
+^https:\/\/mxsa\.mxbc\.net\/api\/v1\/adinfo\/adplace\/query url reject-dict
+
+#罗森点点 微信小程序净化
+^https:\/\/lawsonapi\.yorentown\.com\/area\/sh-lawson\/app\/v1\/mina\/systemSetting url reject-dict
+^https:\/\/plt\.yorentown\.com\/pltapp\/v1\/banner url reject-dict
+^https:\/\/lawsonapi\.yorentown\.com\/area\/sh-lawson\/app\/v1\/home url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/lawson.js
+
+#COCO点单 微信小程序净化
+^https:\/\/coco-com\.e\.verystar\.net\/v1\/home\/info url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/coco.js
+
+#茶百道 微信小程序净化
+^https:\/\/cbd-gateway-service-applets\.hualala\.com\/arch\/api\/banner\/QueryBannerImgList url reject-dict
+
+#老乡鸡 微信小程序净化
+^https:\/\/member\.lxjchina\.com\.cn\/mini-server\/home\/page\/banner url reject-dict
+
+#一点点 微信小程序净化
+^https:\/\/cappapi\.alittle-tea\.com\/open\?method=catering\.set\.ad url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/alittle-tea.js
+^https:\/\/alittle-tea\.oss-cn-shanghai\.aliyuncs\.com\/images\/platform\/alittle url reject-dict
+
+#Manner 微信小程序净化（去除首页轮播图以及进入小程序弹窗¥
+^https:\/\/triangle\.wearemanner\.com\/mp-api\/v1\/ads url reject-dict
+
+#M Stand 微信小程序净化
+^https:\/\/api\.prod\.dj\.mstand\.cn\/scrm\/mini\/app\/index\/info url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/M_Stand.js
+^https:\/\/api\.prod\.dj\.mstand\.cn\/scrm\/app\/mdm\/index\/listAdv\?types url reject-dict
+
+#LINLEE 微信小程序净化
+^https:\/\/webapi\.qmai\.cn\/web\/catering\/design\/homePage-Config url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/LINLEE.js
+
+#挪瓦咖啡 微信小程序净化
+^https:\/\/webapi\.qmai\.cn\/web\/catering\/design\/homePage-Config url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/kff.js
+^https:\/\/webapi\.qmai\.cn\/web\/catering\/advertising\/ad url reject-dict
+^https:\/\/images\.qmai\.cn\/s214925\/2023 url reject-dict
+
+#古茗 微信小程序净化
+^https:\/\/newton\.gumingnc\.com\/newton-buyer\/newton\/buyer\/(ump|touch|external\/front) url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/ming.js
+
+hostname=miniapp.sexytea2013.com,tm-api.pin-dao.cn,go.heytea.com,mxsa.mxbc.net,lawsonapi.yorentown.com,plt.yorentown.com,coco-com.e.verystar.net,cbd-gateway-service-applets.hualala.com,member.lxjchina.com.cn,cappapi.alittle-tea.com,alittle-tea.oss-cn-shanghai.aliyuncs.com,triangle.wearemanner.com,api.prod.dj.mstand.cn,api.prod.dj.mstand.cn,webapi.qmai.cn,webapi.qmai.cn,images.qmai.cn,newton.gumingnc.com
