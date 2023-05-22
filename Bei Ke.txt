@@ -1,0 +1,4 @@
+# > 贝壳
+^https?:\/\/apps\.api\.ke\.com\/config\/config\/(bootpage|getactivityconfig) url reject-200
+^https?:\/\/app\.api\.ke\.com\/config\/config\/bootpage url reject
+hostname=apps.api.ke.com, app.api.ke.com
