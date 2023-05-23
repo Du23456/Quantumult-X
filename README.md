@@ -1,7 +1,8 @@
 # 简介
 
-本仓库资源均为提取，本人不生产规则
+本仓库资源均为提取，本人不生产规则，如需单独添加？专项链接见上代码⬆️
 
+按需使用，保证手机性能
 
 # Quantumult-X全局配置
 
@@ -9,9 +10,7 @@
 
 # Quantumult-X重写规则
 
-如需单独添加？专项链接见上代码⬆️
-
-资源均为提取，原链接如下⬇️
+原链接⬇️
 
 7⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cleanup.snippet
 
