@@ -1,2 +1,16 @@
 # Quantumult-X重写规则
-原链接
+资源均为提取
+原链接如下⬇️
+7⃣️ https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cleanup.snippet
+
+6⃣️ https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt
+
+5⃣️ https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyRewrite.conf
+
+4⃣️ https://ybnet.ga/rewrite/AdBlock.conf
+
+3⃣️ https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/StartUp.conf
+
+2⃣️ https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/tailadv.conf
+
+1⃣️ https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/qxrules.conf
