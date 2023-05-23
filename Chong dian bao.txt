@@ -1,4 +1,7 @@
 #####7⃣️#####
+#小兔充充 #小程序净化   
+^https:\/\/ad\.xiaotucc\.com\/advert url reject ^https:\/\/mapi\.xiaotucc\.com\/(mall\/main|main_page\/index\/getActivity) url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/xiaotucc.js
+
 # 怪兽充电 微信小程序
 ^https:\/\/aag\.enmonster\.com\/apa\/index\/advert\/skin url reject
 
@@ -15,4 +18,4 @@
 # 来电 小程序净化
 ^https:\/\/mobile-api\.imlaidian\.com\/api\/args url reject-dict
 
-hostname=aag.enmonster.com,smarket.dian.so,file.dian.so,s.jiediankeji.com,wxs-weixin.sd.zhumanggroup.com,mobile-api.imlaidian.com
+hostname=aag.enmonster.com,smarket.dian.so,file.dian.so,s.jiediankeji.com,wxs-weixin.sd.zhumanggroup.com,mobile-api.imlaidian.com,ad.xiaotucc.com,mapi.xiaotucc.com
