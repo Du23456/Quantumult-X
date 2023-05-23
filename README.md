@@ -1,5 +1,6 @@
 # Quantumult-X重写规则
 #资源均为提取
+
 #原链接如下⬇️
 
 7⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cleanup.snippet
