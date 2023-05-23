@@ -4,6 +4,12 @@
 
 按需使用，保证手机寿命（分流、重写、Mitm太多均会影响续航和性能）
 
+如何使用？
+![image](https://github.com/Du23456/Quantumult-X/assets/127875782/bc63cbfa-56f7-4d3e-99a0-f6f9a0b119a2)
+添加到相应的（分流/重写）引用
+![image](https://github.com/Du23456/Quantumult-X/assets/127875782/b73e6b8e-6b63-42a8-9181-740b60fa63b8)
+
+
 ## Quantumult-X全局配置
 
 本人自用全局配置（包括本仓库所有资源）：
