@@ -1,5 +1,4 @@
 # Quantumult-X重写规则
-![image](https://github.com/Du23456/Quantumult-X/assets/127875782/ba3b6e4e-2d86-46e8-a6e0-9ab3fd69bc07)
 
 #资源均为提取，原链接如下⬇️
 
