@@ -24,6 +24,8 @@
 
 注：子规则会显示从原规则序号“几“中提取的
 
+子规则链接见上仓库代码⬆️
+
 重写原链接⬇️
 
 https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cleanup.snippet7⃣️
