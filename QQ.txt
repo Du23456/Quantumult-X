@@ -1,0 +1,13 @@
+#####6⃣️#####
+# > QQ钱包净化
+^https?:\/\/m\.qianbao\.qq\.com\/pages\/walletHome\?invisible url reject
+#####5⃣️#####
+#qq空间广告屏蔽
+^http:\/\/c\.gdt\.qq\.com\/gdt_clickwap\.fcg\?viewid url reject
+^http:\/\/pgdt\.gtimg\.cn\/gdt\/0\/.+\.jpg url reject
+^http:\/\/v\.gdt\.qq\.com\/gdt_stats\.fcg\?viewid url reject
+^http:\/\/rpt\.gdt\.qq\.com\/creative_view\?viewid url reject
+^http:\/\/pgdt\.gtimg\.cn\/gdt\/.+\.png url reject
+^http:\/\/pgdt\.gtimg\.cn\/gdt\/.+\.jpg url reject
+^http:\/\/pgdt\.gtimg\.cn\/.+\/snscosdownload\/SH\/reserved\/.+ url reject
+hostname=c.gdt.qq.com, pgdt.gtimg.cn, v.gdt.qq.com, rpt.gdt.qq.com,m.qianbao.qq
