@@ -1,0 +1,23 @@
+# > 爱奇艺
+^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo url reject
+^https?:\/\/intl\.iqiyi\.com\/ad_external\/ url reject
+^https?:\/\/intl\.iqiyi\.com\/video\/advertise url reject
+^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show\.do url reject-200
+^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show url reject-200
+^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo url reject-200
+^https?:\/\/iface2\.iqiyi\.com\/fusion\/3\.0\/fusion_switch url reject-img
+^http:\/\/static-s\.iqiyi\.com\/common\/.+\/Small_video\/a2\/af\/.+\.png url reject
+^http:\/\/msga/.cupid/.iqiyi/.com\/scp2\.gif url reject
+https?:\/\/ssports\.iqiyi\.com/app\/ url reject
+https?:\/\/ssports\.iqiyi\.com/json\/shop\/shopInfo url reject
+https?:\/\/.+\.iqiyi\.com\/videos\/other\/20$ url reject
+https?:\/\/static\.iqiyi\.com\/js\/common\/.+\.js url reject
+https?:\/\/t7z\.cupid\.iqiyi\.com\/show url reject
+^https?:\/\/u\d\.iqiyipic\.com\/image\/[\w\/]+\/oad_ url reject
+^http:\/\/.+\.iqiyipic\.com\/image\/.+\/ad\/.+\.jpg url reject
+https?:\/\/.+\.iqiyipic\.com\/image\/20*_100000 url reject
+#####3⃣️#####
+^https?:\/\/.*cupid\.iqiyi\.com\/mixer\? url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/iqiyi_open_ads.js
+#####1⃣️#####
+(^https?:\/\/m\.iqiyi\.com\/v_.*) url 307 https://z1.m1907.cn/?jx=$1
+hostname=iface.iqlyl.com,intl.igiyi.com,act.vip.iqiyi.com,iface2.iqiyi.com,static-s.iqiyi.com,msga.cupid.iqiyi.com,ssports.igiyi.com,*.igiyi.com,t7z.cupid.iqiyi.com,u*iqiyipic.com, m.iqiyi.com, *.iqiyipic.com
