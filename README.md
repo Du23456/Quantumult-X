@@ -2,7 +2,7 @@
 
 本人自用全局配置(包括本仓库所有资源):
 
-链接复制厚直接导入即可
+链接复制后直接导入即可
 ![image](https://github.com/Du23456/Quantumult-X/assets/127875782/e90abab0-567c-4b97-a6bf-bea4f359c6f5)
 注：会覆盖原配置，请做好备份
 
