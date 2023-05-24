@@ -1,3 +1,0 @@
-# > 快手
-^https:\/\/open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ$ url reject
-hostname=open.e.kuaishou.com
