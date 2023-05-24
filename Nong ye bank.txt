@@ -1,4 +1,0 @@
-# > 农业银行 #开屏广告
-^https?:\/\/enjoy\.cdn-static\.abchina\.com\/yx-engine-web\/file\/download\/(9ce31|1bf6e) url reject-200
-^https?:\/\/enjoy\.cdn-static\.abchina\.com\/yx-engine-web\/file\/download\/6bd18.*? url reject-200
-hostname=enjoy.cdn-static.abchina.com
