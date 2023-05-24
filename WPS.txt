@@ -1,4 +1,0 @@
-# > WPS   
-^https?:\/\/ios\.wps\.cn\/ad-statistics-service url reject
-^https?:\/\/mobile-pic\.cache\.iciba\.com\/feeds_ad\/ url reject-200
-hostname=ios.wps.cn, mobile-pic.cache.iciba.com
