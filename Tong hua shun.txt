@@ -1,5 +1,0 @@
-# > 同花顺
-^https?:\/\/adm\.10jqka\.com\.cn\/interface\/ad\/recommend url reject-200
-# 同花顺至尊版
-^https:\/\/stat\.10jqka\.com\.cn\/q\?ld=mobile&id=ad url reject-dict
-hostname=adm.10jqka.com.cn, stat.10jqka.com.cn
