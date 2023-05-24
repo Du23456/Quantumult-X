@@ -1,6 +1,6 @@
 # Quantumult-X全局配置
 
-本人自用全局配置（包括本仓库所有资源）：
+本人自用全局配置(包括本仓库所有资源)：https://github.com/Du23456/Quantumult-X/blob/main/Quantumult-X%E5%85%A8%E5%B1%80%E9%85%8D%E7%BD%AE.conf
 
 链接复制厚直接导入即可
 ![image](https://github.com/Du23456/Quantumult-X/assets/127875782/e90abab0-567c-4b97-a6bf-bea4f359c6f5)
