@@ -1,4 +1,0 @@
-# > 得物
-^https:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement url reject
-^https?:\/\/cdn\.poizon\.com\/node-common\/.*.jpg url reject-200
-hostname=app.dewu.com,cdn.poizon.com
