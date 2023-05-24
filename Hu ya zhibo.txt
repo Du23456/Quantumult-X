@@ -1,6 +1,0 @@
-# > 虎牙直播
-^https?:\/\/business\.msstatic\.com\/advertiser\/ url reject-200
-^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/ url reject-img
-#####2⃣️#####
-^http?:\/\/business\.msstatic\.com\/advertiser\/material url reject-dict
-hostname=business.msstatic.com, cdnfile1.msstatic.com
