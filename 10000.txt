@@ -1,4 +1,0 @@
-# > 中国电信
-^https?:\/\/cloud\.189\.cn\/include\/splash\/ url reject
-^https?:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*?Animation url reject-img
-hostname=cloud.189.cn, zt-app.go189.cn
