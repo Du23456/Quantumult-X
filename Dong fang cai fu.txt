@@ -1,3 +1,0 @@
-# > 东方财富
-^https?:\/\/emdcadvertise\.eastmoney\.com\/infoService\/v2 url reject-200
-hostname=emdcadvertise.eastmoney.com
