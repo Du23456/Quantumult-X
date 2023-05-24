@@ -1,3 +1,6 @@
+#####3⃣️#####
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(hotWords|hotSearchTerms) url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/jd_json.js
+#####6⃣️#####
 # > 京东
 ^https?:\/\/m15\.360buyimg\.com\/mobilecms\/jfs\/t1\/202220\/24\/21575\/134711\/625b821bE5d642d73\/77636692989bd2be\.jpg url reject
 ^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs\/t1\/96405\/17\/28473\/168578\/625cd144E7997a990\/8233ce8a10c4e463\.jpg url reject
@@ -32,4 +35,5 @@
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(live｜getShopHomeExtendInfo|getImmediatePlayV910) url reject
 #####5⃣️#####
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$ url reject-array
-hostname=m15.360buyimg.com,m.360buyimg.com,api.m.jd.com,union.click.jd.com,ms.jr.jd.com,bdsp-x.jd.com,dsp-x.jd.com,img*.360buyimg.com,storage.360buyimg.com,dns.jd.com,
+
+hostname=m15.360buyimg.com,m.360buyimg.com,api.m.jd.com,union.click.jd.com,ms.jr.jd.com,bdsp-x.jd.com,dsp-x.jd.com,img*.360buyimg.com,storage.360buyimg.com,dns.jd.com
