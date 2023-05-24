@@ -1,0 +1,3 @@
+# > 美图秀秀
+^https?:\/\/mea\.meitudata\.com\/kaiping url reject
+hostname=mea.meitudata.com

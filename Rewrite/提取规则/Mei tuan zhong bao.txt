@@ -1,0 +1,3 @@
+# > 美团众包
+^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage url reject-200
+hostname=peisongapi.meituan.com

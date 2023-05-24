@@ -1,0 +1,18 @@
+#####7⃣️#####
+# 怪兽充电 微信小程序
+^https:\/\/aag\.enmonster\.com\/apa\/index\/advert\/skin url reject
+
+# 小电充电 微信小程序
+^https:\/\/smarket\.dian\.so url reject-dict
+^https:\/\/file\.dian\.so\/c\/leto url reject-dict
+
+# 街电 微信小程序
+^https:\/\/s\.jiediankeji\.com\/adv url reject-dict
+
+# 搜电充电 微信小程序
+^https:\/\/wxs-weixin\.sd\.zhumanggroup\.com\/api\/v2\/ad url reject-dict
+
+# 来电 小程序净化
+^https:\/\/mobile-api\.imlaidian\.com\/api\/args url reject-dict
+
+hostname=aag.enmonster.com,smarket.dian.so,file.dian.so,s.jiediankeji.com,wxs-weixin.sd.zhumanggroup.com,mobile-api.imlaidian.com
