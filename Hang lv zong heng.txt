@@ -1,3 +1,0 @@
-# > 航旅纵横   
-^https?:\/\/discardrp\.umetrip\.com\/gateway\/api\/umetrip\/native url reject-200
-hostname=discardrp.umetrip.com
