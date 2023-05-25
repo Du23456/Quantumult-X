@@ -2,7 +2,7 @@
 
 
 #原链接线路4
-#
+#https://raw.githubusercontent.com/WeiRen0/NewFree/main/XMVIP04.js
 #原链接线路3
 #https://raw.githubusercontent.com/WeiRen0/Scripts/main/XMSSVIP3.js
 #原链接线路2
