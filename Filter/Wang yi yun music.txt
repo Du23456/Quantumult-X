@@ -1,0 +1,7 @@
+# 网易云音乐
+HOST, gdt.qq.com, REJECT
+HOST, httpdns.n.netease.com, REJECT
+HOST, iadmat.nosdn.127.net, REJECT
+HOST, iadmusicmat.music.126.net, REJECT
+HOST, iadmusicmatvideo.music.126.net, REJECT
+HOST-SUFFIX, 163jiasu.com, REJECT
