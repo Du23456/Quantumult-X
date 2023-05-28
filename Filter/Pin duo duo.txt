@@ -1,0 +1,3 @@
+ ; 拼多多
+geoip, img-4.pddpic.com, reject
+geoip, abtk.pinduoduo.com, reject
