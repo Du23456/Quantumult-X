@@ -1,0 +1,53 @@
+# > 酷狗音乐
+host-keyword, searchrecommend.kugou.com, reject
+host-keyword, nbcollectretry.kugou.com, reject
+host-keyword, rtmretry.kugou.com, reject
+host-keyword, rt-m.kugou.com, reject
+host-keyword, nbcollect.kugou.com, reject
+host-keyword, c1img.ali.kugou.com, reject
+host-keyword, kgstaticdlbssdlbig.tx.kugou.com, reject
+host-keyword, adsfilebssdlbig.ali.kugou.com, reject
+host-keyword, splashimgbssdl.yun.kugou.com, reject
+HOST-KEYWORD, adservice.kugou.com,REJECT
+HOST-KEYWORD, kgipadstat.kugou.com,REJECT
+HOST-KEYWORD, kgipadstatbak.kugou.com,REJECT
+HOST-KEYWORD, logwebs.kugou.com,REJECT
+HOST-KEYWORD, tracker.kugou.com,REJECT
+HOST-KEYWORD, trackercdnbj.kugou.com,REJECT
+host-keyword, rich.kuwo.cn, reject
+host-keyword, mobilead.kuwo.cn, reject
+host, adsfile.bssdlbig.kugou.com, reject
+HOST-SUFFIX,oth.eve.mdt.qq.com, reject
+HOST,pgdt.gtimg.cn, reject
+HOST-SUFFIX,pgdt.gtimg.cn, reject
+HOST,pgdt.gtimg.com, reject
+HOST,adsmind.gdtimg.com, reject
+HOST-SUFFIX,channel.fanxing.kugou.com, reject
+HOST-SUFFIX,d.kugou.com, reject
+HOST-SUFFIX,downmobile.kugou.com, reject
+HOST-SUFFIX,gad.kugou.com, reject
+HOST-SUFFIX,game.kugou.com, reject
+HOST-SUFFIX,gamebox.kugou.com, reject
+HOST-SUFFIX,gcapi.sy.kugou.com, reject
+HOST-SUFFIX,gg.kugou.com, reject
+HOST-SUFFIX,install.kugou.com, reject
+HOST-SUFFIX,install2.kugou.com, reject
+HOST-SUFFIX,minidcsc.kugou.com, reject
+HOST-SUFFIX,mo.kugou.com, reject
+HOST-SUFFIX,msg.mobile.kugou.com, reject
+HOST-SUFFIX,mvads.kugou.com, reject
+HOST-SUFFIX,p.kugou.com, reject
+HOST-SUFFIX,push.mobile.kugou.com, reject
+HOST-SUFFIX,rtmonitor.kugou.com, reject
+HOST-SUFFIX,sdn.kugou.com, reject
+HOST-SUFFIX,song.fanxing.kugou.com, reject
+HOST-SUFFIX,update.mobile.kugou.com, reject
+HOST-SUFFIX,youxi.kugou.com, reject
+HOST-SUFFIX,adserviceretry.kugou.com, reject
+HOST-SUFFIX,ads.service.kugou.com, reject
+HOST-SUFFIX,adsfile.bssdlbig.kugou.com, reject
+HOST-SUFFIX,log.stat.kugou.com, reject
+HOST-SUFFIX,log.web.kugou.com, reject
+HOST-SUFFIX,kgmobilestat.kugou.com, reject
+HOST-SUFFIX,kgmobilestatbak.kugou.com, reject
+HOST-SUFFIX,mobilelog.kugou.com, reject
