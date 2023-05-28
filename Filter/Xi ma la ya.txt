@@ -1,0 +1,16 @@
+# > 喜马拉雅
+HOST,adbehavior.ximalaya.com, reject
+HOST,adwbs.ximalaya.com, reject
+HOST-SUFFIX,ad.test.ximalaya.com, reject
+HOST-SUFFIX,adse.test.ximalaya.com, reject
+HOST-SUFFIX,adweb.test.ximalaya.com, reject
+HOST-SUFFIX,adweb.ximalaya.com, reject
+HOST-SUFFIX,linkeye.ximalaya.com, reject
+HOST-SUFFIX,location.ximalaya.com, reject
+HOST-SUFFIX,xdcs-collector.ximalaya.com, reject
+HOST-SUFFIX,ad.ximalaya.com, reject
+HOST-SUFFIX,adse.ximalaya.com, reject
+HOST-SUFFIX,adse.wsa.ximalaya.com, reject
+HOST-SUFFIX,adbehavior.wsa.ximalaya.com, reject
+HOST-SUFFIX,adsebs.ximalaya.com, reject
+HOST-SUFFIX,adbs.ximalaya.com, reject
