@@ -1,0 +1,4 @@
+# > 小米
+HOST, sdkconfig.ad.xiaomi.com, REJECT
+HOST,data.mistat.xiaomi.com, reject
+HOST,tracking.intl.miui.com, reject
