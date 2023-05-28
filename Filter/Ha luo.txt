@@ -1,0 +1,2 @@
+# > 哈啰
+host-keyword, assets.51downapp.cn, reject
