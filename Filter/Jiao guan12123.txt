@@ -1,0 +1,7 @@
+# > 交管12123
+host, static.122.gov.cn, reject
+HOST-SUFFIX, v3.fstats.xyz, reject
+HOST-SUFFIX, wss.haoyundmn.com, reject
+HOST-SUFFIX, new.xiongzhangad.com, reject
+HOST-SUFFIX, alexametrics.com, reject
+HOST-KEYWORD, in-page-push, reject
