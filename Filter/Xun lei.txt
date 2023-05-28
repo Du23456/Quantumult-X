@@ -1,0 +1,3 @@
+# > 迅雷
+HOST,adsp.xunlei.com, reject
+HOST,etl.xlmc.sandai.net, reject
