@@ -1,0 +1,4 @@
+ ; QQ空间
+host,sq.bls.mdt.qq.com,reject
+host,adsmind.gdtimg.com,reject
+host,xj-landing.gdtimg.com,reject
