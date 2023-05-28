@@ -1,0 +1,5 @@
+# > 小红书
+HOST,ads-img-qc.xhscdn.com, reject
+HOST,ads-video-al.xhscdn.com, reject
+HOST,ads-video-qc.xhscdn.com, reject
+HOST,t-ads.xiaohongshu.com, reject
