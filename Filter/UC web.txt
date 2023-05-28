@@ -1,0 +1,118 @@
+# > UC浏览器
+host-keyword, m.atm.youku.com, reject
+host-keyword, adp.atm.youku.com, reject
+host-keyword, clickc.admaster.com, reject
+host-keyword, count.atm.youku.com, reject
+host-keyword, ems.youku.com, reject
+host-keyword, fans.m.tmall.com, reject
+host-keyword, ktd.m.cn.miaozhen.com, reject
+host-keyword, r1.ykimg.com, reject
+host-keyword, v.admaster.com, reject
+host-keyword, v2.reachmax.cn, reject
+host-keyword, val.atm.youku.com, reject
+host-keyword, yktd.m.cn.miaozhen.com, reject
+host-keyword, server.m.pp.cn, reject
+host-keyword, puds.ucweb.com, reject
+host-keyword, wgo.mmstat.com, reject
+host-keyword, log.cs.pp.cn, reject
+host-keyword, applog.uc.cn, reject
+host-keyword, afpapi.alimama.com, reject
+host-keyword, a.9game.cn, reject
+host-keyword, track.uc.cn, reject
+host-keyword, adtrack.ucweb.com, reject
+host-keyword, utp-dmp.ucweb.com, reject
+host-keyword, utp.ucweb.com, reject
+host-keyword, huichuan.sm.cn, reject
+host-keyword, ynuf.alipay.com, reject
+host-keyword, pdds.ucweb.com, reject
+host-keyword, js.union-wifi.com, reject
+host-keyword, www.qmlog.cn, reject
+host-keyword, cpu.baidu.com, reject
+host-keyword, caclick.baidu.com, reject
+host-keyword, rescn.u3.ucweb.com, reject
+host, safe.ucweb.com, reject
+host, px.ucweb.com, reject
+host-keyword, editor.sm.cn, reject
+host-keyword, fc-video.cdn.bcebos.com, reject
+host-keyword, vs10.bj2ct.u3.ucweb.com, reject
+host, navigis.uc.cn, reject
+host, restapi.amap.com, reject
+host, order.sm.cn, reject
+host, ucdc-upaas.uc.cn, reject
+host, access.open.uc.cn, reject
+host, uc.ucweb.com, reject
+host, emoji.uc.cn, reject
+host, ssp-partner.alibaba.com, reject
+host, voice-service.uc.cn, reject
+host, v.uc.cn, reject
+host, coral.uc.cn, reject
+host, wolong-dsp.sm.cn, reject
+host, cartoonapi.uc.cn, reject
+host, umessage-online-zb.uc.cn, reject
+host, sealine.youku.com, reject
+host, api.c.uc.cn, reject
+host, aid.m.taobao.com, reject
+host, cms.uc.cn, reject
+host, applog-perf.uc.cn, reject
+HOST-SUFFIX,m.atm.youku.com, reject
+HOST-SUFFIX,adp.atm.youku.com, reject
+HOST-SUFFIX,clickc.admaster.com.cn, reject
+HOST-SUFFIX,count.atm.youku.com, reject
+HOST-SUFFIX,ems.youku.com, reject
+HOST-SUFFIX,fans.m.tmall.com, reject
+HOST-SUFFIX,ktd.m.cn.miaozhen.com, reject
+HOST-SUFFIX,r1.ykimg.com, reject
+HOST-SUFFIX,v.admaster.com.cn, reject
+HOST-SUFFIX,v2.reachmax.cn, reject
+HOST-SUFFIX,val.atm.youku.com, reject
+HOST-SUFFIX,yktd.m.cn.miaozhen.com, reject
+HOST-SUFFIX,server.m.pp.cn, reject
+HOST-SUFFIX,puds.ucweb.com, reject
+HOST-SUFFIX,wgo.mmstat.com, reject
+HOST-SUFFIX,log.cs.pp.cn, reject
+HOST-SUFFIX,applog.uc.cn, reject
+HOST-SUFFIX,afpapi.alimama.com, reject
+HOST-SUFFIX,a.9game.cn, reject
+HOST-SUFFIX,track.uc.cn, reject
+HOST-SUFFIX,adtrack.ucweb.com, reject
+HOST-SUFFIX,utp-dmp.ucweb.com, reject
+HOST-SUFFIX,utp.ucweb.com, reject
+HOST-SUFFIX,huichuan.sm.cn, reject
+HOST-SUFFIX,ynuf.alipay.com, reject
+HOST-SUFFIX,pdds.ucweb.com, reject
+HOST-SUFFIX,js.union-wifi.com, reject
+HOST-SUFFIX,qmlog.cn, reject
+HOST-SUFFIX,cpu.baidu.com, reject
+HOST-SUFFIX,caclick.baidu.com, reject
+HOST-SUFFIX,rescn.u3.ucweb.com, reject
+HOST, feedback.uc.cn, reject
+HOST, gj.applog.uc.cn, reject
+HOST, gj.track.uc.cn, reject
+HOST, gjapplog.uc.cn, reject
+HOST, gjtrack.uc.cn, reject
+HOST, holmeshelptest.uc.cn, reject
+HOST-SUFFIX, ads.uc.cn, reject
+HOST-SUFFIX, adslot.uc.cn, reject
+HOST-SUFFIX, alissl.ucdl.pp.uc.cn, reject
+HOST-SUFFIX, api.mp.uc.cn, reject
+HOST-SUFFIX, api.open.uc.cn, reject
+HOST-SUFFIX, applog.uc.cn, reject
+HOST-SUFFIX, applogios.uc.cn, reject
+HOST-SUFFIX, bench.uc.cn, reject
+HOST-SUFFIX, client.tv.uc.cn, reject
+HOST-SUFFIX, coral-task.uc.cn, reject
+HOST-SUFFIX, dispatcher.upmc.uc.cn, reject
+HOST-SUFFIX, hcadv.video.ums.uc.cn, reject
+HOST-SUFFIX, hao.uc.cn, reject
+HOST-SUFFIX, lobmuc.cn, reject
+HOST-SUFFIX, open-uc.cn, reject
+HOST-SUFFIX, puds.test.uae.uc.cn, reject
+HOST-SUFFIX, t.uc.cn, reject
+HOST-SUFFIX, track.uc.cn, reject
+HOST-SUFFIX, wmedia-track.uc.cn, reject
+HOST-SUFFIX, woodpecker.uc.cn, reject
+host, gecko-pangle-lf.snssdk.com, reject
+host, mercury-sdk.snssdk.com, reject
+host, tbm.snssdk.com, reject
+host, toblog.ctobsnssdk.com, reject
+host, tnc3-aliec2.snssdk.com, reject
