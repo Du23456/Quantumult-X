@@ -1,0 +1,22 @@
+# > QQ音乐
+HOST,tmeadcomm.y.qq.com, reject
+HOST,ad.tencentmusic.com, reject
+HOST,adstats.tencentmusic.com, reject
+HOST,tmead.y.qq.com, reject
+HOST-SUFFIX,rqd.qq.com, reject
+HOST-SUFFIX,wup.imtt.qq.com, reject
+HOST-SUFFIX,gdt.qq.com, reject
+HOST-SUFFIX,android.rqd.qq.com, reject
+HOST-SUFFIX,e.qq.com, reject
+HOST-SUFFIX,beacon.qq.com, reject
+HOST-SUFFIX,v.gdt.qq.com, reject
+HOST-SUFFIX, STAT.Y.QQ.COM, REJECT
+HOST, OTH.STR.MDT.QQ.COM, REJECT
+HOST-SUFFIX, IMTMP.NET, REJECT
+HOST-SUFFIX, SOUP.V.QQ.COM, REJECT
+HOST-SUFFIX, WUP.IMTT.QQ.COM, REJECT
+HOST-SUFFIX, MONITOR.MUSIC.QQ.COM, REJECT
+HOST, SDK.E.QQ.COM, REJECT
+HOST, US.L.QQ.COM, REJECT
+HOST,P.L.QQ.COM, REJECT
+HOST,TANGRAM.E.QQ.COM, REJECT
