@@ -1,0 +1,2 @@
+HOST, api-adservices.apple.com, REJECT
+HOST-SUFFIX, iadsdk.apple.com, REJECT
