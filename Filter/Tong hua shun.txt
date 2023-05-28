@@ -1,0 +1,3 @@
+# > 同花顺
+HOST,adm.10jqka.com.cn, reject
+HOST,stat.10jqka.com.cn, reject
