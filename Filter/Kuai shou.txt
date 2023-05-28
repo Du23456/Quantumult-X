@@ -1,0 +1,7 @@
+# > 快手
+# HOST-SUFFIX,yximgs.com, reject
+HOST-SUFFIX,e.kuaishou.com, reject
+# HOST,js-ad.a.yximgs.com, reject
+HOST-SUFFIX,cm.downloader.commercial.kuaishou.com, reject
+HOST-SUFFIX,cm.ad.gifshow.com, reject
+HOST-SUFFIX,cm.kwad.com, reject
