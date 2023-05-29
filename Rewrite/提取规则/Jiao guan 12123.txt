@@ -1,3 +1,5 @@
+#更新时间:2023-5-10 23:00
+
 # > 交管12123
 ^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$ url reject
 ^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery url reject
