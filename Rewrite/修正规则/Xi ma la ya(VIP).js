@@ -1,5 +1,5 @@
+#更新时间:2023-5-25 21:35
 #喜马拉雅VIP
-
 
 #原链接线路4
 #https://raw.githubusercontent.com/WeiRen0/NewFree/main/XMVIP04.js
@@ -9,7 +9,6 @@
 https://raw.githubusercontent.com/WeiRen0/NewFree/main/XMSVIP2.js
 #原链接线路1
 #https://raw.githubusercontent.com/WeiRen0/NewFree/main/XMVIP01.js
-
 
 #线路4
 ^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+)).*\/(playpage\/tabs\/v2|v1\/album\/track\/ts|v1\/album\/price|v2\/homePage|business-vip-presale-mobile-web\/page\/ts|vip\/v1\/recommand|track\/v3\/baseInfo|v1\/module\/data\/dynamic|basicInfo\/dynamic\/ts).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/NewFree/main/XMVIP04.js
