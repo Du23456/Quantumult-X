@@ -1,3 +1,5 @@
+#更新时间:2023-5-10 23:00
+
 # > 百度网盘
 ^https?:\/\/pan\.baidu\.com\/rest\/\d\.\d\/pcs\/adx url reject
 ^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry url reject
