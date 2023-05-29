@@ -2,10 +2,8 @@
 
 #去广告原项目
 #https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/Bilibili.conf
-
 #解锁4K画质原项目
 #暂无
-
 
 # ～ BiliBili_哔哩哔哩_视频播放下方商品推广@ddgksf2013
 ^https?:\/\/api\.bili(api|bili)\.(net|com)\/pgc\/season\/app\/related\/recommend\? url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
