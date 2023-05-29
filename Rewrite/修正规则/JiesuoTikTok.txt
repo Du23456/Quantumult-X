@@ -1,4 +1,5 @@
 #更新时间:2023-3-13 11:32
+#iOS免拔卡解锁TikTok
 
 https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/TikTok.png
 hostname = *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com
