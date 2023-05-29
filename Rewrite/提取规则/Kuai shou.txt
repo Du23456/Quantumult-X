@@ -1,3 +1,5 @@
+#更新时间:2023-5-10 23:00
+
 # > 快手
 ^https:\/\/open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ$ url reject
 hostname=open.e.kuaishou.com
