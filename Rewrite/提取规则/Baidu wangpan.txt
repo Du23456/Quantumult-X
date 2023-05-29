@@ -1,5 +1,6 @@
 #更新时间:2023-5-10 23:00
 
+#####6⃣️#####
 # > 百度网盘
 ^https?:\/\/pan\.baidu\.com\/rest\/\d\.\d\/pcs\/adx url reject
 ^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry url reject
@@ -27,4 +28,5 @@ https:\/\/pan\.baidu\.com\/rest\/2.0\/pcs\/adv\? url reject
 #####1⃣️#####
 #百度网盘解锁vip，视频倍速播放    
 ^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-body https://qxnav.com/rules/QuantumultX/js/backup/js/bdcloud.js
+
 hostname=pan.baidu.com,issuecdn.baidupcs.com,ndstatic.cdn.bcebos.com,staticsns.cdn.bcebos.com,rp.hpplay.cn,sofire.baidu.com
