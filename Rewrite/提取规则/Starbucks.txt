@@ -1,3 +1,5 @@
+#更新时间:2023-5-10 23:00
+
 # > 星巴克 微信小程序净化
 #####7⃣️#####
 ^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/popup url reject-dict
