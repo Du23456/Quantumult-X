@@ -1,5 +1,6 @@
 #更新时间:2023-5-10 23:00
 
+#####6⃣️#####
 # > 中国移动
 ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit url reject-200
 # 多个悬浮窗 感谢#热心网友分享
@@ -14,6 +15,7 @@
 ^https?:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v\d\/market_content\.page\.query url reject
 #####2⃣️#####
 ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList url reject-200
-#####单独#####
+#####其它#####
 ^https:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/adv-filter\/AdInfoFilter\/getAdInfos url reject-dict
+
 hostname=client.app.coc.10086.cn, clientaccess.10086.cn, wap.js.10086.cn, ad.mcloud.139.com, mcmm.caiyun.feixin.10086.cn, middle.yun.139.com
