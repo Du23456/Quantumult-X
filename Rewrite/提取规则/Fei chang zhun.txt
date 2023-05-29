@@ -1,3 +1,5 @@
+#更新时间:2023-5-10 23:00
+
 # > 飞常准
 ^https?:\/\/app\.variflight\.com\/ad\/ url reject
 ^https?:\/\/app\.variflight\.com\/v\d\/advert\/ url reject
