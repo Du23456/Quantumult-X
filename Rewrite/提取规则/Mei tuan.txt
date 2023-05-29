@@ -23,6 +23,6 @@
 ^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg url reject
 ^https?:\/\/img\.meituan\.net\/(bizad|brandCpt)\/\w+\.(png|jpg) url reject
 ^https?:\/\/.*\.meituan\.com\/api\/v\d\/(openscreen\?ad|appstatus\?ad|loadInfo\?|startpicture) url reject
-^https?:\/\/s3plus\.meituan\.net\/.*\/brandcpt-vedio\/.*\?time url 
+^http:\/\/s3plus\.meituan\.net\/.*\/brandcpt-vedio\/.*\?time url 
 
 hostname=img.meituan.net,p*.meituan.net,s3plus.meituan.net,www.meituan.com,wmapi.meituan.com,flowplus.meituan.net,apimobile.meituan.com,peisongapi.meituan.com
