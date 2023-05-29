@@ -1,5 +1,6 @@
 #更新时间:2023-5-10 23:00
 
+#####7⃣️#####
 # > 微信 腾讯乘车码小程序   
 ^https:\/\/ccmsupport-sz\.tenpay\.com\/cgi-bin\/common\/ccm_page_element.cgi url reject
 hostname=ccmsupport-sz.tenpay.com
