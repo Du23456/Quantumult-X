@@ -19,10 +19,10 @@
 ^https?:\/\/wmapi\.meituan\.com\/api\/v7\/startpicture url reject-200
 ^https?:\/\/img\.meituan\.net\/bizad\/.*.jpg url reject-200
 #####3⃣️#####
-^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage url reject
-^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg url reject
-^https?:\/\/img\.meituan\.net\/(bizad|brandCpt)\/\w+\.(png|jpg) url reject
-^https?:\/\/.*\.meituan\.com\/api\/v\d\/(openscreen\?ad|appstatus\?ad|loadInfo\?|startpicture) url reject
-^http:\/\/s3plus\.meituan\.net\/.*\/brandcpt-vedio\/.*\?time url reject
+#^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage url reject
+#^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg url reject
+#^https?:\/\/img\.meituan\.net\/(bizad|brandCpt)\/\w+\.(png|jpg) url reject
+#^https?:\/\/.*\.meituan\.com\/api\/v\d\/(openscreen\?ad|appstatus\?ad|loadInfo\?|startpicture) url reject
+#^http:\/\/s3plus\.meituan\.net\/.*\/brandcpt-vedio\/.*\?time url reject
 
 hostname=img.meituan.net,p*.meituan.net,s3plus.meituan.net,www.meituan.com,wmapi.meituan.com,flowplus.meituan.net,apimobile.meituan.com,peisongapi.meituan.com
