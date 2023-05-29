@@ -1,3 +1,5 @@
+#更新时间:2023-5-10 23:00
+
 # > 有道词典
 ^https?:\/\/oimage([a-z])([0-9])\.ydstatic\.com\/.+adpublish url reject
 ^https?:\/\/oimage\w\d\.ydstatic\.com\/image\?.+?=adpublish url reject-img
