@@ -1,3 +1,5 @@
+#更新时间:2023-5-10 23:00
+
 # > 茶颜悦色 微信小程序净化
 ^https:\/\/miniapp\.sexytea2013\.com\/cms\/slot\/queryByCodes\?codes=INDEX_TOP_BANNER url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/scripts/cyys.js
 
