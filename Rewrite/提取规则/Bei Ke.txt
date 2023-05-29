@@ -1,3 +1,5 @@
+#更新时间:2023-5-10 23:00
+
 # > 贝壳
 ^https?:\/\/apps\.api\.ke\.com\/config\/config\/(bootpage|getactivityconfig) url reject-200
 ^https?:\/\/app\.api\.ke\.com\/config\/config\/bootpage url reject
