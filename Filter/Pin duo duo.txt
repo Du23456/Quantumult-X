@@ -1,3 +1,5 @@
- ; 拼多多
+# > 拼多多
 geoip, img-4.pddpic.com, reject
 geoip, abtk.pinduoduo.com, reject
+# > 多多视频
+host-suffix, bayescom.com, reject
