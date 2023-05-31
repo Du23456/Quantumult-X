@@ -17,5 +17,7 @@
 ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList url reject-200
 #####其它#####
 ^https:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/adv-filter\/AdInfoFilter\/getAdInfos url reject-dict
+https:\/\/10086\.online\-cmcc\.cn\:20010\/gfms\/front\/hn\/busi3\!getAdvert url script-response-body https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/remove_ad/10086.js
 
-hostname=client.app.coc.10086.cn, clientaccess.10086.cn, wap.js.10086.cn, ad.mcloud.139.com, mcmm.caiyun.feixin.10086.cn, middle.yun.139.com
+hostname=client.app.coc.10086.cn, clientaccess.10086.cn, wap.js.10086.cn, ad.mcloud.139.com, mcmm.caiyun.feixin.10086.cn, middle.yun.139.com, 10086.online-cmcc.cn
+ 
