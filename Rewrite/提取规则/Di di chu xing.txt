@@ -1,4 +1,4 @@
-#更新时间:2023-5-10 23:00
+#更新时间:2023-6-1 17:00
 
 #####6⃣️#####
 # > 滴滴出行
@@ -15,5 +15,7 @@ https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNot
 #####7⃣️#####
 # > 滴滴打车 小程序净化 感谢#豆豆分享
 ^https:\/\/conf\.diditaxi\.com\.cn\/homepage\/v1\/core url reject-dict
+#####其它#####
+^https:\/\/img-ys011\.didistatic\.com\/static\/ad_oss url reject-dict
 
 hostname=res.xiaojukeji.com, img-ys011.didistatic.com,common.diditaxi.com.cn, pt-starimg.didistatic.com,omgup*.xiaojukeji.com,conf.diditaxi.com.cn
