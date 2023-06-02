@@ -1,5 +1,7 @@
 #更新时间:2023-5-10 23:00
+# > 小米系列
 
+#####6⃣️#####
 # > 小米
 ^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start url reject-200
 ^https?:\/\/api\.jr\.mi\.com\/v\d\/adv\/ url reject-200
@@ -21,4 +23,5 @@
 ^https:\/\/api-mifit-cn2\.huami\.com\/discovery\/mi\/cards\/startpage_ad url reject
 # > 米家
 ^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|myTab)\? url reject-dict
+
 hostname=api.m.mi.com,api.jr.mi.com,api-mifit.huami.com,api-mifit-cn2.huami.com,home.mi.com,shopapi.io.mi.com,api-mifit.*.huami.com
