@@ -1,7 +1,7 @@
 #更新时间:2023-5-10 23:00
+# > 得物
 
 #####6⃣️#####
-# > 得物
 ^https:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement url reject
 ^https?:\/\/cdn\.poizon\.com\/node-common\/.*.jpg url reject-200
 
