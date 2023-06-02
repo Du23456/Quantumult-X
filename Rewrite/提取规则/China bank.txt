@@ -1,9 +1,8 @@
 #更新时间:2023-5-10 23:00
+# > 中国银行
 
 #####6⃣️#####
-# > 中国银行
 ^https:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/.+.jpg url reject-200
-# > 中国银行 缤纷生活
 ^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\?txnId=2PIC000001 url reject-200
 
 hostname=mbs.boc.cn,mlife.jf365.boc.cn
