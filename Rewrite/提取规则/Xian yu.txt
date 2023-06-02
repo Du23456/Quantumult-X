@@ -1,6 +1,7 @@
 #更新时间:2023-5-10 23:00
-
 # > 闲鱼
+
+#####6⃣️#####
 ^https?:\/\/gw\.alicdn\.com\/tfs\/.+?\d{4}-\d{4}\/[a-z]{3}$ url reject-200
 ^https?:\/\/gw\.alicdn\.com\/tfs\/TB1.+?750-\d{4} url reject-200
 ^https?:\/\/heic\.alicdn\.com\/tps\/i4\/.+?\.jpg_1200x1200q90\.jpg_\.heic$ url reject-200
@@ -11,4 +12,5 @@
 ^https?:\/\/(gw|heic)\.alicdn\.com\/imgextra\/.+\d{4}-\d{4}\.jpg_(9\d{2}|\d{4}) url reject
 ^https:\/\/gw.alicdn.com\/mt\/ url reject
 ^https:\/\/gw.alicdn.com\/tfs\/.+\d{3,4}-\d{4} url reject
+
 hostname=gw.alicdn.com,heic.alicdn.com,asp.cntv.myalicdn.com,heic.alicdn.com
