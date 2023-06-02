@@ -1,6 +1,9 @@
-#更新时间:2023-5-10 23:00
+#更新时间:2023-6-2 23:00
 
 # > 京东
+#####其它#####
+# 京东_开屏去广告
+^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
 #####3⃣️#####
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(hotWords|hotSearchTerms) url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/jd_json.js
 #####6⃣️#####
@@ -38,4 +41,4 @@
 #####5⃣️#####
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$ url reject-array
 
-hostname=m15.360buyimg.com,m.360buyimg.com,api.m.jd.com,union.click.jd.com,ms.jr.jd.com,bdsp-x.jd.com,dsp-x.jd.com,img*.360buyimg.com,storage.360buyimg.com,dns.jd.com
+hostname=m15.360buyimg.com,m.360buyimg.com,api.m.jd.com,union.click.jd.com,ms.jr.jd.com,bdsp-x.jd.com,dsp-x.jd.com,img*.360buyimg.com,storage.360buyimg.com,dns.jd.com,hd.mina.mi.com
