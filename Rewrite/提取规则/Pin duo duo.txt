@@ -1,7 +1,9 @@
 #更新时间:2023-5-10 23:00
-
 # > 拼多多
+
+#####6⃣️#####
 ^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash url reject
 # 多多买菜 
 ^https:\/\/mobile\.yangkeduo\.com\/proxy\/api\/api\/express\/post\/waybill\/red_packet\/goods_list$ url response-body "list":\[.+\] response-body "list":[]
+
 hostname=api.pinduoduo.com,mobile.yangkeduo.com
