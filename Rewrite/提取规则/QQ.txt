@@ -1,4 +1,5 @@
 #更新时间:2023-5-10 23:00
+# > QQ
 
 #####6⃣️#####
 # > QQ钱包净化
@@ -12,4 +13,5 @@
 ^http:\/\/pgdt\.gtimg\.cn\/gdt\/.+\.png url reject
 ^http:\/\/pgdt\.gtimg\.cn\/gdt\/.+\.jpg url reject
 ^http:\/\/pgdt\.gtimg\.cn\/.+\/snscosdownload\/SH\/reserved\/.+ url reject
+
 hostname=c.gdt.qq.com, pgdt.gtimg.cn, v.gdt.qq.com, rpt.gdt.qq.com,m.qianbao.qq
