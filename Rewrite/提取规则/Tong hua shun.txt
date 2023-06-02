@@ -1,7 +1,8 @@
 #更新时间:2023-5-10 23:00
-
 # > 同花顺
+
+#####6⃣️#####
 ^https?:\/\/adm\.10jqka\.com\.cn\/interface\/ad\/recommend url reject-200
-# 同花顺至尊版
 ^https:\/\/stat\.10jqka\.com\.cn\/q\?ld=mobile&id=ad url reject-dict
+
 hostname=adm.10jqka.com.cn, stat.10jqka.com.cn
