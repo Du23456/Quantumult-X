@@ -1,7 +1,7 @@
 #更新时间:2023-5-10 23:00
+# > 谷歌
 
 #####6⃣️#####
-# > 谷歌
 ^https?:\/\/.+\.googleapis.com/.+ad_break url reject-img
 ^https?:\/\/.+\.googleapis.com/.+log_event url reject-img
 ^https?:\/\/.+\.googleapis.com/adsmeasurement url reject-img
