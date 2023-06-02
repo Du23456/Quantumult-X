@@ -1,5 +1,9 @@
-#更新时间:2023-5-10 23:00
+#更新时间:2023-6-2 23:00
 
+#####其它#####
+# 美团外卖_开屏去广告
+^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
+#####6⃣️#####
 # > 美团
 ^https?:\/\/img\.meituan\.net\/(?>adunion|display|midas)\/.+?\.(gif|jpg|jpg\.webp)$ url reject-200
 ^https?:\/\/p\d\.meituan\.net\/wmbanner\/[A-Za-z0-9]+?\.jpg url reject-200
