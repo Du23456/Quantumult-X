@@ -1,5 +1,7 @@
 #更新时间:2023-5-10 23:00
-
 # > 爱思助手
+
+#####6⃣️#####
 ^https?:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml url reject
+
 hostname=list-app-m.i4.cn
