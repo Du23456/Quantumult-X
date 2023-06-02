@@ -1,7 +1,7 @@
 #更新时间:2023-5-10 23:00
+# > 大众点评
 
-#####6⃣️#####
-# > 大众点评   
+#####6⃣️#####   
 ^https?:\/\/img\.meituan\.net\/dpmobile\/.*.(gif|jpg) url reject-200
 
 hostname=img.meituan.net
