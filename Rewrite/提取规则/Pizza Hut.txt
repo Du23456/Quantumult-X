@@ -1,8 +1,10 @@
 #更新时间:2023-5-10 23:00
-
 # > 必胜客
+
+#####6⃣️#####
 ^https?:\/\/res\.pizzahut\.com\.cn\/CRM\/phad\/apphome\/apphome url reject
 #####7⃣️#####
-# > 必胜客 微信小程序净化
+# 微信小程序净化
 ^https:\/\/res\.pizzahut\.com\.cn\/CRM url reject-dict
+
 hostname=res.pizzahut.com.cn
