@@ -19,4 +19,4 @@
 # > amdc
 ^http:\/\/amdc\.m\.taobao\.com url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/amdc.js
 
-hostname=gw.alicdn.com heic.alicdn.com, guide-acs.m.taobao.com, acs.m.taobao.com
+hostname=gw.alicdn.com heic.alicdn.com, guide-acs.m.taobao.com, acs.m.taobao.com, amdc.m.taobao.com
