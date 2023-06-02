@@ -1,7 +1,7 @@
 #更新时间:2023-5-10 23:00
+# > 百度
 
 #####6⃣️#####
-# > 百度
 ^https?:\/\/fcvbjbcebos.baidu.com\/.+.mp4 url reject
 ^https?:\/\/cover.baidu.com\/cover\/page\/dspSwitchAds\/ url reject
 ^https?:\/\/baichuan.baidu.com\/rs\/adpmobile\/launch url reject
