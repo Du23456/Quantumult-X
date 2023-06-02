@@ -1,7 +1,7 @@
 #更新时间:2023-5-10 23:00
+# > 58同城
 
 #####6⃣️#####
-# > 58
 ^https?:\/\/.+?\.58cdn\.com\.cn\/brandads\/ url reject-200
 ^https?:\/\/app\.58\.com\/api\/home\/invite\/popupAdv url reject-200
 ^https?:\/\/app\.58\.com\/api\/home\/(advertising|appadv)\/ url reject
