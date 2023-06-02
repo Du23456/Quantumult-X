@@ -1,6 +1,7 @@
 #更新时间:2023-5-10 23:00
-
 # > 芒果TV
+
+#####6⃣️#####
 ^https?:\/\/pcvideoyd\.titan\.mgtv\.com\/pb\/ url reject-img
 #####2⃣️#####
 ^https?:\/\/nuc\.api\.mgtv.com\/Logout url reject-200
@@ -13,4 +14,5 @@
 ^https?:\/\/mobile\.da\.mgtv\.com\/json\/app\/bdboot url reject-200
 ^https?:\/\/mobile\.api\.mgtv\.com\/mobile\/config\?_support url reject-200
 ^https?:\/\/sf3-fe-tos\.pglstatp-toutiao\.com\/obj\/ad-pattern\/renderer\/ url reject-200
+
 hostname=pcvideoyd.titan.mgtv.com,nuc.api.mgtv.com,api-access.pangolin-sdk-toutiao.com,sf3-fe-tos.pglstatp-toutiao.com,mob.bz.mgtv.com,mobile.da.mgtv.com,mobile.api.mgtv.com
