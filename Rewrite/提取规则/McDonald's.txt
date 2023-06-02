@@ -1,8 +1,10 @@
 #更新时间:2023-5-10 23:00
-
 # > 麦当劳
+
+#####6⃣️#####
 ^https?:\/\/api\.mcd\.cn\/bff\/portal\/home\/splash url reject-200
 #####7⃣️#####
-# > 麦当劳 微信小程序净化
+#微信小程序净化
 ^https:\/\/api\.mcd\.cn\/bff\/portal\/home\/hotActivity url reject-dict
+
 hostname=api.mcd.cn, img.mcd.cn
