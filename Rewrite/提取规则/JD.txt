@@ -2,7 +2,7 @@
 
 # > 京东
 #####其它#####
-# 京东_开屏去广告
+# 开屏去广告
 ^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
 #####3⃣️#####
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(hotWords|hotSearchTerms) url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/jd_json.js
