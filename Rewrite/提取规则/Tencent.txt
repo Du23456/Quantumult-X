@@ -1,6 +1,7 @@
 #更新时间:2023-5-10 23:00
-
 # > 腾讯广告
+
+#####6⃣️#####
 ^https?:\/\/btrace\.qq\.com url reject-200
 ^https?:\/\/api2\.helper\.qq\.com\/game\/buttons url reject-img
 ^https?:\/\/\w+\.beacon\.qq\.com url reject
@@ -22,4 +23,5 @@
 ^https?:\/\/bla\.gtimg\.com\/qqlive\/\d{6}.+?\.png url reject-img
 ^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qiantu\/upload\/ url reject-img
 ^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qqpim\/public\/ios\/splash\/.+?\/\d{4}_\d{4} url reject-img
+
 hostname=btrace.qq.com,api2.helper.qq.com,*.beacon.qq.com,mi.gdt.qq.com,lives.l.qq.com,vv.video.qq.com,ssl.kohsocialapp.qq.com,qt.qq.com,3gimg.qq.com,*.gdt.qq.com,y.gtimg.cn,splashqqlive.gtimg.com,qzonestyle.gtimg.cn,discuz.gtimg.cn,bla.gtimg.com,mmgr.gtimg.com
