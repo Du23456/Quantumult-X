@@ -1,4 +1,6 @@
-# > 高德
+#更新时间：2023-5-20 22:35
+# > 高德地图
+
 HOST-SUFFIX,adiu.amap.com,REJECT
 HOST,aboard.apilocate.amap.com,REJECT
 HOST,apiinit.amap.com,REJECT
