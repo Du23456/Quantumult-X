@@ -1,0 +1,8 @@
+#更新时间:2023-6-5 15:03
+# > WIFI万能钥匙APP
+
+#####6⃣️#####
+# > 首页弹窗广告
+^http:\/\/cds\.wifi188\.com\/feeds\.sec url reject-dict
+
+hostname=cds.wifi188.com
