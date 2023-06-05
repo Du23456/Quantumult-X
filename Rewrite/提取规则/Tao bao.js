@@ -17,6 +17,6 @@
 # > alibaba
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv\/ url reject
 # > amdc
-#^http:\/\/amdc\.m\.taobao\.com url reject-200
+^http:\/\/amdc\.m\.taobao\.com url reject-200
 
 hostname=gw.alicdn.com heic.alicdn.com, guide-acs.m.taobao.com, acs.m.taobao.com, amdc.m.taobao.com
