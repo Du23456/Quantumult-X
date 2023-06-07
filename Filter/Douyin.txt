@@ -2,5 +2,5 @@
 DOMAIN-keyword,bds.snssdk.com, reject
 DOMAIN-keyword,p6-ad-sign.byteimg.com, reject
 DOMAIN-keyword,p3.pstatp.com, reject
-#HOST, ad.zijieapi.com, REJECT
-#HOST-KEYWORD, -ad-sign.byteimg.com, REJECT
+#DOMAIN, ad.zijieapi.com, REJECT
+#DOMAIN-KEYWORD, -ad-sign.byteimg.com, REJECT
