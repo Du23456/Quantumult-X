@@ -1,4 +1,4 @@
 # > 滴滴青桔（支付界面图片有误杀）
-host-keyword, pt-starimg.didistatic.com, reject
+DOMAIN-keyword, pt-starimg.didistatic.com, reject
 ip-cidr, 203.107.1.1/24, reject
  
