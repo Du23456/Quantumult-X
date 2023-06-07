@@ -1,6 +1,6 @@
 # > 抖音
-host-keyword,bds.snssdk.com, reject
-host-keyword,p6-ad-sign.byteimg.com, reject
-host-keyword,p3.pstatp.com, reject
+DOMAIN-keyword,bds.snssdk.com, reject
+DOMAIN-keyword,p6-ad-sign.byteimg.com, reject
+DOMAIN-keyword,p3.pstatp.com, reject
 #HOST, ad.zijieapi.com, REJECT
 #HOST-KEYWORD, -ad-sign.byteimg.com, REJECT
