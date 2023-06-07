@@ -1,11 +1,11 @@
 #更新时间:2023-6-2 11:00
 
 #####2⃣️#####
-HOST, supportmetrics.apple.com, REJECT
-HOST, metrics.apple.com, REJECT
-HOST, securemetrics.apple.com, REJECT 
-HOST, securemvt.apple.com, REJECT 
-HOST, securemvt.apple.com.cn, REJECT
+DOMAIN, supportmetrics.apple.com, REJECT
+DOMAIN, metrics.apple.com, REJECT
+DOMAIN, securemetrics.apple.com, REJECT 
+DOMAIN, securemvt.apple.com, REJECT 
+DOMAIN, securemvt.apple.com.cn, REJECT
 #####其它#####
-HOST, api-adservices.apple.com, REJECT
-HOST-SUFFIX, iadsdk.apple.com, REJECT
+DOMAIN, api-adservices.apple.com, REJECT
+DOMAIN-SUFFIX, iadsdk.apple.com, REJECT
