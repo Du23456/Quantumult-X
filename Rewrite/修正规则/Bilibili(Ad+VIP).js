@@ -30,10 +30,6 @@
 # ～ BiliBili_哔哩哔哩_应用开屏广告预加载@yjqiang
 ^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
 
-# ======= BiliJson 高码率仅粉版 ======= #
-# ～ BiliBili_哔哩哔哩_1080P高码率+4K画质[番剧和影视除外]@ddgksf2013
-^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\? url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
-
 # ======= BiliJson Tab页处理 ======= #
 # ～ BiliBili_哔哩哔哩_屏蔽直播页顶部轮播图@ddgksf2013
 ^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-interface\/v2\/index\/feed url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
@@ -71,6 +67,8 @@
 ^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.dynamic\.v2\.Dynamic\/DynAll$ url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto.js
 
 # ======= 解锁4K清晰度 ======= #
+# ～ BiliBili_哔哩哔哩_1080P高码率+4K画质[番剧和影视除外]
 ^http[s]?:\/\/((app)|(passport)|(api))\.bilibili\.com\/x\/.*(account\/mine\?|passport-login|vip|show\/tab|account\/myinfo\?).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/BLBLVIP.js
 ^http[s]?:\/\/((app)|(passport)|(api))\.bilibili\.com\/(bilibili|x\/v2|x\/vip|x\/resource|x\/passport).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/BZTK.js
+
 hostname=-broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net, app.bilibili.com, api.live.bilibili.com, *.bilibili.com, *.bilibili.*, grpc.biliapi.net,*biliapi.net,*.biliapi.*
