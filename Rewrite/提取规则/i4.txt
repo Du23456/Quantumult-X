@@ -4,7 +4,7 @@
 #####6⃣️#####
 ^https?:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml url reject
 #####其它#####
+#仅保留搜索
 ^https?:\/\/(search|list)-app-m\.i4\.cn\/(getHotSearchList|getAppList)\.xhtml url script-response-body https://github.com/Keywos/rule/raw/main/JS/aisi.js
-
 
 hostname=list-app-m.i4.cn,app-m.i4.cn
