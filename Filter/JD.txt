@@ -1,2 +1,2 @@
 # > 屏蔽京东收集信息 
-host-suffix, jdqd.jd.com, reject
+DOMAIN-suffix, jdqd.jd.com, reject
