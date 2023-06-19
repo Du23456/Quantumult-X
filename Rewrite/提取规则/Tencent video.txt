@@ -19,6 +19,6 @@
 ^https?:\/\/[\s\S]*\/.+?\.tc\.qq\.com/.*?p201.1\.mp4 url reject-img
 ^https?:\/\/video\.dispatch\.tc\.qq\.com\/\w+\.p20\d\.1\.mp4 url reject
 #####1⃣️#####
-#(^https?:\/\/m\.v\.qq\.com\/x\/(m\/)?play.*) url 307 https://z1.m1907.cn/?jx=$1
+(^https?:\/\/m\.v\.qq\.com\/x\/(m\/)?play.*) url 307 https://z1.m1907.cn/?jx=$1
 
 hostname=news.l.qq.com,btrace.qq.com,vv.video.qq.com,video.dispatch.tc.qq.com,vmind.qqvideo.tc.qq.com,wa.gtimg.com,omts.tc.qq.com,variety.tc.qq.com,*.tc.qq.com,m.v.qq.com, *.video.qq.com, mi.gdt.qq.com 
