@@ -1,5 +1,9 @@
-#更新时间:2023-6-5 12:00
+# 更新时间:2023-6-5 12:00
 # > 百度网盘
+# 6⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt
+# 5⃣️https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyRewrite.conf
+# 3⃣️https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/StartUp.conf
+# 2⃣️https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/tailadv.conf
 
 #####6⃣️#####
 ^https?:\/\/pan\.baidu\.com\/rest\/\d\.\d\/pcs\/adx url reject
