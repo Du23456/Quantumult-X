@@ -1,5 +1,8 @@
-#更新时间:2023-5-26 23:48
+# 更新时间:2023-5-26 23:48
 # > 携程
+# 6⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt
+# 5⃣️https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyRewrite.conf
+# 7⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cleanup.snippet
 
 #####6⃣️#####
 ^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare url reject
