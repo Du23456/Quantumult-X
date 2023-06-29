@@ -1,5 +1,7 @@
-#更新时间:2023-5-10 23:00
+# 更新时间:2023-5-10 23:00
 # > 58同城
+# 6⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt
+# 4⃣️https://yfamily.ml/rewrite/adultraplus.conf
 
 #####6⃣️#####
 ^https?:\/\/.+?\.58cdn\.com\.cn\/brandads\/ url reject-200
@@ -8,4 +10,5 @@
 ^https?:\/\/app\.58\.com\/api\/log\/ url reject
 #####4⃣️#####
 ^https?:\/\/pic\d\.ajkimg\.com\/mat\/\w+\?imageMogr\d\/format\/jpg\/thumbnail\/\d{3}x\d{4}$ url reject
+
 hostname= *.58cdn.com.cn,app.58.com, *.ajkimg.com
