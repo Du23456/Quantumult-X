@@ -1,28 +1,28 @@
 # > 今日头条
-host, dm.toutiao.com, reject
-host-keyword, ad.toutiao.com, reject
-host-keyword, clk.gentags.net, reject
-host-keyword, dm.toutiao.com, reject
-host-keyword, dm.pstatp.com, reject
-host-keyword, dm.bytedance.com, reject
-host-keyword, uop.umeng.com, reject
-host-keyword, policy.jd.com, reject
-host-keyword, kepler.jd.com, reject
-host-keyword, bdsp.x.jd.com, reject
-host-keyword, keplerapi.jd.com, reject
-host-keyword, m.suning.com, reject
-host-keyword, adshare.toutiao.com, reject
-host-keyword, tunion-api.m.taobao.com, reject
-host-keyword, mapi.m.jd.com, reject
-host-keyword, s1.pstatp.com, reject
-host-keyword, s2.pstatp.com, reject
-host-keyword, s3.pstatp.com, reject
-host-keyword, a3.pstatp.com, reject
-host-keyword, a3.bytecdn.cn, reject
-# host-keyword, ichannel.snssdk.com, reject
-HOST-SUFFIX,pangolin-sdk-toutiao.com, reject
-HOST-SUFFIX,pangolin-sdk-toutiao-b.com, reject
-HOST-SUFFIX,api-access.pangolin-sdk-toutiao-b.com, reject
-HOST,ad.toutiao.com, reject
-HOST,dsp.toutiao.com, reject
-host-keyword,pangolin.snssdk.com, reject
+DOMAIN, dm.toutiao.com, reject
+DOMAIN-keyword, ad.toutiao.com, reject
+DOMAIN-keyword, clk.gentags.net, reject
+DOMAIN-keyword, dm.toutiao.com, reject
+DOMAIN-keyword, dm.pstatp.com, reject
+DOMAIN-keyword, dm.bytedance.com, reject
+DOMAIN-keyword, uop.umeng.com, reject
+DOMAIN-keyword, policy.jd.com, reject
+DOMAIN-keyword, kepler.jd.com, reject
+DOMAIN-keyword, bdsp.x.jd.com, reject
+DOMAIN-keyword, keplerapi.jd.com, reject
+DOMAIN-keyword, m.suning.com, reject
+DOMAIN-keyword, adshare.toutiao.com, reject
+DOMAIN-keyword, tunion-api.m.taobao.com, reject
+DOMAIN-keyword, mapi.m.jd.com, reject
+DOMAIN-keyword, s1.pstatp.com, reject
+DOMAIN-keyword, s2.pstatp.com, reject
+DOMAIN-keyword, s3.pstatp.com, reject
+DOMAIN-keyword, a3.pstatp.com, reject
+DOMAIN-keyword, a3.bytecdn.cn, reject
+#DOMAIN-keyword, ichannel.snssdk.com, reject
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com, reject
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com, reject
+DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao-b.com, reject
+DOMAIN,ad.toutiao.com, reject
+DOMAIN,dsp.toutiao.com, reject
+DOMAIN-keyword,pangolin.snssdk.com, reject
