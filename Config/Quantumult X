@@ -1,4 +1,254 @@
 [general]
 resource_parser_url=https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
-
 dns_exclusion_list = *.cmpassport.com, *.jegotrip.com.cn, *.icitymobile.mobi, id6.me
+
+[dns]
+server = 223.5.5.5
+server = 114.114.114.114
+server = 119.29.29.29
+server = 8.8.8.8
+
+[policy]
+static=DouYin, direct, proxy, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/tiktok.png
+static=DomesticSocial, direct, proxy, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Category_Navigation.png
+static=AppStore, direct, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/App_Store.png
+static=AppleMusic, direct, proxy, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AppleMusic.png
+static=Apple News, proxy, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_News.png
+static=Apple, direct, proxy, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Apple_Classic.png
+static=WeChat, direct, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/WeChat.png
+
+[server_local]
+
+[server_remote]
+https://info.iic08924f5w3b65o.xyz/link/cexuf4g3TJ2oC7za?sub=2, tag=付费节点, update-interval=-1, opt-parser=false, enabled=true
+https://paste.gg/p/anonymous/102347e561854c5fa703cd78571854bf/files/0d161adcf1bd45feb0ca1195e87f52d6/raw, tag=公益, update-interval=-1, opt-parser=false, enabled=false
+https://dlj.tf/Sreb9Ox, tag=公益节点3, update-interval=-1, opt-parser=true, enabled=false
+https://sub.sharecentre.online/sub, tag=公益节点2, update-interval=-1, opt-parser=false, enabled=false
+https://suc.flycnb.tk/sub?target=mixed&url=https%3A%2F%2Fraw.githubusercontent.com%2Fyinuo168%2Fyinuo%2Fmain%2Fbi%252Btg%2540xhj1002&insert=false&config=https%3A%2F%2Fcdn.staticaly.com%2Fgh%2Ffengguowudi%2Fini%2Fmain%2Fjess-sjgz.ini&rename=%60tg%E7%BE%A4%40%E6%9D%8E%E6%9F%90%E4%BA%BA%60%60%40xhj1002%40%E9%92%88%E5%AF%B9%E6%B2%A1%E6%9C%89%E8%8A%82%E7%82%B9%E7%94%A8%E7%9A%84%E7%94%A8%E6%88%B7%60&append_type=true&emoji=true&list=true&udp=false&tfo=false&expand=true&scv=true&fdn=false, tag=公益节点, update-interval=-1, opt-parser=true, enabled=false
+
+[filter_local]
+#微博修正
+host, sdkapp.uve.weibo.com, direct
+#抖音IP
+HOST-SUFFIX,amemv.com,DouYin
+HOST-SUFFIX,douyincdn.com,DouYin
+HOST-SUFFIX,douyinpic.com,DouYin
+HOST-SUFFIX,douyinstatic.com,DouYin
+HOST-SUFFIX,douyinvod.com,DouYin
+HOST-SUFFIX,idouyinvod.com,DouYin
+HOST-SUFFIX,ixigua.com,DouYin
+HOST-SUFFIX,ixiguavideo.com,DouYin
+HOST-SUFFIX,toutiao.com,DouYin
+#微信
+host,szshort.weixin.qq.com, WeChat
+host,szextshort.weixin.qq.com, WeChat
+host,szminorshort.weixin.qq.com, WeChat
+final, proxy
+
+[filter_remote]
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Apple.txt, tag=Apple广告, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/58.txt, tag=58同城, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Iqiyi.txt, tag=爱奇艺, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/AVR%20X.txt, tag=AVR X, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Baidu.txt, tag=百度, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Baidu%20tieba.txt, tag=百度贴吧, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Bilibili.txt, tag=哔哩哔哩, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Di%20di%20qing%20ju.txt, tag=滴滴青桔, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Douyin.txt, tag=抖音, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/E%20le%20me.txt, tag=饿了么, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Google.txt, tag=Google, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Amap.txt, tag=高德地图, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Hu%20ya%20zhibo.txt, tag=虎牙直播, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Ha%20luo.txt, tag=哈啰, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Jin%20ri%20tou%20tiao.txt, tag=今日头条, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Jiao%20guan12123.txt, tag=交管12123, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/JD.txt, tag=屏蔽京东收集信息, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Kuai%20shou.txt, tag=快手, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Ku%20gou%20music.txt, tag=酷狗音乐, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Ku%20wo%20music.txt, tag=酷我音乐, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Mei%20tuan.txt, tag=美团, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Pin%20duo%20duo.txt, tag=拼多多, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/QQ.txt, tag=QQ空间, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/QQ%20music.txt, tag=QQ音乐, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Tao%20bao.txt, tag=淘宝, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Tecent.txt, tag=腾讯, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Tecent%20vidio.txt, tag=腾讯视频, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Tong%20hua%20shun.txt, tag=同花顺, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/UC%20web.txt, tag=UC浏览器, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/WeChat.txt, tag=微信, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Xun%20lei.txt, tag=迅雷, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Wang%20yi%20yun%20music.txt, tag=网易云音乐, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Weibo.txt, tag=微博, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Xi%20ma%20la%20ya.txt, tag=喜马拉雅, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Xiao%20hong%20shu.txt, tag=小红书, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Mi.txt, tag=小米, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/You%20ku.txt, tag=优酷, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/Zhi%20hu.txt, tag=知乎, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/10000.list, tag=中国电信, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Filter/10010.list, tag=中国联通, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/MyBlockAds.list, tag=3⃣️广告, force-policy=reject, update-interval=172800, opt-parser=false, inserted-resource=true, enabled=false
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AdvertisingTest/AdvertisingTest.list, tag=2⃣️广告（约130000条）, force-policy=reject, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list, tag=1⃣️广告（约9500条）, force-policy=reject, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/AppStore.list, tag=App Store, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AppleMusic/AppleMusic.list, tag=Apple Music, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/VirgilClyne/iRingo/main/RuleSet/News.Quantumult_X.list, tag=Apple News, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/apple.snippet, tag=屏蔽iOS更新, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AppleProxy/AppleProxy.list, tag=Apple代理, force-policy=proxy, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Apple/Apple.list, tag=Apple服务, update-interval=-1, opt-parser=false, enabled=true
+https://github.com/NobyDa/Script/raw/master/Surge/WeChat.list, tag=微信直连, force-policy=WeChat, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/lwd-temp/anti-ip-attribution/main/generated/quantumultx-domesticsocial.list, tag=IP属地, update-interval=-1, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Netflix/Netflix.list, tag=Netflix, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Global.list, tag=海外IP, force-policy=proxy, update-interval=-1, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMax/ChinaMax.list, tag=国内IP, force-policy=direct, update-interval=-1, opt-parser=false, enabled=false
+FILTER_LAN, tag=LAN, force-policy=direct, update-interval=-1, opt-parser=false, enabled=true
+FILTER_REGION, tag=CN, force-policy=direct, update-interval=-1, opt-parser=false, enabled=true
+
+[rewrite_local]
+https://github.com/VirgilClyne/iRingo/raw/main/snippet/Location.snippet, tag=Map, update-interval=-1, opt-parser=false, enabled=true
+https://github.com/VirgilClyne/iRingo/raw/main/snippet/Siri.snippet, tag=Siri & Search, update-interval=-1, opt-parser=false, enabled=true
+https://github.com/VirgilClyne/iRingo/raw/main/snippet/News.snippet, tag=News, update-interval=-1, opt-parser=false, enabled=true
+https://github.com/VirgilClyne/iRingo/raw/main/snippet/TV.snippet, tag=TV, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/VirgilClyne/iRingo/main/qxrewrite/Weather.qxrewrite?raw=true, tag=Weather, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/10086.txt, tag=10086, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/58.txt, tag=58同城, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Iqiyi.txt, tag=爱奇艺, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/i4.txt, tag=i4, update-interval=-1, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Baidu.txt, tag=百度, update-interval=-1, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Baidu%20wangpan.txt, tag=百度网盘, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Pizza%20Hut.txt, tag=必胜客（APP+小程序）, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Bei%20Ke.txt, tag=贝壳, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Can%20yin.txt, tag=餐饮类小程序净化, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Chong%20dian%20bao.txt, tag=充电宝租借小程序净化（共6款）, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Dou%20yu%20zhibo.txt, tag=斗鱼直播, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Dong%20fang%20cai%20fu.txt, tag=东方财富, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Di%20di%20chu%20xing.txt, tag=滴滴出行（App+小程序）, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/De%20wu.txt, tag=得物, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Da%20zhong%20dian%20ping.txt, tag=大众点评, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/E%20le%20m.txt, tag=饿了么, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Fei%20chang%20zhun.txt, tag=飞常准, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Gong%20shang%20bank.txt, tag=工商银行（App+小程序）, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Google.txt, tag=Google, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Hu%20ya%20zhibo.txt, tag=虎牙直播, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Hang%20lv%20zong%20heng.txt, tag=航旅纵横, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Jiao%20guan%2012123.txt, tag=交管12123, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/JD.txt, tag=京东, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Jin%20ri%20tou%20tiao.txt, tag=今日头条, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/KFC.txt, tag=KFC（APP+小程序）, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Kuai%20shou.txt, tag=快手, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Mei%20tuan.txt, tag=美团, update-interval=-1, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Mei%20tuan%20zhong%20bao.txt, tag=美团众包, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Mang%20guo%20TV.txt, tag=芒果TV, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Mei%20tu%20xiu%20xiu.txt, tag=美图秀秀, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/McDonald's.txt, tag=麦当劳（APP+小程序）, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Nong%20ye%20bank.txt, tag=农业银行, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Pin%20duo%20duo.txt, tag=拼多多, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/QQ.txt, tag=QQ, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/QQ%20music.txt, tag=QQ音乐, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E4%BF%AE%E6%AD%A3%E8%A7%84%E5%88%99/QQmail.txt, tag=QQ邮箱, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Quan%20min%20K%20songs.txt, tag=全民K歌, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Qing%20ju.txt, tag=青桔单车(小程序）, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Tao%20bao.js, tag=淘宝, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Tong%20hua%20shun.txt, tag=同花顺, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Tencent.txt, tag=腾讯广告, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Tencent%20video.txt, tag=腾讯视频, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Cheng%20che%20ma.txt, tag=腾讯（微信）乘车码小程序, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Wei%20pin%20hui.txt, tag=唯品会（App+小程序）, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/WPS.txt, tag=WPS, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Wi-Fi%20key.txt, tag=Wi-Fi万能钥匙, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Ctrip.txt, tag=携程（App+小程序）, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Xian%20yu.txt, tag=闲鱼, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Mi.txt, tag=小米, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Starbucks.txt, tag=星巴克(小程序）, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Youtube.txt, tag=YouTube, update-interval=-1, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/You%20dao%20ci%20dian.js, tag=有道词典（Ad+VIP）, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Zhao%20Shang%20bank.txt, tag=招商银行, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/China%20bank.txt, tag=中国银行, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Zuo%20ye%20bang.txt, tag=作业帮, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/Zhuan%20zhuan.txt, tag=转转, update-interval=-1, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/10000.txt, tag=中国电信, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/10010.txt, tag=中国联通, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cleanup.snippet, tag=7⃣️微信小程序去广告, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt, tag=6⃣️去广告v3.0, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyRewrite.conf, tag=5⃣️去广告v2.0, update-interval=-1, opt-parser=false, enabled=false
+https://yfamily.ml/rewrite/adultraplus.conf, tag=4⃣️去广告, update-interval=-1, opt-parser=false, enabled=false
+https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/StartUp.conf, tag=3⃣️去开屏广告v2.0, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/tailadv.conf, tag=2⃣️去开屏广告, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/qxrules.conf, tag=1⃣️解锁VIP, update-interval=-1, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/ddgksf2013/Scripts/master/12306.js, tag=12306, update-interval=-1, opt-parser=true, enabled=true
+https://yfamily.ml/rewrite/lightroom.conf, tag=Adobe LightRoom（VIP）, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/gjwj666/qx/main/aliy.js, tag=阿里云盘（Ad+VIP）, update-interval=-1, opt-parser=true, enabled=false
+https://yfamily.ml/rewrite/aptv.conf, tag=APTV（VIP）, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/yqc007/QuantumultX/master/AdGuardProCrack.js, tag=AdGuand（VIP）, update-interval=-1, opt-parser=true, enabled=false
+https://gist.githubusercontent.com/ddgksf2013/a04e64065d08f5871ccf1e79c06a8c04/raw/bilibili.feed.enhance.js, tag=哔哩哔哩（关闭短视频模式）, update-interval=-1, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Bilibili.conf, tag=哔哩哔哩（Ad+VIP）, update-interval=-1, opt-parser=false, enabled=true
+https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/QuantumultX/Rewrite/Replace_baidu_search_user-agent.snippet, tag=百度网页版重定向为App, update-interval=-1, opt-parser=false, enabled=true
+https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/BaiduSearchWebpage_remove_ads.plugin, tag=百度网页版, update-interval=-1, opt-parser=true, enabled=true
+https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/QuantumultX/Rewrite/BaiduNetDisk_crack.snippet, tag=百度网盘（SVIP10）, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/bdmap.snippet, tag=百度地图, update-interval=-1, opt-parser=false, enabled=false
+https://github.com/app2smile/rules/raw/master/module/tieba-qx.conf, tag=百度贴吧, update-interval=-1, opt-parser=false, enabled=false
+https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.quanx.conf, tag=Boxjs, update-interval=-1, opt-parser=false, enabled=false
+https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/BingSimplify.conf, tag=必应, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/yqc007/QuantumultX/master/ChatGPTPlusCrack.js, tag=Chat GPT（解锁4.0）, update-interval=-1, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/cainiao.snippet, tag=菜鸟, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Amap.conf, tag=高德地图, update-interval=-1, opt-parser=false, enabled=true
+https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/QuantumultX/Rewrite/JD_Price.snippet, tag=京东（比价）11.4x及以下版本, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/yqc007/QuantumultX/master/VideoFusionVipCrack.js, tag=剪映（VIP）9.8.2版本, update-interval=-1, opt-parser=true, enabled=false
+https://gist.githubusercontent.com/ddgksf2013/0f76e952f0c4a2579932f45a209b40c3/raw/Kuwo.conf, tag=酷我音乐（Ad+VIP）, update-interval=172800, opt-parser=false, enabled=false
+https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/KeepStyle.conf, tag=Keep, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/meituxx.module, tag=美图秀秀（VIP）, update-interval=-1, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/WeiRen0/Scripts/main/LanRen.js, tag=懒人听书（VIP）, update-interval=172800, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/WeiRen0/Scripts/main/MGTV.js, tag=芒果TV（VIP）, update-interval=172800, opt-parser=true, enabled=false
+https://gist.githubusercontent.com/ddgksf2013/bb1dadbd32f67c68772caebcc70b0a33/raw/pipixia.adblock.js, tag=皮皮虾, update-interval=-1, opt-parser=true, enabled=false
+https://yfamily.ml/rewrite/photoshop.conf, tag=PhotosShop Express（VIP）, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Pixelmator.js, tag=Pixelmator Photo（VIP）, update-interval=-1, opt-parser=true, enabled=false
+https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Unverified/CamScanner.plugin, tag=全能扫描王（VIP）, update-interval=-1, opt-parser=true, enabled=false
+https://github.com/ddgksf2013/Rewrite/raw/master/UnlockVip/Spotify.conf, tag=Spotify（Ad+VIP）, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E4%BF%AE%E6%AD%A3%E8%A7%84%E5%88%99/Taobao%20BJ.js, tag=淘宝（比价）, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/TestFlight.conf, tag=TestFilght（解锁地区）, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/testflight/testflight.key.snippet, tag=TestFilght（自动加入）, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js, tag=TestFilght（解锁地区+多账户）, update-interval=-1, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/unlock/TikTok/TiktokUS.conf, tag=TikTok解锁, update-interval=-1, opt-parser=false, enabled=true
+https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/WeChat.conf, tag=微信公众号, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js, tag=微信公众号（JaveScript), update-interval=-1, opt-parser=true, enabled=true
+https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/QuantumultX/Rewrite/Weixin_Official_Accounts_remove_ads.snippet, tag=微信公众号, update-interval=-1, opt-parser=false, enabled=false
+https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/Weibo.conf, tag=微博, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/yqc007/QuantumultX/master/WPSuperVIPuserCrack.js, tag=WPS（VIP）, update-interval=-1, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Netease.conf, tag=网易云音乐, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/yqc007/QuantumultX/master/NeteaseMusicVipCrack.js, tag=网易云音乐（VIP）, update-interval=-1, opt-parser=true, enabled=false
+https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/XiaoHongShu.conf, tag=小红书, update-interval=-1, opt-parser=false, enabled=false
+https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/Ximalaya.conf, tag=喜马拉雅, update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E4%BF%AE%E6%AD%A3%E8%A7%84%E5%88%99/Xi%20MA%20La%20YA(VIP).js, tag=喜马拉雅（VIP）, update-interval=-1, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/WeiRen0/Scripts/main/wxds.js, tag=微信读书（VIP）, update-interval=172800, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/thunder.module, tag=迅雷（VIP）, update-interval=-1, opt-parser=true, enabled=false
+https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/QuantumultX/Rewrite/Xmind_crack.snippet, tag=Xmind（VIP）, update-interval=-1, opt-parser=false, enabled=false
+https://gist.githubusercontent.com/ddgksf2013/5b431857f8b88acbc7ac2453a21e676a/raw/youku.adblock.js, tag=优酷, update-interval=-1, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/YoutubeAds.conf, tag=YouTube, update-interval=-1, opt-parser=false, enabled=true
+https://yfamily.ml/rewrite/ydcd.conf, tag=有道词典（VIP）, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.snippet, tag=知乎, update-interval=-1, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Du23456/Quantumult-X/main/Rewrite/%E4%BF%AE%E6%AD%A3%E8%A7%84%E5%88%99/Zhihu(VIP).js, tag=知乎（VIP）, update-interval=-1, opt-parser=false, enabled=false
+https://github.com/fmz200/wool_scripts/raw/main/QuantumultX/rewrite/cookies.snippet, tag=获取cookie1⃣️（及时关闭）, update-interval=-1, opt-parser=false, enabled=false
+
+[task_local]
+9 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10086/10086.js, tag=10086, enabled=false
+10 9 * * * https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/BiliBili.js, tag=Bilibili签到+任务, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/BiliBili.png, enabled=false
+10 9 * * * https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/iQIYI.js, tag=爱奇艺签到, enabled=false
+event-interaction https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/scripts/server_info.js, tag=节点详情查询, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Back.png, enabled=false
+event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/streaming-ui-check.js, tag=流媒体 - 解锁查询, img-url=checkmark.seal.system, enabled=false
+0 6,8 * * * https://raw.githubusercontent.com/JoJoJotarou/myScript/master/script/meituan/mall.meituan.mallcoin.task.js, tag=美团每日领买菜币, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai.png, enabled=false
+7 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/qqmusic/qqmusic.js, tag=QQ音乐, enabled=false
+10 * * * * * https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/testflight/Auto_join_TF.js, tag=TestFlight自动加入, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/testflight.png, enabled=false
+0 5 * * * https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/videoqq.js, tag=腾讯视频签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/videoqq.png, enabled=false
+10 9 * * * https://raw.githubusercontent.com/Sunert/Script/master/Task/weibo.js, tag=微博签到, enabled=false
+11 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/nio/nio.js, tag=蔚来, enabled=false
+35 8 * * * https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/xmlySign.js, tag=喜马拉雅签到+任务, img-url=https://raw.githubusercontent.com/HuiDoY/Icon/main/mini/Color/ximalaya.png, enabled=false
+
+[http_backend]
+
+[mitm]
+hostname=-grpc.biliapi.net
+#passphrase=
+#p12= 
+
+
+
+
