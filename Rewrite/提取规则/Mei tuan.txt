@@ -1,5 +1,7 @@
-#更新时间:2023-6-2 23:00
+# 更新时间:2023-7-2 21:00
 # > 美团+美团外卖
+#6⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt
+#3⃣️https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/StartUp.conf
 
 #####其它#####
 # 美团外卖_开屏去广告
@@ -21,13 +23,13 @@
 ^https?:\/\/p\d.meituan.net\/movie\/.*?\?may_covertWebp url reject-img
 ^https?:\/\/p\d{1}\.meituan\.net\/(adunion|display|mmc|wmbanner)\/ url reject
 # > 美团外卖
-^https?:\/\/wmapi\.meituan\.com\/api\/v7\/startpicture url reject-200
+^http:\/\/wmapi\.meituan\.com\/api\/v7\/(loadInfo|openscreen|startpicture)\? url reject-dict
 ^https?:\/\/img\.meituan\.net\/bizad\/.*.jpg url reject-200
+^https?:\/\/img\.meituan\.net\/(bizad|brandCpt)\/\w+\.(png|jpg) url reject
+^http:\/\/s3plus\.meituan\.net\/.*\/brandcpt-vedio\/.*\?time url reject
 #####3⃣️#####
 ^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage url reject
 ^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg url reject
-^https?:\/\/img\.meituan\.net\/(bizad|brandCpt)\/\w+\.(png|jpg) url reject
 ^https?:\/\/.*\.meituan\.com\/api\/v\d\/(openscreen\?ad|appstatus\?ad|loadInfo\?|startpicture) url reject
-^http:\/\/s3plus\.meituan\.net\/.*\/brandcpt-vedio\/.*\?time url 
 
 hostname=img.meituan.net,p*.meituan.net,s3plus.meituan.net,www.meituan.com,wmapi.meituan.com,flowplus.meituan.net,apimobile.meituan.com,peisongapi.meituan.com
