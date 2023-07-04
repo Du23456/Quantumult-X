@@ -1,4 +1,8 @@
+# 更新时间:2023-7-5 21:35
 # > 交管12123
+# 1⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list
+
+#####1⃣️#####
 DOMAIN, static.122.gov.cn, reject
 DOMAIN-SUFFIX, v3.fstats.xyz, reject
 DOMAIN-SUFFIX, wss.haoyundmn.com, reject
