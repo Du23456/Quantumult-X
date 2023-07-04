@@ -1,10 +1,11 @@
-#更新时间:2023-5-10 23:00
+# 更新时间:2023-7-4 13:55
 # > 芒果TV
+# 6⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt
 
 #####6⃣️#####
-^https?:\/\/pcvideoyd\.titan\.mgtv\.com\/pb\/ url reject-img
-#####2⃣️#####
+# > 芒果TV
 ^https?:\/\/nuc\.api\.mgtv.com\/Logout url reject-200
+^https?:\/\/pcvideoyd\.titan\.mgtv\.com\/pb\/ url reject-img
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/ url reject-200
 ^https?:\/\/sf3-fe-tos\.pglstatp-toutiao\.com\/obj\/ad-pattern\/renderer\/package\.json url reject-200
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/server_bidding\/pre_fetch\/ url reject-200
