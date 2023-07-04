@@ -1,5 +1,7 @@
-#更新时间：2023-5-20 22:35
+# 更新时间：2023-7-5 21:35
 # > 58同城
+# 1⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list
 
+#####1⃣️#####
 DOMAIN,track.58.com, reject
 DOMAIN,tracklog.58.com, reject
