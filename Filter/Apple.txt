@@ -4,12 +4,12 @@
 # 2⃣️https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AdvertisingTest/AdvertisingTest.list
 
 #####1⃣️#####
-DOMAIN, api-adservices.apple.com, REJECT
-DOMAIN-SUFFIX, iadsdk.apple.com, REJECT
+DOMAIN, api-adservices.apple.com, reject
+DOMAIN-SUFFIX, iadsdk.apple.com, reject
 #####2⃣️#####
-DOMAIN, supportmetrics.apple.com, REJECT
-DOMAIN, metrics.apple.com, REJECT
-DOMAIN, securemetrics.apple.com, REJECT 
-DOMAIN, securemvt.apple.com, REJECT 
-DOMAIN, securemvt.apple.com.cn, REJECT
+DOMAIN, supportmetrics.apple.com, reject
+DOMAIN, metrics.apple.com, reject
+DOMAIN, securemetrics.apple.com, reject 
+DOMAIN, securemvt.apple.com, reject 
+DOMAIN, securemvt.apple.com.cn, reject
 
