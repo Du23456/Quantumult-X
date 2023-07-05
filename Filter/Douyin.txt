@@ -3,8 +3,8 @@
 # 1⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list
 
 #####1⃣️#####
-DOMAIN-keyword,bds.snssdk.com, reject
-DOMAIN-keyword,p6-ad-sign.byteimg.com, reject
-DOMAIN-keyword,p3.pstatp.com, reject
+DOMAIN-KEYWORD,bds.snssdk.com, reject
+DOMAIN-KEYWORD,p6-ad-sign.byteimg.com, reject
+DOMAIN-KEYWORD,p3.pstatp.com, reject
 #DOMAIN, ad.zijieapi.com, REJECT
 #DOMAIN-KEYWORD, -ad-sign.byteimg.com, REJECT
