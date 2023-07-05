@@ -1,4 +1,9 @@
+# 更新时间:2023-7-5 14:55
 # > 哔哩哔哩
+# 1⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list
+# 3⃣️https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/MyBlockAds.list
+
+#####1⃣️#####
 DOMAIN-SUFFIX,cm.bilibili.com, reject
 DOMAIN-keyword, api.sobot.com, reject
 DOMAIN-SUFFIX,cm.ad.bilibili.com, reject
