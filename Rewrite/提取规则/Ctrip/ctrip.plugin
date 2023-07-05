@@ -1,0 +1,35 @@
+#!name=携程
+#!desc=携程去广告
+#!homepage=https://github.com/Du23456/Quantumult-X/tree/main
+#!author=fmz200 zqzess
+#!icon=
+
+# 更新时间:2023-5-26 23:48
+# 6⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt
+# 5⃣️https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyRewrite.conf
+# 7⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cleanup.snippet
+
+[Rewrite]
+#####6⃣️#####
+^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare url reject
+^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/[0-9]{5}\/json\/getTimeZoneServerIpList\?__gw_os=IOS url reject-200
+# 开屏去广告
+^https:\/\/ma-adx\.ctrip\.com\/_ma\.gif url reject
+#####5⃣️#####
+^https:\/\/m\.ctrip\.com\/restapi\/.+\/json\/tripAds url reject
+^https:\/\/m\.ctrip\.com\/html5\/webresource\/js\/iscroll\.js$ url reject
+#####7⃣️#####
+# 微信小程序净化
+^https:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/tripAds url reject-dict
+^https:\/\/m\.ctrip\.com\/restapi\/soa2\/12673\/queryWeChatHotEvent url reject-dict
+
+[Script]
+^https:\/\/m\.ctrip\.com\/restapi\/soa2\/13012\/getWaterflowInfo url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/scripts/T3.js
+
+[Mitm]
+hostname=m.ctrip.com,mbd.baidu.com,ma-adx.ctrip.com
+
+
+
+
+
