@@ -1,11 +1,15 @@
-#更新时间:2023-6-2 11:00
+# 更新时间:2023-6-2 11:00
+# Apple
+# 1⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list
+# 2⃣️https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AdvertisingTest/AdvertisingTest.list
 
+#####1⃣️#####
+DOMAIN, api-adservices.apple.com, REJECT
+DOMAIN-SUFFIX, iadsdk.apple.com, REJECT
 #####2⃣️#####
 DOMAIN, supportmetrics.apple.com, REJECT
 DOMAIN, metrics.apple.com, REJECT
 DOMAIN, securemetrics.apple.com, REJECT 
 DOMAIN, securemvt.apple.com, REJECT 
 DOMAIN, securemvt.apple.com.cn, REJECT
-#####其它#####
-DOMAIN, api-adservices.apple.com, REJECT
-DOMAIN-SUFFIX, iadsdk.apple.com, REJECT
+
