@@ -1,2 +1,7 @@
-; 百度贴吧
+# 更新时间:2023-7-5 14:55
+# > 百度贴吧
+# 1⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list
+
+#####1⃣️#####
 IP-CIDR,180.76.76.200/32,REJECT
+
