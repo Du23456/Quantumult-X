@@ -1,6 +1,10 @@
+# 更新时间:2023-7-5 14:40
 # > 爱奇艺
+# 1⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list
+
+#####1⃣️#####
 DOMAIN, cr-status.iqiyi.com, reject
-DOMAIN-suffix, cupid.iqiyi.com, reject
+DOMAIN-SUFFIX, cupid.iqiyi.com, reject
 DOMAIN, f74f7f7765f8a2f6.ngaa.net.cn, reject
 DOMAIN, ef-dongfeng.tanx.com, reject
 DOMAIN, iqiyim.adtrack.enlightent.cn, reject
