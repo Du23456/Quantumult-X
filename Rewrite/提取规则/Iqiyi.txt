@@ -1,4 +1,4 @@
-#更新时间:2023-6-2 23:00
+#更新时间:2023-7-9 9:43
 # > 爱奇艺
 
 #####3⃣️#####
@@ -24,7 +24,5 @@ https?:\/\/t7z\.cupid\.iqiyi\.com\/show url reject
 https?:\/\/.+\.iqiyipic\.com\/image\/20*_100000 url reject
 #####1⃣️#####
 (^https?:\/\/m\.iqiyi\.com\/v_.*) url 307 https://z1.m1907.cn/?jx=$1
-#####其它#####
-^https?:\/\/(t7z|kjp)\.cupid\.iqiyi\.com\/mixer\? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
 
 hostname=iface.iqlyl.com,intl.igiyi.com,act.vip.iqiyi.com,iface2.iqiyi.com,static-s.iqiyi.com,msga.cupid.iqiyi.com,ssports.igiyi.com,*.igiyi.com,t7z.cupid.iqiyi.com,u*iqiyipic.com, m.iqiyi.com, *.iqiyipic.com
