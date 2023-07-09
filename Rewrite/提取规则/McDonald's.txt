@@ -1,4 +1,4 @@
-#更新时间:2023-5-10 23:00
+#更新时间:2023-7-9 18:26
 # > 麦当劳
 
 #####6⃣️#####
@@ -7,4 +7,4 @@
 #微信小程序净化
 ^https:\/\/api\.mcd\.cn\/bff\/portal\/home\/hotActivity url reject-dict
 
-hostname=api.mcd.cn, img.mcd.cn
+hostname=api.mcd.cn
