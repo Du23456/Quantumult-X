@@ -1,0 +1,24 @@
+#!name=麦当劳
+#!desc=麦当劳去广告
+#!author=fmz200
+
+#!system=ios
+#!updated=2023-7-10 22:30
+
+[Rule]
+
+[URL Rewrite]
+
+#####6⃣️#####
+^https?:\/\/api\.mcd\.cn\/bff\/portal\/home\/splash - reject-200
+#微信小程序净化
+^https:\/\/api\.mcd\.cn\/bff\/portal\/home\/hotActivity - reject-dict
+
+[Map Local]
+
+[Script]
+
+[MITM]
+
+hostname = %APPEND% api.mcd.cn,img.mcd.cn
+
