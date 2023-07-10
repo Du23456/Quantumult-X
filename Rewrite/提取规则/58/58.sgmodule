@@ -1,0 +1,27 @@
+#!name=58同城
+#!desc=58同城去广告
+#!author=
+
+#!system=ios
+#!updated=2023-7-10 22:30
+
+[Rule]
+
+[URL Rewrite]
+
+#####6⃣️#####
+^https?:\/\/.+?\.58cdn\.com\.cn\/brandads\/ - reject-200
+^https?:\/\/app\.58\.com\/api\/home\/invite\/popupAdv - reject-200
+^https?:\/\/app\.58\.com\/api\/home\/(advertising|appadv)\/ - reject
+^https?:\/\/app\.58\.com\/api\/log\/ - reject
+#####4⃣️#####
+^https?:\/\/pic\d\.ajkimg\.com\/mat\/\w+\?imageMogr\d\/format\/jpg\/thumbnail\/\d{3}x\d{4}$ - reject
+
+[Map Local]
+
+[Script]
+
+[MITM]
+
+hostname = %APPEND% *.58cdn.com.cn,app.58.com,*.ajkimg.com
+
