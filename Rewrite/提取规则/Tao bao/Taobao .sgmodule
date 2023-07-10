@@ -1,0 +1,36 @@
+#!name=淘宝
+#!desc=淘宝去广告
+#!author=fmz200 ddgksf2013
+
+#!system=ios
+#!updated=2023-7-10 22:30
+
+[Rule]
+
+[URL Rewrite]
+
+#####6⃣️#####
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome\/ - reject-200
+^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.tmall\.wireless - reject-200
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv - reject-200
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise\/ - reject-200
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get\/ - reject-200
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources\/ - reject-200
+# 开屏广告
+^https?:\/\/gw\.alicdn\.com\/imgextra\/i\d\/.+1125-1602\.jpg - reject-200
+^https:\/\/heic\.alicdn\.com\/imgextra\/\w{2}\/[\w!]+-\d-tps-\d{3,4}-\d{4}\.jpg_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0\.jpg_\.heic$ - reject
+^https:\/\/(heic|gw)\.alicdn\.com\/imgextra\/i\d\/.+-tps-(702-758|1125-1602)\.(heic|jpg|png) - reject-200
+
+[Map Local]
+
+[Script]
+
+广告 = type=http-response, pattern=^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/, requires-body=true, max-size=3145728, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/CommonScript/replace-body.js, timeout=60, argument=""ems_etao_advertise"->"""
+
+#####3⃣️#####
+amdc广告= type=http-response, pattern=^http:\/\/amdc\.m\.taobao\.com, requires-body=true, max-size=3145728, script-path=https://github.com/ddgksf2013/Scripts/raw/master/amdc.js, timeout=60, script-update-interval=0
+
+[MITM]
+
+hostname = %APPEND% gw.alicdn.comheic.alicdn.com,guide-acs.m.taobao.com,acs.m.taobao.com,amdc.m.taobao.com
+
