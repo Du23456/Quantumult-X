@@ -1,0 +1,30 @@
+#!name=斗鱼直播
+#!desc=斗鱼直播去广告
+#!author=fmz200
+
+#!system=ios
+#!updated=2023-7-10 22:30
+
+[Rule]
+
+[URL Rewrite]
+
+#####6⃣️#####
+^https?:\/\/staticlive.douyucdn.cn\/.+\/getStartSend - reject
+^https?:\/\/staticlive.douyucdn.cn\/upload\/signs\/ - reject
+^https?:\/\/douyucdn.cn\/.+\/appapi\/getinfo - reject
+^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo - reject-200
+^https?:\/\/capi.douyucdn.cn\/lapi\/sign\/app(api)?\/getinfo\?client_sys=ios - reject
+^https?:\/\/capi\.douyucdn\.cn\/api\/ios_app\/check_update - reject-img
+^https?:\/\/capi\.douyucdn\.cn\/api\/v1\/getStartSend?client_sys=ios - reject-img
+^https?:\/\/douyucdn\.cn\/.+?\/appapi\/getinfo - reject-img
+^https?:\/\/staticlive\.douyucdn\.cn\/.+?\/getStartSend - reject-img
+^https?:\/\/staticlive\.douyucdn\.cn\/upload\/signs\/ - reject-img
+
+[Map Local]
+
+[Script]
+
+[MITM]
+
+hostname = %APPEND% staticlive.douyucdn.cn,douyucdn.cn,rtbapi.douyucdn.cn,capi.douyucdn.cn
