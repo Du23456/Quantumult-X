@@ -1,0 +1,24 @@
+#!name=星巴克
+#!desc=星巴克(小程序)去广告
+#!author=fmz200
+
+#!system=ios
+#!updated=2023-7-10 22:30
+
+[Rule]
+
+[URL Rewrite]
+
+#####7⃣️#####
+^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/popup - reject-dict
+^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/index\/banner - reject-dict
+^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/index\/global - reject-dict
+
+[Map Local]
+
+[Script]
+
+[MITM]
+
+hostname = %APPEND% 3pp.starbucks.com.cn
+
