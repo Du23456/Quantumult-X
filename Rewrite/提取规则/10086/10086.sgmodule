@@ -1,0 +1,38 @@
+#!name=中国移动
+#!desc=中国移动去广告
+#!author=fmz200 zwf234
+
+#!system=ios
+#!updated=2023-7-10 22:30
+
+[Rule]
+
+[URL Rewrite]
+
+#####6⃣️#####
+^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit - reject-200
+# 多个悬浮窗 
+^https:\/\/(client\.app\.coc|h\.app\.coc|app)\.10086\.cn\/biz-orange\/DN\/emotionMarket - reject
+# > 中国移动云盘
+^https?:\/\/mcmm\.caiyun\.feixin\.10086\.cn:80\/mcmm\/api\/IAdvert - reject-200
+^https?:\/\/mcmm\.caiyun\.feixin\.10086\.cn:80\/mcmm\/api\/v\d\/getAdverts - reject-200
+^https?:\/\/middle\.yun\.139\.com\/openapi\/cardConfig\/queryCardInfoV3 - reject-200
+^https:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/adv-filter\/AdInfoFilter\/getAdInfos - reject-dict
+#####4⃣️#####
+^https?:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit - reject
+^https?:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v\d\/market_content\.page\.query - reject
+#####2⃣️#####
+^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList - reject-200
+#####其它#####
+^https:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/adv-filter\/AdInfoFilter\/getAdInfos - reject-dict
+
+[Map Local]
+
+[Script]
+
+广告 = type=http-response, pattern=https:\/\/10086\.online\-cmcc\.cn\:20010\/gfms\/front\/hn\/busi3\!getAdvert, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/remove_ad/10086.js, timeout=60, script-update-interval=0
+
+[MITM]
+
+hostname = %APPEND% client.app.coc.10086.cn,clientaccess.10086.cn,wap.js.10086.cn,ad.mcloud.139.com,mcmm.caiyun.feixin.10086.cn,middle.yun.139.com,10086.online-cmcc.cn
+
