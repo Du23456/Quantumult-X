@@ -1,0 +1,24 @@
+#!name=拼多多
+#!desc=拼多多去广告
+#!author=fmz200
+
+#!system=ios
+#!updated=2023-7-10 22:30
+
+[Rule]
+
+[URL Rewrite]
+
+#####6⃣️#####
+^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash - reject
+
+[Map Local]
+
+[Script]
+
+#####6⃣️#####
+多多买菜 = type=http-response, pattern=^https:\/\/mobile\.yangkeduo\.com\/proxy\/api\/api\/express\/post\/waybill\/red_packet\/goods_list$, requires-body=true, max-size=3145728, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/CommonScript/replace-body.js, timeout=60, argument=""list":\[.+\]->"list":[]"
+
+[MITM]
+
+hostname = %APPEND% api.pinduoduo.com,mobile.yangkeduo.com
