@@ -1,0 +1,22 @@
+#!name=贝壳
+#!desc=贝壳去广告
+#!author=fmz200
+
+#!system=ios
+#!updated=2023-7-10 22:30
+
+[Rule]
+
+[URL Rewrite]
+
+#####6⃣️#####
+^https?:\/\/apps\.api\.ke\.com\/config\/config\/(bootpage|getactivityconfig) - reject-200
+^https?:\/\/app\.api\.ke\.com\/config\/config\/bootpage - reject
+
+[Map Local]
+
+[Script]
+
+[MITM]
+
+hostname = %APPEND% apps.api.ke.com,app.api.ke.com
