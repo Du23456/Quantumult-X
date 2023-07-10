@@ -1,0 +1,66 @@
+#!name=餐饮类小程序
+#!desc=餐饮类小程序净化
+#!author=fmz200
+
+#!system=ios
+#!updated=2023-7-10 22:30
+
+[Rule]
+
+[URL Rewrite]
+
+#奈雪 微信小程序净化
+^https:\/\/tm-api\.pin-dao\.cn\/home\/api\/index\/activeConfig\/v2 - reject-dict
+^https:\/\/tm-api\.pin-dao\.cn\/home\/api\/resource\/config\/homeBannerNodes - reject-dict
+#蜜雪冰城 微信小程序净化
+^https:\/\/mxsa\.mxbc\.net\/api\/v1\/adinfo\/adplace\/query - reject-dict
+#罗森点点 微信小程序净化
+^https:\/\/lawsonapi\.yorentown\.com\/area\/sh-lawson\/app\/v1\/mina\/systemSetting - reject-dict
+^https:\/\/plt\.yorentown\.com\/pltapp\/v1\/banner - reject-dict
+#茶百道 微信小程序净化
+^https:\/\/cbd-gateway-service-applets\.hualala\.com\/arch\/api\/banner\/QueryBannerImgList - reject-dict
+#老乡鸡 微信小程序净化
+^https:\/\/member\.lxjchina\.com\.cn\/mini-server\/home\/page\/banner - reject-dict
+#一点点 微信小程序净化
+^https:\/\/alittle-tea\.oss-cn-shanghai\.aliyuncs\.com\/images\/platform\/alittle - reject-dict
+#Manner 微信小程序净化
+^https:\/\/triangle\.wearemanner\.com\/mp-api\/v1\/ads - reject-dict
+#M Stand 微信小程序净化
+^https:\/\/api\.prod\.dj\.mstand\.cn\/scrm\/app\/mdm\/index\/listAdv\?types - reject-dict
+#挪瓦咖啡 微信小程序净化
+^https:\/\/webapi\.qmai\.cn\/web\/catering\/advertising\/ad - reject-dict
+^https:\/\/images\.qmai\.cn\/s214925\/2023 - reject-dict
+
+[Map Local]
+
+[Script]
+
+# > 茶颜悦色 微信小程序净化
+茶颜悦色 = type=http-response, pattern=^https:\/\/miniapp\.sexytea2013\.com\/cms\/slot\/queryByCodes\?codes=INDEX_TOP_BANNER, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/scripts/cyys.js, timeout=60, script-update-interval=0
+
+#喜茶 微信小程序净化
+喜茶 = type=http-response, pattern=^https:\/\/go\.heytea\.com\/api\/service-portal\/vip, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/jizhi0520/QX/main/heytea.js, timeout=60, script-update-interval=0
+
+罗森点点 = type=http-response, pattern=^https:\/\/lawsonapi\.yorentown\.com\/area\/sh-lawson\/app\/v1\/home, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/jizhi0520/QX/main/lawson.js, timeout=60, script-update-interval=0
+
+#COCO点单 微信小程序净化
+COCO点单 = type=http-response, pattern=^https:\/\/coco-com\.e\.verystar\.net\/v1\/home\/info, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/jizhi0520/QX/main/coco.js, timeout=60, script-update-interval=0
+
+#一点点 微信小程序净化
+一点点 = type=http-response, pattern=^https:\/\/cappapi\.alittle-tea\.com\/open\?method=catering\.set\.ad, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/jizhi0520/QX/main/alittle-tea.js, timeout=60, script-update-interval=0
+
+#M Stand 微信小程序净化
+M Stand = type=http-response, pattern=^https:\/\/api\.prod\.dj\.mstand\.cn\/scrm\/mini\/app\/index\/info, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/jizhi0520/QX/main/M_Stand.js, timeout=60, script-update-interval=0
+
+#LINLEE 微信小程序净化
+LINLEE = type=http-response, pattern=^https:\/\/webapi\.qmai\.cn\/web\/catering\/design\/homePage-Config, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/jizhi0520/QX/main/LINLEE.js, timeout=60, script-update-interval=0
+
+#挪瓦咖啡 微信小程序净化
+挪瓦咖啡 = type=http-response, pattern=^https:\/\/webapi\.qmai\.cn\/web\/catering\/design\/homePage-Config, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/jizhi0520/QX/main/kff.js, timeout=60, script-update-interval=0
+
+#古茗 微信小程序净化
+古茗 = type=http-response, pattern=^https:\/\/newton\.gumingnc\.com\/newton-buyer\/newton\/buyer\/(ump|touch|external\/front), requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/jizhi0520/QX/main/ming.js, timeout=60, script-update-interval=0
+
+[MITM]
+
+hostname = %APPEND% miniapp.sexytea2013.com,tm-api.pin-dao.cn,go.heytea.com,mxsa.mxbc.net,lawsonapi.yorentown.com,plt.yorentown.com,coco-com.e.verystar.net,cbd-gateway-service-applets.hualala.com,member.lxjchina.com.cn,cappapi.alittle-tea.com,alittle-tea.oss-cn-shanghai.aliyuncs.com,triangle.wearemanner.com,api.prod.dj.mstand.cn,api.prod.dj.mstand.cn,webapi.qmai.cn,webapi.qmai.cn,images.qmai.cn,newton.gumingnc.com
