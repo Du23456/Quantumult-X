@@ -1,0 +1,22 @@
+#!name=招商银行
+#!desc=招商银行去广告
+#!author=fmz200
+
+#!system=ios
+#!updated=2023-7-10 22:30
+
+[Rule]
+
+[URL Rewrite]
+
+#####6⃣️#####
+^https?:\/\/webappcfg\.paas\.cmbchina\.com\/v\d\/func\/getmarketconfig - reject-200
+
+[Map Local]
+
+[Script]
+
+[MITM]
+
+hostname = %APPEND% webappcfg.paas.cmbchina.com
+
