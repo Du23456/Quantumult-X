@@ -1,0 +1,28 @@
+#!name=工商银行
+#!desc=工商银行(App+小程序)
+#!author=fmz200 zwf234
+
+#!system=ios
+#!updated=2023-7-10 22:30
+
+[Rule]
+
+[URL Rewrite]
+
+#####6⃣️#####
+# > 工商银行
+^https?:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/ - reject-200
+# > 工银E生活
+^https?:\/\/pv\.elife\.icbc\.com\.cn\/OFSTPV\/utm\.gif - reject-200
+# > 工银e生活小程序 
+^https?:\/\/elife\.icbc\.com\.cn\/OFSTNEWBASE\/floorinfo\/getMantlePages\.do - reject-200
+#####2⃣️#####
+^https?:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement.*$ - reject
+
+[Map Local]
+
+[Script]
+
+[MITM]
+
+hostname = %APPEND% v.icbc.com.cn,pv.elife.icbc.com.cn,elife.icbc.com.cn
