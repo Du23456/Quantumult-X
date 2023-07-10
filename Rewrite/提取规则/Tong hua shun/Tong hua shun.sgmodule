@@ -1,0 +1,22 @@
+#!name=同花顺
+#!desc=同花顺去广告
+#!author=fmz200
+
+#!system=ios
+#!updated=2023-7-10 22:30
+
+[Rule]
+
+[URL Rewrite]
+
+#####6⃣️#####
+^https?:\/\/adm\.10jqka\.com\.cn\/interface\/ad\/recommend - reject-200
+^https:\/\/stat\.10jqka\.com\.cn\/q\?ld=mobile&id=ad - reject-dict
+
+[Map Local]
+
+[Script]
+
+[MITM]
+
+hostname = %APPEND% adm.10jqka.com.cn,stat.10jqka.com.cn
