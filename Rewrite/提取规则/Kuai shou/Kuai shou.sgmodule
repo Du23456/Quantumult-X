@@ -1,0 +1,21 @@
+#!name=快手
+#!desc=快手去广告
+#!author=fmz200
+
+#!system=ios
+#!updated=2023-7-10 22:30
+
+[Rule]
+
+[URL Rewrite]
+
+#####6⃣️#####
+^https:\/\/open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ$ - reject
+
+[Map Local]
+
+[Script]
+
+[MITM]
+
+hostname = %APPEND% open.e.kuaishou.com
