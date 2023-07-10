@@ -1,0 +1,62 @@
+#!name=京东
+#!desc=京东去广告
+#!author=fmz200 blackmatrix7 ddgksf2013 zqzess
+
+#!system=ios
+#!updated=2023-7-10 22:30
+
+[Rule]
+
+[URL Rewrite]
+
+#####6⃣️#####
+^https?:\/\/m15\.360buyimg\.com\/mobilecms\/jfs\/t1\/202220\/24\/21575\/134711\/625b821bE5d642d73\/77636692989bd2be\.jpg - reject
+^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs\/t1\/96405\/17\/28473\/168578\/625cd144E7997a990\/8233ce8a10c4e463\.jpg - reject
+^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs\/t1\/182114\/23\/23904\/121433\/62593c9cEd77c4519\/2e3f4c518b771094\.jpg - reject
+^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs\/t1\/202971\/34\/26906\/282671\/6319c862E1818d3fa\/0597464cf6bc8e2f\.jpg - reject
+^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs\/t1\/143222\/27\/29233\/141967\/631b1f8cE3a112e54\/d3fe0b2f9f0a9f30\.jpg - reject
+^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs - reject
+^https?:\/\/m15\.360buyimg\.com\/mobilecms\/jfs\/t1\/197429\/22/22400\/119193\/62562ef0Eff59b4d4 - reject
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$ - reject-array
+^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/(aladdin\/na\/m\/getLoadingPicture|aladdin\/na\/m\/getLoadingPicture) - reject
+^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture - reject
+^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/(new)?na\/m\/adInfo - reject
+^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo - reject
+^https?:\/\/bdsp-x\.jd\.com\/adx\/ - reject
+^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=(start|queryMaterialAdverts) - reject
+^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$ - reject-200
+^https?:\/\/img\d+\.360buyimg\.com\/jddjadvertise\/ - reject
+^https?:\/\/m15\.360buyimg\.com\/mobilecms\/jfs\/t1\/197429\/22\/22400\/119193\/62562ef0Eff59b4d4 - reject
+^https?:\/\/m15\.360buyimg\.com\/mobilecms\/jfs\/t1\/220846\/5\/16214\/41327 - reject
+^https?:\/\/m15\.360buyimg\.com\/mobilecms\/jfs\/t1\/202818 - reject
+^https?:\/\/storage\.360buyimg\.com\/kepler-app - reject-img
+^https?:\/\/m\.360buyimg\.com\/mobilecms\/s640x1136_jfs\/ - reject-img
+# 禁京东DNS解析 
+^https?:\/\/dns\.jd\.com\/ - reject
+# 禁京东直播小窗
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=getWidgetV1052 - reject
+# 禁京东直播(慎用！店铺页面无活动弹窗、无关注按钮、无法观看直播)
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(live｜getShopHomeExtendInfo|getImmediatePlayV910) - reject
+#####5⃣️#####
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$ - reject-array
+
+[Map Local]
+
+[Script]
+
+#####其它#####
+开屏广告 = type=http-response, pattern=^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js, timeout=60, script-update-interval=0
+
+#####3⃣️#####
+搜索页面优化 = type=http-response, pattern=^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(hotWords|hotSearchTerms), requires-body=true, max-size=3145728, script-path=https://github.com/ddgksf2013/Scripts/raw/master/jd_json.js, timeout=60, script-update-interval=0
+
+replaceHeader_16 = type=http-request, pattern=^https?://union.click.jd.com/jda?, script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/replace-header/index.js, timeout=60, argument="^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n)->$1/jda?adblock=$2union.click.jd.com$3"
+
+replaceHeader_17 = type=http-request, pattern=^https?://union.click.jd.com/sem.php?, script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/replace-header/index.js, timeout=60, argument="^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n)->$1/sem.php?adblock=$2union.click.jd.com$3"
+
+replaceBody_34 = type=http-response, pattern=^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(server|basic)Config, requires-body=true, max-size=3145728, script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/CommonScript/replace-body.js, timeout=60, argument=""dnsvip"\:".+"->"dnsvip":"""
+
+[MITM]
+
+hostname = %APPEND% m15.360buyimg.com,m.360buyimg.com,api.m.jd.com,union.click.jd.com,ms.jr.jd.com,bdsp-x.jd.com,dsp-x.jd.com,img*.360buyimg.com,storage.360buyimg.com,dns.jd.com,hd.mina.mi.com
