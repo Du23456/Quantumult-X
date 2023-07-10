@@ -1,0 +1,26 @@
+#!name=青桔单车
+#!desc=青桔单车(小程序）
+#!author=fmz200
+
+#!system=ios
+#!updated=2023-7-10 22:30
+
+[Rule]
+
+[URL Rewrite]
+
+#####7⃣️#####
+^https:\/\/htwkop\.xiaojukeji\.com\/gateway\?api=cms\.htw\.delivery - reject-dict
+^https:\/\/htwkop\.xiaojukeji\.com\/gateway\?api=hm\.fa\.combineHomepageInfo - reject-dict
+^https:\/\/htwkop\.xiaojukeji\.com\/gateway\?api=hm\.fa\.mallRecommend - reject-dict
+
+[Map Local]
+
+[Script]
+
+广告 = type=http-response, pattern=^https:\/\/htwkop\.xiaojukeji\.com\/gateway\?api=hm\.fa\.homeConfig, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/scripts/qingju.js, timeout=60, script-update-interval=0
+
+[MITM]
+
+hostname = %APPEND% htwkop.xiaojukeji.com
+
