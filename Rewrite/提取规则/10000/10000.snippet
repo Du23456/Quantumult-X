@@ -1,10 +1,16 @@
-# 更新时间:2023-5-10 23:00
-# > 中国电信
-# 6⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt
+#!name=中国电信
+#!desc=中国电信去广告
+#!updated=2023-5-10 23:00
+#!author=fmz200
+#!system=ios
 
+#6⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt
+
+#[rewrite_local]
 #####6⃣️#####
 ^https?:\/\/cloud\.189\.cn\/include\/splash\/ url reject
 ^https?:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*?Animation url reject-img
 
+#[mitm]
 hostname=cloud.189.cn, zt-app.go189.cn
 
