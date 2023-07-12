@@ -1,9 +1,14 @@
-# 更新时间:2023-5-10 23:00
-# > 中国移动
-# 6⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt
-# 4⃣️暂无
-# 2⃣️https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/tailadv.conf
+#!name=中国移动
+#!desc=中国移动去广告
+#!updated=2023-5-10 23:00
+#!author=fmz200 zwf234
+#!url=https://github.com/Du23456/Quantumult-X/raw/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/10086/10086.snippet
+#!homepage=https://github.com/Du23456/Quantumult-X/tree/main
 
+#6⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt
+#2⃣️https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/tailadv.conf
+
+#[rewrite_local]
 #####6⃣️#####
 ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit url reject-200
 # 多个悬浮窗 
@@ -20,7 +25,7 @@
 ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList url reject-200
 #####其它#####
 ^https:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/adv-filter\/AdInfoFilter\/getAdInfos url reject-dict
-https:\/\/10086\.online\-cmcc\.cn\:20010\/gfms\/front\/hn\/busi3\!getAdvert url script-response-body https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/remove_ad/10086.js
+https:\/\/10086\.online\-cmcc\.cn\:20010\/gfms\/front\/hn\/busi3\!getAdvert url script-response-body https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/remove_ad/10086.jsq
 
+#[mitm]
 hostname=client.app.coc.10086.cn, clientaccess.10086.cn, wap.js.10086.cn, ad.mcloud.139.com, mcmm.caiyun.feixin.10086.cn, middle.yun.139.com, 10086.online-cmcc.cn
- 
