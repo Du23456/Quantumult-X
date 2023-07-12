@@ -1,7 +1,13 @@
-# 更新时间:2023-5-10 23:00
-# > 中国联通
-# 6⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt
+#!name=中国联通
+#!desc=中国联通去广告
+#!updated=2023-5-10 23:00
+#!author=fmz200
+#!url=https://github.com/Du23456/Quantumult-X/raw/main/Rewrite/%E6%8F%90%E5%8F%96%E8%A7%84%E5%88%99/10010/10010.snippet
+#!homepage=https://github.com/Du23456/Quantumult-X/tree/main
 
+#6⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt
+
+#[rewrite_local]
 #####6⃣️#####
 ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/getWelcomeAd url reject-200
 ^https?:\/\/m\.client\.10010\.com\/mobileService\/(activity|customer)\/(accountListData|get_client_adv|get_startadv) url reject-img
@@ -11,4 +17,8 @@
 ^https?:\/\/m1\.ad\.10010\.com\/noticeMag\/images\/imageUpload\/2\d{3} url reject-img
 ^https?:\/\/res\.mall\.10010\.cn\/mall\/common\/js\/fa\.js?referer= url reject-img
 
+#[mitm]
 hostname=m.client.10010.com,m1.ad.10010.com,res.mall.10010.cn
+
+
+
