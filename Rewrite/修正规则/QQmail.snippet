@@ -1,0 +1,14 @@
+#!name=QQ邮箱
+#!desc=QQ邮箱去除开屏广告
+#!updated=2023-6-12 21:08
+#!author=Keywos
+#!url=
+#!homepage=
+
+#原项目连接:https://raw.githubusercontent.com/Keywos/rule/main/module/noAdrule.sgmodule
+
+#[rewrite_local]
+^https:\/\/rescdn\.qqmail\.com\/qqmail\/images\/.+\.(png|jpg)$ url reject
+
+#[mitm]
+hostname=rescdn.qqmail.com

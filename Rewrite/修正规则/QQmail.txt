@@ -1,7 +1,0 @@
-#更新时间:2023-6-12 21:08
-# qq邮箱开屏 
-#原项目链接:https://raw.githubusercontent.com/Keywos/rule/main/module/noAdrule.sgmodule
-
-^https:\/\/rescdn\.qqmail\.com\/qqmail\/images\/.+\.(png|jpg)$ - reject
-
-hostname=rescdn.qqmail.com
