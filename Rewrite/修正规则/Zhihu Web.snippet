@@ -1,0 +1,17 @@
+#!name=知乎网页版
+#!desc=知乎网页版去广告
+#!updated=2023-7-13 12:35
+#!author=RuCu6 app2smile
+#!url=
+#!homepage= https://github.com/Du23456/Quantumult-X/tree/main
+
+#[rewrite_local]
+^https:\/\/api\.zhihu\.com\/distribute\/rhea\/qa_ad_card\/h5\/recommendation\? url reject-dict
+^https:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation url reject
+^https:\/\/www\.zhihu\.com\/api\/v4\/mcn\/v2\/linkcards\? url reject
+^https:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings url reject
+^https:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner url reject
+^https:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation url reject
+
+#[mitm]
+hostname=www.zhihu.com,zhuanlan.zhihu.com,api.zhihu.com
