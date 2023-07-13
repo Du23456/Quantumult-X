@@ -1,0 +1,22 @@
+#!name=知乎网页版
+#!desc=知乎网页版去广告
+#!updated=2023-7-13 12:20
+#!author=onewayticket255
+#!url=
+#!homepage=https://github.com/Du23456/Quantumult-X/tree/main
+
+#[rewrite_local]
+^https?:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings url reject-200
+^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation url reject-200
+^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner url reject-200
+^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation url reject-200
+https://api.zhihu.com/(ad|drama|fringe|commercial|market/popover|search/(top|preset|tab)|.*featured-comment-ad) url reject-200
+https://api.zhihu.com/people/ url script-response-body https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20people.js
+https://api.zhihu.com/moments/recommend url script-response-body https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20feed.js
+https://api.zhihu.com/topstory/recommend url script-response-body https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20recommend.js
+https://api.zhihu.com/v4/questions url script-response-body https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20answer.js
+https?://link.zhihu.com/\?target= url script-request-header https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20link.js
+https?://link.zhihu.com/\?target= url script-request-header https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20link.js
+
+#[mitm]
+hostname=www.zhihu.com,zhuanlan.zhihu.com,api.zhihu.com,link.zhihu.com
