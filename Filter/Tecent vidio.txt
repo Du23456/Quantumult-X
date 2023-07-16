@@ -1,9 +1,18 @@
 # > 腾讯视频
-host-suffix, tetrack.qq.com, reject
-host-suffix, tpns.tencent.com, reject
-host-suffix, api.poll.video.qq.com, reject
-host-suffix, static-res.qq.com, reject
-host-suffix, stat.tpns.tencent.com, reject
-host, h.trace.qq.com, reject
-host-keyword, omgmta.qq.com, reject
-host-keyword, omgmta1.qq.com, reject
+
+#####3⃣️#####
+DOMAIN, adsmind.gdtimg.com, REJECT
+DOMAIN, btrace.qq.com, REJECT
+DOMAIN, info6.video.qq.com, REJECT
+DOMAIN, ios.video.mpush.qq.com, REJECT
+DOMAIN, mtrace.qq.com, REJECT
+DOMAIN, pgdt.gtimg.cn, REJECT
+#####1⃣️#####
+DOMAIN-suffix, tetrack.qq.com, reject
+DOMAIN-suffix, tpns.tencent.com, reject
+DOMAIN-suffix, api.poll.video.qq.com, reject
+DOMAIN-suffix, static-res.qq.com, reject
+DOMAIN-suffix, stat.tpns.tencent.com, reject
+DOMAIN, h.trace.qq.com, reject
+DOMAIN-keyword, omgmta.qq.com, reject
+DOMAIN-keyword, omgmta1.qq.com, reject
