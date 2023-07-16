@@ -1,12 +1,12 @@
 # > 腾讯视频
 
 #####3⃣️#####
-DOMAIN, adsmind.gdtimg.com, REJECT
-DOMAIN, btrace.qq.com, REJECT
-DOMAIN, info6.video.qq.com, REJECT
-DOMAIN, ios.video.mpush.qq.com, REJECT
-DOMAIN, mtrace.qq.com, REJECT
-DOMAIN, pgdt.gtimg.cn, REJECT
+;DOMAIN, adsmind.gdtimg.com, REJECT
+;DOMAIN, btrace.qq.com, REJECT
+;DOMAIN, info6.video.qq.com, REJECT
+;DOMAIN, ios.video.mpush.qq.com, REJECT
+;DOMAIN, mtrace.qq.com, REJECT
+;DOMAIN, pgdt.gtimg.cn, REJECT
 #####1⃣️#####
 DOMAIN-suffix, tetrack.qq.com, reject
 DOMAIN-suffix, tpns.tencent.com, reject
