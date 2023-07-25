@@ -1,8 +1,7 @@
-# 更新时间:2023-5-26 23:48
+# 更新时间:2023-7-26 1:45
 # > 携程
 # 6⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt
 # 5⃣️https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyRewrite.conf
-# 7⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cleanup.snippet
 
 #####6⃣️#####
 ^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare url reject
@@ -12,10 +11,5 @@
 #####5⃣️#####
 ^https:\/\/m\.ctrip\.com\/restapi\/.+\/json\/tripAds url reject
 ^https:\/\/m\.ctrip\.com\/html5\/webresource\/js\/iscroll\.js$ url reject
-#####7⃣️#####
-#微信小程序净化
-^https:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/tripAds url reject-dict
-^https:\/\/m\.ctrip\.com\/restapi\/soa2\/12673\/queryWeChatHotEvent url reject-dict
-^https:\/\/m\.ctrip\.com\/restapi\/soa2\/13012\/getWaterflowInfo url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/scripts/T3.js
 
 hostname=m.ctrip.com,mbd.baidu.com,ma-adx.ctrip.com
