@@ -1,10 +1,21 @@
-#更新时间:2023-6-12 19:00
-# > 爱思助手
+#!name = 爱思助手
+#!desc = 爱思助手去广告（仅保留搜索）
+#!author = fmz200 chengkongyiban
+#!openUrl =
+#!homepage = https://github.com/Du23456/Quantumult-X/tree/main
+#!icon = https://d-image.i4.cn/i4web/static20212/img/nb_logo.png
+#!date = 2023-6-12 19:00
 
-#####6⃣️#####
+#6⃣️ https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt
+#其它 https://github.com/chengkongyiban/Quantumultx/blob/main/js/i4AdBlock.js
+
+#[rewrite_local]
+#>>>>>6⃣️<<<<<
 ^https?:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml url reject
-#####其它#####
+#>>>>>其它<<<<<
 #仅保留搜索
 ^https?:\/\/(search|list)-app-m\.i4\.cn\/(getHotSearchList|getAppList)\.xhtml url script-response-body https://github.com/Keywos/rule/raw/main/JS/aisi.js
 
+#[mitm]
 hostname=list-app-m.i4.cn,app-m.i4.cn
+
