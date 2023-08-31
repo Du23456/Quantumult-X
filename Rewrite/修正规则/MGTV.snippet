@@ -1,0 +1,18 @@
+#!name = 芒果tv
+#!desc = 芒果tv去广告
+#!author = RuCu6
+#!openUrl =
+#!homepage = https://github.com/Du23456/Quantumult-X/tree/main
+#!icon = 
+#!date = 2023-9-1 0:58
+
+#[rewrite_local]
+# 首页,左上角推广,信息流,顶部菜单
+^http:\/\/[0-9\.]+\/odin\/c1\/channel\/ads\? url reject-dict
+^http:\/\/mob-st\.bz\.mgtv\.com\/odin\/c1\/channel\/index\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
+^https?:\/\/dc\.bz\.mgtv\.com\/dynamic\/v1\/channel\/(index|vrsList)\/\w url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
+# 我的页面
+^https:\/\/me\.bz\.mgtv\.com\/v3\/module\/list\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
+
+#[mitm]
+hostname=dc.bz.mgtv.com, me.bz.mgtv.com
