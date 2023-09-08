@@ -1,11 +1,14 @@
-# 2023-5-20 22:35
-# > 高德地图
+#!name = 高德地图
+#!desc = 高德地图去广告
+#!date = 2023-9-8 13:40
 
-#>>>>>3⃣️<<<<<
+#3⃣️ https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/MyBlockAds.list
+
+# >>>>>3⃣️<<<<<
 DOMAIN, amap-aos-info-nogw.amap.com, REJECT
 DOMAIN, awaken.amap.com, REJECT
 DOMAIN, free-aos-cdn-image.amap.com, REJECT
-
+# >>>>>其它<<<<<
 ;DOMAIN-SUFFIX,adiu.amap.com,REJECT
 ;DOMAIN,aboard.apilocate.amap.com,REJECT
 ;DOMAIN,apiinit.amap.com,REJECT
