@@ -1,15 +1,25 @@
-# 更新时间:2023-6-2 11:00
-# Apple
-# 1⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list
-# 2⃣️https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AdvertisingTest/AdvertisingTest.list
+#!name = Apple
+#!desc = Apple去广告
+#!author = RuCu6
+#!date = 2023-9-17 18:30
 
-#####1⃣️#####
-DOMAIN, api-adservices.apple.com, reject
-DOMAIN-SUFFIX, iadsdk.apple.com, reject
-#####2⃣️#####
-DOMAIN, supportmetrics.apple.com, reject
-DOMAIN, metrics.apple.com, reject
-DOMAIN, securemetrics.apple.com, reject 
+DOMAIN, advertising.apple.com, REJECT
+DOMAIN, api-adservices.apple.com, REJECT
+DOMAIN, apple.comscoreresearch.com, REJECT
+DOMAIN, banners.itunes.apple.com, REJECT
+DOMAIN, iad.apple.com, REJECT
+DOMAIN, iadcontent.apple.com, REJECT
+DOMAIN, iadctest.qwapi.com, REJECT
+DOMAIN, iadmoo.apple.com, REJECT
+DOMAIN, iadworkbench.apple.com, REJECT
+DOMAIN, launch.apple.com, REJECT
+DOMAIN, metrics.apple.com, REJECT
+DOMAIN, qwapi.apple.com, REJECT
+DOMAIN, securemetrics.apple.com, REJECT
+DOMAIN, webproxy-advp.iad-apple.com, REJECT
+DOMAIN, webproxy-advp.iad-apple.com.akadns.net, REJECT
+DOMAIN-SUFFIX, advp.apple.com, REJECT
+DOMAIN-SUFFIX, iadsdk.apple.com, REJECT
+
 DOMAIN, securemvt.apple.com, reject 
 DOMAIN, securemvt.apple.com.cn, reject
-
