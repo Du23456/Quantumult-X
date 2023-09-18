@@ -1,22 +1,16 @@
-# > QQ音乐
-HOST,tmeadcomm.y.qq.com, reject
-HOST,ad.tencentmusic.com, reject
-HOST,adstats.tencentmusic.com, reject
-HOST,tmead.y.qq.com, reject
-HOST-SUFFIX,rqd.qq.com, reject
-HOST-SUFFIX,wup.imtt.qq.com, reject
-HOST-SUFFIX,gdt.qq.com, reject
-HOST-SUFFIX,android.rqd.qq.com, reject
-HOST-SUFFIX,e.qq.com, reject
-HOST-SUFFIX,beacon.qq.com, reject
-HOST-SUFFIX,v.gdt.qq.com, reject
-HOST-SUFFIX, STAT.Y.QQ.COM, REJECT
-HOST, OTH.STR.MDT.QQ.COM, REJECT
-HOST-SUFFIX, IMTMP.NET, REJECT
-HOST-SUFFIX, SOUP.V.QQ.COM, REJECT
-HOST-SUFFIX, WUP.IMTT.QQ.COM, REJECT
-HOST-SUFFIX, MONITOR.MUSIC.QQ.COM, REJECT
-HOST, SDK.E.QQ.COM, REJECT
-HOST, US.L.QQ.COM, REJECT
-HOST,P.L.QQ.COM, REJECT
-HOST,TANGRAM.E.QQ.COM, REJECT
+#!name = QQ音乐
+#!desc = QQ音乐去广告
+#!author = 可莉
+#!date = 2023-9-18 17:04
+
+DOMAIN, tmeadcomm.y.qq.com, REJECT
+DOMAIN, ad.tencentmusic.com, REJECT
+DOMAIN, adstats.tencentmusic.com, REJECT
+DOMAIN, tmead.y.qq.com, REJECT
+DOMAIN-SUFFIX, rqd.qq.com, REJECT
+DOMAIN-SUFFIX, wup.imtt.qq.com, REJECT
+DOMAIN-SUFFIX, gdt.qq.com, REJECT
+DOMAIN-SUFFIX, android.rqd.qq.com, REJECT
+DOMAIN-SUFFIX, e.qq.com, REJECT
+DOMAIN-SUFFIX, beacon.qq.com, REJECT
+DOMAIN-SUFFIX, v.gdt.qq.com, REJECT
