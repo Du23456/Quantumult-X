@@ -1,0 +1,6 @@
+#!name = ChatGPT
+#!desc = ChatGPT去广告
+#!author = RuCu6
+#!date = 2023-9-21 14:13
+
+DOMAIN, o33249.ingest.sentry.io, REJECT
