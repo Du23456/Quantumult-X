@@ -4,13 +4,16 @@
 #!openUrl =
 #!homepage = https://github.com/Du23456/Quantumult-X/tree/main
 #!icon = https://f.fameile.net/upload/20200618/4u2Ssn.png
-#!date = 2023-9-16 17:17
+#!date = 2023-9-21 13:57
 
 #原项目链接: https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/cnftp.snippet
 
 #[rewrite_local]
+# 播放器界面
+^https:\/\/hb-boom\.api\.mgtv\.com\/release\/pullReleaseInfo url reject-dict
 # 首页,左上角推广,信息流,底部菜单红点,顶部菜单,搜索框
-^http:\/\/[0-9\.]+\/odin\/c1\/(channel\/ads|skin\/config)\? url reject-dict
+^http:\/\/[\d\.]+:\d{5}\/\?cmd=indexes.+ url reject-dict
+^http:\/\/[\d\.]+\/odin\/c1\/(channel\/ads|skin\/config)\? url reject-dict
 ^http:\/\/mob-st\.bz\.mgtv\.com\/odin\/c1\/channel\/index\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
 ^http:\/\/mobileso\.bz\.mgtv\.com\/spotlight\/search\/v1\? url reject-dict
 ^https:\/\/damang\.api\.mgtv\.com\/station\/album\/red\/dot\? url reject-dict
