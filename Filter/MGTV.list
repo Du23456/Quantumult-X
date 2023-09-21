@@ -1,17 +1,17 @@
 #!name = 芒果TV
 #!desc = 芒果TV去广告
 #!author = RuCu6
-#!date = 2023-9-15 00:10
+#!date = 2023-9-21 14:01
 
-HOST, dflow.bz.mgtv.com, REJECT
-HOST, encounter.bz.mgtv.com, REJECT
-HOST, floor.bz.mgtv.com, REJECT
-HOST, img.da.mgtv.com, REJECT
-HOST, layer.bz.mgtv.com, REJECT
-HOST, mob.bz.mgtv.com, REJECT
-HOST, mobile.da.mgtv.com, REJECT
-HOST, rc-topic-api.bz.mgtv.com, REJECT
-HOST, v2.da.mgtv.com, REJECT
-HOST, video.da.mgtv.com, REJECT
-HOST, vip.bz.mgtv.com, REJECT
-HOST, ys.da.mgtv.com, REJECT
+DOMAIN, dflow.bz.mgtv.com, REJECT
+DOMAIN, encounter.bz.mgtv.com, REJECT
+DOMAIN, floor.bz.mgtv.com, REJECT
+DOMAIN, img.da.mgtv.com, REJECT
+DOMAIN, layer.bz.mgtv.com, REJECT
+DOMAIN, mob.bz.mgtv.com, REJECT
+DOMAIN, mobile.da.mgtv.com, REJECT
+DOMAIN, rc-topic-api.bz.mgtv.com, REJECT
+DOMAIN, v2.da.mgtv.com, REJECT
+DOMAIN, video.da.mgtv.com, REJECT
+DOMAIN, vip.bz.mgtv.com, REJECT
+DOMAIN, ys.da.mgtv.com, REJECT
