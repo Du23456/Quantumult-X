@@ -8,7 +8,7 @@
 
 ## 导入方法
 
-方法一（Safari浏览器）：iPhone横屏模式下再代码页点击“...”，再长按“View”，接着点击“拷贝链接”。将拷贝的链接粘贴到Quantumult X即可
+方法一（Safari浏览器）：iPhone横屏模式下在代码页点击“...”，再长按“View”，接着点击“拷贝链接”。将拷贝的链接粘贴到Quantumult X即可
 
 ![image](https://github.com/Du23456/Quantumult-X/assets/127875782/6ab12c3b-7105-4722-9ee6-32e3a9e18812)
 
