@@ -10,5 +10,7 @@
 
 方法一（Safari浏览器）：iPhone横屏模式下再代码页点击“...”，再长按“View”点击“拷贝链接”即可
 
-![Uploading image.jpeg…]()
+![image](https://github.com/Du23456/Quantumult-X/assets/127875782/6ab12c3b-7105-4722-9ee6-32e3a9e18812)
+
+
 
