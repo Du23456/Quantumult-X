@@ -1,0 +1,21 @@
+#!name = 哔哩哔哩IP
+#!desc = 哔哩哔哩修改IP属地，如果不生效建议全局代理
+#!author = anti-ip-attribution
+#!date = 2023-9-26 13:42
+
+DOMAIN-SUFFIX,biliapi.net,哔哩哔哩IP
+DOMAIN,api.bilibili.com,哔哩哔哩IP
+DOMAIN,api.bilibili.tv,哔哩哔哩IP
+DOMAIN,app.bilibili.com,哔哩哔哩IP
+DOMAIN-SUFFIX,biliapi.com,哔哩哔哩IP
+DOMAIN,api.live.bilibili.com,哔哩哔哩IP
+DOMAIN,api.vc.bilibili.com,哔哩哔哩IP
+DOMAIN,passport.bilibili.com,哔哩哔哩IP
+DOMAIN,live-trace.bilibili.com,哔哩哔哩IP
+DOMAIN,message.bilibili.com,哔哩哔哩IP
+DOMAIN,cm.bilibili.com,哔哩哔哩IP
+DOMAIN-SUFFIX,bilibili.com,哔哩哔哩IP
+DOMAIN-SUFFIX,im9.com,哔哩哔哩IP
+DOMAIN-SUFFIX,acg.tv,哔哩哔哩IP
+DOMAIN-SUFFIX,biligame.com,哔哩哔哩IP
+IP-CIDR,203.107.1.0/24,REJECT
