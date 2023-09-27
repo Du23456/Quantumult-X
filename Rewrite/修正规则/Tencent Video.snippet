@@ -4,12 +4,14 @@
 #!openUrl =
 #!homepage = https://github.com/Du23456/Quantumult-X/tree/main
 #!icon = https://play-lh.googleusercontent.com/m7U8byJXAa2myekP33G8VZv_btPmB1_MgU7Vd4Szca5UMia-eBtkRtlzXajV8-KaCw=w480-h960
-#!date = 2023-9-26 20:06
+#!date = 2023-9-27 20:56
 
 #[rewrite_local]
-^http:\/\/[\d\.:]*\/?finderpdd\.video\.qq\.com\/\w+ url reject
-^http:\/\/[\d\.:]*\/?(defaultts|vmind\.qqvideo)\.tc\.qq\.com\/\w+ url reject
+^http:\/\/[\d\.:]*\/?(defaultts\.tc|vmind\.qqvideo\.tc|finderpdd\.video)\.qq\.com\/\w+ url reject
 ^http:\/\/apd-vlive\.apdcdn\.tc\.qq\.com\/vmind\.qqvideo\.tc\.qq\.com\/\w+ url reject
 ^http:\/\/apd-\w+\.v\.smtcdns\.com\/(defaultts|omts|vmind\.qqvideo)\.tc\.qq\.com\/\w+ url reject
+^https?:\/\/vv\.video\.qq\.com\/(diffvmind|getvmind) url reject-dict
+^https?:\/\/vv\.video\.qq\.com\/getvinfo url request-body &spgzip=\d(.*)&sppreviewtype=\d(.*)&spsrt=\d(.*)&adpass=\w+ request-body &spgzip=0$1&sppreviewtype=0$2&spsrt=0$3&adpass=0
 
 #[mitm]
+hostname=vv.video.qq.com
