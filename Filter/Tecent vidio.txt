@@ -1,7 +1,7 @@
 #!name = 腾讯视频
 #!desc = 腾讯视频去广告
 #!author = RuCu6
-#!date = 2023-9-28 00:40
+#!date = 2023-9-30 19:44
 
 # 腾讯 无法使用的推送服务
 DOMAIN, tpns.qq.com, REJECT
@@ -13,13 +13,11 @@ DOMAIN, info4.video.qq.com, REJECT
 DOMAIN, info6.video.qq.com, REJECT
 DOMAIN, ios.video.mpush.qq.com, REJECT
 DOMAIN, mtrace.qq.com, REJECT
+DOMAIN, otheve.beacon.qq.com, REJECT
 DOMAIN, p.l.qq.com, REJECT
 DOMAIN, pgdt.gtimg.cn, REJECT
 DOMAIN, rpt.gdt.qq.com, REJECT
-DOMAIN-SUFFIX, trace.qq.com, REJECT
+DOMAIN, tpns.qq.com, REJECT
 DOMAIN, tytx.m.cn.miaozhen.com, REJECT
-;DOMAIN, vv.video.qq.com, REJECT
 DOMAIN, vv6.video.qq.com, REJECT
-DOMAIN-SUFFIX, beacon.qq.com, REJECT
-DOMAIN-SUFFIX, gdt.qq.com, REJECT
-DOMAIN-SUFFIX, tpns.qq.com, REJECT
+DOMAIN-SUFFIX, trace.qq.com, REJECT
