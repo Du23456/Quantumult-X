@@ -1,0 +1,4 @@
+#!name = 中国直连
+#!desc = 将此分流放在最下面
+
+Geoip, CN, direct
