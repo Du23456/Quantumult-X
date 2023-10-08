@@ -6,6 +6,26 @@
 #!icon = https://play-lh.googleusercontent.com/m7U8byJXAa2myekP33G8VZv_btPmB1_MgU7Vd4Szca5UMia-eBtkRtlzXajV8-KaCw=w480-h960
 #!date = 2023-9-30 19:40
 
+#[Rule]   注:Quantumult X用户需手动添加以下规则，或使用仓库中对应的规则集
+# 腾讯 无法使用的推送服务
+DOMAIN, tpns.qq.com, REJECT
+# 腾讯视频
+DOMAIN, adsmind.gdtimg.com, REJECT
+DOMAIN, btrace.qq.com, REJECT
+DOMAIN, btrace.video.qq.com, REJECT
+DOMAIN, info4.video.qq.com, REJECT
+DOMAIN, info6.video.qq.com, REJECT
+DOMAIN, ios.video.mpush.qq.com, REJECT
+DOMAIN, mtrace.qq.com, REJECT
+DOMAIN, otheve.beacon.qq.com, REJECT
+DOMAIN, p.l.qq.com, REJECT
+DOMAIN, pgdt.gtimg.cn, REJECT
+DOMAIN, rpt.gdt.qq.com, REJECT
+DOMAIN, tpns.qq.com, REJECT
+DOMAIN, tytx.m.cn.miaozhen.com, REJECT
+DOMAIN, vv6.video.qq.com, REJECT
+DOMAIN-SUFFIX, trace.qq.com, REJECT
+
 #[rewrite_local]
 ^http:\/\/[\d\.:]*\/?(defaultts\.tc|vmind\.qqvideo\.tc|finderpdd\.video)\.qq\.com\/\w+ url reject
 ^http:\/\/apd-vlive\.apdcdn\.tc\.qq\.com\/vmind\.qqvideo\.tc\.qq\.com\/\w+ url reject
