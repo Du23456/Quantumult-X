@@ -1,7 +1,11 @@
-#更新时间:2023-6-5 19:00
-# > 淘宝
+#!name = 淘宝
+#!desc = 淘宝去广告
+#!author = fmz200 ddgksf2013
+#!openUrl =
+#!homepage = https://github.com/Du23456/Quantumult-X/tree/main
+#!icon = https://play-lh.googleusercontent.com/MQGh69wPvBb3E5wd-Yt1k_lv3MIr4e_e26irASzmNtIvlLn_SQE7Z_ki-EVWayCTG-E=w480-h960
+#!date = 2023-6-5 19:00
 
-#####6⃣️#####
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome\/ url reject-200
 ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.tmall\.wireless url reject-200
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv url reject-200
@@ -13,7 +17,7 @@
 ^https?:\/\/gw\.alicdn\.com\/imgextra\/i\d\/.+1125-1602\.jpg url reject-200
 ^https:\/\/heic\.alicdn\.com\/imgextra\/\w{2}\/[\w!]+-\d-tps-\d{3,4}-\d{4}\.jpg_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0\.jpg_\.heic$ url reject
 ^https:\/\/(heic|gw)\.alicdn\.com\/imgextra\/i\d\/.+-tps-(702-758|1125-1602)\.(heic|jpg|png) url reject-200
-#####3⃣️#####
+
 # > amdc
 ^http:\/\/amdc\.m\.taobao\.com url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/amdc.js
 
