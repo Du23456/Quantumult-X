@@ -1,12 +1,14 @@
-# 更新时间:2023-7-2 21:00
-# > 美团+美团外卖
-# 6⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt
-# 3⃣️https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/StartUp.conf
+#!name = 美团
+#!desc = 美团/美团外卖去广告
+#!author = fmz200 ddgksf2013
+#!openUrl =
+#!homepage = https://github.com/Du23456/Quantumult-X/tree/main
+#!icon = https://pp.myapp.com/ma_icon/0/icon_11109_1691649606/256
+#!date = 2023-10-9 12:55
 
-#####其它#####
 # 美团外卖_开屏去广告
 ^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
-#####6⃣️#####
+
 # > 美团
 ^https?:\/\/img\.meituan\.net\/(?>adunion|display|midas)\/.+?\.(gif|jpg|jpg\.webp)$ url reject-200
 ^https?:\/\/p\d\.meituan\.net\/wmbanner\/[A-Za-z0-9]+?\.jpg url reject-200
@@ -27,7 +29,7 @@
 ^https?:\/\/img\.meituan\.net\/bizad\/.*.jpg url reject-200
 ^https?:\/\/img\.meituan\.net\/(bizad|brandCpt)\/\w+\.(png|jpg) url reject
 ^http:\/\/s3plus\.meituan\.net\/.*\/brandcpt-vedio\/.*\?time url reject
-#####3⃣️#####
+
 ^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage url reject
 ^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg url reject
 ^https?:\/\/.*\.meituan\.com\/api\/v\d\/(openscreen\?ad|appstatus\?ad|loadInfo\?|startpicture) url reject
