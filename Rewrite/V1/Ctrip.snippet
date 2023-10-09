@@ -1,14 +1,15 @@
-# 更新时间:2023-7-26 1:45
-# > 携程
-# 6⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt
-# 5⃣️https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyRewrite.conf
+#!desc = 携程去广告
+#!author = fmz200 zqzess
+#!openUrl =
+#!homepage = https://github.com/Du23456/Quantumult-X/tree/main
+#!icon = https://pp.myapp.com/ma_icon/0/icon_6240_1691377376/256
+#!date = 2023-7-26 1:45
 
-#####6⃣️#####
 ^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare url reject
 ^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/[0-9]{5}\/json\/getTimeZoneServerIpList\?__gw_os=IOS url reject-200
 # 开屏去广告
 ^https:\/\/ma-adx\.ctrip\.com\/_ma\.gif url reject
-#####5⃣️#####
+
 ^https:\/\/m\.ctrip\.com\/restapi\/.+\/json\/tripAds url reject
 ^https:\/\/m\.ctrip\.com\/html5\/webresource\/js\/iscroll\.js$ url reject
 
