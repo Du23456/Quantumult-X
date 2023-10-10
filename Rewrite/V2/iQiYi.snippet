@@ -6,12 +6,6 @@
 #!icon = https://pp.myapp.com/ma_icon/0/icon_7720_1691671365/256
 #!date = 2023-9-4 15:47
 
-#原项目链接: https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/cnftp.snippet
-
-#[Rule]   注:Quantumult X用户需手动添加以下规则，或使用本仓库中Filter/AD中对应的规则集
-DOMAIN, api.iqiyi.com, REJECT
-DOMAIN-SUFFIX, cupid.iqiyi.com, DIRECT
-
 #[rewrite_local]
 # 播放页开通会员提示
 ^https:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show\? url reject-dict
