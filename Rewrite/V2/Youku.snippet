@@ -8,20 +8,6 @@
 
 #原项目链接: https://github.com/RuCu6/QuanX/raw/main/Rewrites/Cube/cnftp.snippet
 
-#[Rule]   注:Quantumult X用户需手动添加以下规则，或使用本仓库中Filter/AD中对应的规则集
-DOMAIN, adsmind.ugdtimg.com, REJECT
-DOMAIN, amdc.m.youku.com, REJECT
-DOMAIN, apiv4-iyes.youku.com, REJECT
-DOMAIN, huichuan-mc.sm.cn, REJECT
-DOMAIN, huichuan.sm.cn, REJECT
-DOMAIN, iyes.youku.com, REJECT
-DOMAIN, m-vali.cp31.ott.cibntv.net, REJECT
-DOMAIN, mc.atm.youku.com, REJECT
-DOMAIN, vali-g1.cp31.ott.cibntv.net, REJECT
-DOMAIN, vali-ugc.cp31.ott.cibntv.net, REJECT
-DOMAIN, yk-ssp.ad.youku.com, REJECT
-DOMAIN, ykad-data.youku.com, REJECT
-
 #[rewrite_local]
 # 播放详情页,首页信息流,顶部tab,我的页面
 ^https:\/\/acs\.youku\.com\/gw\/mtop\.youku\.columbus\.(gateway\.new\.execute|home\.feed|home\.query|uc\.query) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
