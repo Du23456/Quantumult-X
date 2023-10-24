@@ -1,0 +1,7 @@
+#!name = 哔哩哔哩
+#!desc =
+#!author =
+#!date =
+
+HOST, mall.bilibili.com, REJECT
+HOST, passport.bilibili.com, REJECT
