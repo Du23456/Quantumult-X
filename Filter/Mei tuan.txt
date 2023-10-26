@@ -3,15 +3,12 @@
 #!author = RuCu6
 #!date = 2023-9-8 14:40
 
-#3⃣️ https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/MyBlockAds.list
-
-# >>>>>3⃣️<<<<<
 HOST, al-log.d.meituan.net, REJECT
 HOST, babel-statistics-android.d.meituan.net, REJECT
 HOST, maplocatesdksnapshot.d.meituan.net, REJECT
 HOST, metrics-picture.d.meituan.net, REJECT
 HOST, route-stats.d.meituan.net, REJECT
-# >>>>>1⃣️<<<<<
+
 ;HOST, flowplus.meituan.net, reject
 ;HOST-SUFFIX, analytics.meituan.net, reject
 ;HOST-SUFFIX, meituan.xn--io0a7i, reject
