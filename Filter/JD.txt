@@ -1,2 +1,10 @@
-# > 屏蔽京东收集信息 
+#!name = 京东
+#!author = 京东去广告
+#!desc = RuCu6 fmz200
+#!date = 2023-10-28 22:10
+
+# 京东去广告
+HOST, blackhole.m.jd.com, REJECT
+HOST, policy.jd.com, REJECT
+# 屏蔽京东收集信息 
 DOMAIN-suffix, jdqd.jd.com, reject
