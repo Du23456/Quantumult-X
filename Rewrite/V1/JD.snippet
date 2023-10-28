@@ -8,14 +8,14 @@
 
 #[rewrite_local]
 # 京东 //api.m.jd.com
-^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=personinfoBusiness url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
+;^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=personinfoBusiness url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
 ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(start|uniformRecommend) url reject
 
 # 开屏去广告
-;^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
+^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
 
 # 搜索页广告
-;^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(hotWords|hotSearchTerms) url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/jd_json.js
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(hotWords|hotSearchTerms) url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/jd_json.js
 
 ;^https?:\/\/m15\.360buyimg\.com\/mobilecms\/jfs\/t1\/202220\/24\/21575\/134711\/625b821bE5d642d73\/77636692989bd2be\.jpg url reject
 ;^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs\/t1\/96405\/17\/28473\/168578\/625cd144E7997a990\/8233ce8a10c4e463\.jpg url reject
@@ -42,16 +42,16 @@
 ;^https?:\/\/storage\.360buyimg\.com\/kepler-app url reject-img
 ;^https?:\/\/m\.360buyimg\.com\/mobilecms\/s640x1136_jfs\/ url reject-img
 # 禁京东DNS解析 
-;^https?:\/\/dns\.jd\.com\/ url reject
-;^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(server|basic)Config url response-body "dnsvip"\:".+" response-body "dnsvip":""
+^https?:\/\/dns\.jd\.com\/ url reject
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(server|basic)Config url response-body "dnsvip"\:".+" response-body "dnsvip":""
 # 禁京东直播小窗
-;^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=getWidgetV1052 url reject
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=getWidgetV1052 url reject
 # 禁京东直播(慎用！店铺页面无活动弹窗、无关注按钮、无法观看直播)
-;^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(live|getShopHomeExtendInfo|getImmediatePlayV910) url reject
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(live|getShopHomeExtendInfo|getImmediatePlayV910) url reject
 
 ;^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$ url reject-array
 
 #[mitm]
-hostname=api.m.jd.com
+hostname=api.m.jd.com,dns.jd.com
 
 ;hostname=m15.360buyimg.com,m.360buyimg.com,api.m.jd.com,union.click.jd.com,ms.jr.jd.com,bdsp-x.jd.com,dsp-x.jd.com,img*.360buyimg.com,storage.360buyimg.com,dns.jd.com,hd.mina.mi.com
