@@ -41,16 +41,16 @@
 ;^https?:\/\/storage\.360buyimg\.com\/kepler-app url reject-img
 ;^https?:\/\/m\.360buyimg\.com\/mobilecms\/s640x1136_jfs\/ url reject-img
 # 禁京东DNS解析 
-^https?:\/\/dns\.jd\.com\/ url reject
-^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(server|basic)Config url response-body "dnsvip"\:".+" response-body "dnsvip":""
+;^https?:\/\/dns\.jd\.com\/ url reject
+;^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(server|basic)Config url response-body "dnsvip"\:".+" response-body "dnsvip":""
 # 禁京东直播小窗
-^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=getWidgetV1052 url reject
+;^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=getWidgetV1052 url reject
 # 禁京东直播(慎用！店铺页面无活动弹窗、无关注按钮、无法观看直播)
-^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(live|getShopHomeExtendInfo|getImmediatePlayV910) url reject
+;^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(live|getShopHomeExtendInfo|getImmediatePlayV910) url reject
 
 ;^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$ url reject-array
 
 #[mitm]
-hostname=hd.mina.mi.com,api.m.jd.com,dns.jd.com
+hostname=api.m.jd.com,dns.jd.com
 
 ;hostname=m15.360buyimg.com,m.360buyimg.com,api.m.jd.com,union.click.jd.com,ms.jr.jd.com,bdsp-x.jd.com,dsp-x.jd.com,img*.360buyimg.com,storage.360buyimg.com,dns.jd.com,hd.mina.mi.com
