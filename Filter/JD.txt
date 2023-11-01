@@ -8,4 +8,4 @@ HOST, dns.jd.com, REJECT
 IP-CIDR, 101.124.19.122/32, REJECT
 IP6-CIDR, 2402:db40:5100:1011::5/128, REJECT
 # 屏蔽京东收集信息 
-DOMAIN-suffix, jdqd.jd.com, reject
+;DOMAIN-suffix, jdqd.jd.com, reject
