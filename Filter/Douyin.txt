@@ -1,10 +1,11 @@
 # 更新时间:2023-7-5 14:58
 # > 抖音
-# 1⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list
 
-#####1⃣️#####
+DOMAIN, i.snssdk.com, REJECT
+DOMAIN-KEYWORD, asiad.byteactivity, REJECT
+
 DOMAIN-KEYWORD,bds.snssdk.com, reject
 DOMAIN-KEYWORD,p6-ad-sign.byteimg.com, reject
 DOMAIN-KEYWORD,p3.pstatp.com, reject
-#DOMAIN, ad.zijieapi.com, REJECT
-#DOMAIN-KEYWORD, -ad-sign.byteimg.com, REJECT
+DOMAIN, ad.zijieapi.com, REJECT
+DOMAIN-KEYWORD, -ad-sign.byteimg.com, REJECT
