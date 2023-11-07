@@ -2,10 +2,10 @@
 # > 抖音
 
 DOMAIN, i.snssdk.com, REJECT
-DOMAIN-KEYWORD, asiad.byteactivity, REJECT
 
-DOMAIN-KEYWORD,bds.snssdk.com, reject
-DOMAIN-KEYWORD,p6-ad-sign.byteimg.com, reject
-DOMAIN-KEYWORD,p3.pstatp.com, reject
 DOMAIN, ad.zijieapi.com, REJECT
-DOMAIN-KEYWORD, -ad-sign.byteimg.com, REJECT
+DOMAIN, asiad.byteactivity.com, REJECT
+DOMAIN, asiad.byteactivity12.com, REJECT
+DOMAIN, p3-ad-sign.byteimg.com, REJECT
+DOMAIN, p6-ad-sign.byteimg.com, REJECT
+DOMAIN, p9-ad-sign.byteimg.com, REJECT
