@@ -3,5 +3,5 @@
 #!author =
 #!date =
 
-HOST, mall.bilibili.com, REJECT
-HOST, passport.bilibili.com, REJECT
+DOMAIN, mall.bilibili.com, REJECT
+DOMAIN, passport.bilibili.com, REJECT
