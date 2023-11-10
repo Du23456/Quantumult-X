@@ -1,2 +1,2 @@
 # > 哈啰
-DOMAIN-keyword, assets.51downapp.cn, reject
+DOMAIN-KEYWORD, assets.51downapp.cn, reject
