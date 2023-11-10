@@ -1,2 +1,2 @@
 # > 淘宝
-HOST, poplayer.template.alibaba.com, REJECT
+DOMAIN, poplayer.template.alibaba.com, REJECT
