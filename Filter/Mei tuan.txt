@@ -3,18 +3,8 @@
 #!author = RuCu6
 #!date = 2023-9-8 14:40
 
-HOST, al-log.d.meituan.net, REJECT
-HOST, babel-statistics-android.d.meituan.net, REJECT
-HOST, maplocatesdksnapshot.d.meituan.net, REJECT
-HOST, metrics-picture.d.meituan.net, REJECT
-HOST, route-stats.d.meituan.net, REJECT
-
-;HOST, flowplus.meituan.net, reject
-;HOST-SUFFIX, analytics.meituan.net, reject
-;HOST-SUFFIX, meituan.xn--io0a7i, reject
-;HOST-SUFFIX, meituan.yoga, reject
-;HOST-SUFFIX, meituangov.cn, reject
-;HOST-SUFFIX, report.meituan.com, reject
-;HOST-SUFFIX, wmlog.meituan.com, reject
-;HOST-SUFFIX, CMPASSPORT.COM, REJECT
-;HOST-SUFFIX, img.meituan.net, REJECT
+DOMAIN, al-log.d.meituan.net, REJECT
+DOMAIN, babel-statistics-android.d.meituan.net, REJECT
+DOMAIN, maplocatesdksnapshot.d.meituan.net, REJECT
+DOMAIN, metrics-picture.d.meituan.net, REJECT
+DOMAIN, route-stats.d.meituan.net, REJECT
