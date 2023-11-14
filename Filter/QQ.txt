@@ -1,4 +1,6 @@
- ; QQ空间
-host,sq.bls.mdt.qq.com,reject
-host,adsmind.gdtimg.com,reject
-host,xj-landing.gdtimg.com,reject
+# QQ
+DOMAIN, ipv4.gdt.qq.com, REJECT
+# QQ空间
+DOMAIN,sq.bls.mdt.qq.com,reject
+DOMAIN,adsmind.gdtimg.com,reject
+DOMAIN,xj-landing.gdtimg.com,reject
