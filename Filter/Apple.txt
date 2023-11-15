@@ -19,7 +19,8 @@ DOMAIN, securemetrics.apple.com, REJECT
 DOMAIN, webproxy-advp.iad-apple.com, REJECT
 DOMAIN, webproxy-advp.iad-apple.com.akadns.net, REJECT
 DOMAIN-SUFFIX, advp.apple.com, REJECT
+DOMAIN-SUFFIX, iad-apple.com, REJECT
 DOMAIN-SUFFIX, iadsdk.apple.com, REJECT
 
-DOMAIN, securemvt.apple.com, reject 
-DOMAIN, securemvt.apple.com.cn, reject
+DOMAIN, securemvt.apple.com, REJECT 
+DOMAIN, securemvt.apple.com.cn, REJECT
