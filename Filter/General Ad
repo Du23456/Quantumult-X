@@ -1,0 +1,11 @@
+#广告联盟
+
+DOMAIN, i.snssdk.com, REJECT
+DOMAIN, is.snssdk.com, REJECT
+DOMAIN, mi.gdt.qq.com, REJECT
+DOMAIN, open.e.kuaishou.com, REJECT
+DOMAIN-SUFFIX, miaozhen.com, REJECT
+DOMAIN-KEYWORD, pangolin-sdk-toutiao, REJECT
+DOMAIN-KEYWORD, pangolin.snssdk.com, REJECT
+DOMAIN-KEYWORD, pglstatp-toutiao, REJECT
+DOMAIN-KEYWORD, video-cn.snssdk.com, REJECT
