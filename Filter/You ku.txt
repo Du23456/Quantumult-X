@@ -6,6 +6,8 @@
 DOMAIN, adsmind.ugdtimg.com, REJECT
 DOMAIN, amdc.m.youku.com, REJECT
 DOMAIN, apiv4-iyes.youku.com, REJECT
+DOMAIN, baichuan-sdk.alicdn.com, REJECT
+DOMAIN, cad.youku.com, REJECT
 DOMAIN, huichuan-mc.sm.cn, REJECT
 DOMAIN, huichuan.sm.cn, REJECT
 DOMAIN, iyes.youku.com, REJECT
