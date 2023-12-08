@@ -1,4 +1,7 @@
-# > 谷歌
+#!name = Google
+#!desc = 谷歌去广告
+#!author = RuCu6
+#!date = 2023-12-8 14:06
 
 DOMAIN, pagead2.googlesyndication.com, REJECT
 DOMAIN, www.googleadservices.com, REJECT
