@@ -4,19 +4,19 @@
 #!openUrl =
 #!homepage = https://github.com/Du23456/Quantumult-X/tree/main
 #!icon = https://pp.myapp.com/ma_icon/0/icon_7193_1690885589/256
-#!date = 2023-11-29 19:53
+#!date = 2023-12-16 17:54
 
 #[rewrite_local]
 ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/jingdong.js
-^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|stationPullService|uniformRecommend) url reject-dict
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|stationPullService|uniformRecommend[06]) url reject-dict
 
 # 禁京东DNS解析 
-^https?:\/\/dns\.jd\.com\/ url reject
-^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(server|basic)Config url response-body "dnsvip"\:".+" response-body "dnsvip":""
+#^https?:\/\/dns\.jd\.com\/ url reject
+#^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(server|basic)Config url response-body "dnsvip"\:".+" response-body "dnsvip":""
 # 禁京东直播小窗
-^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=getWidgetV1052 url reject
+#^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=getWidgetV1052 url reject
 # 禁京东直播(慎用！店铺页面无活动弹窗、无关注按钮、无法观看直播)
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(live|getShopHomeExtendInfo|getImmediatePlayV910) url reject
 
 #[mitm]
-hostname=api.m.jd.com,dns.jd.com
+hostname=api.m.jd.com
