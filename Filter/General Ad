@@ -1,10 +1,17 @@
 #广告联盟
 
+DOMAIN, ad.zijieapi.com, REJECT
 DOMAIN, i.snssdk.com, REJECT
 DOMAIN, is.snssdk.com, REJECT
-DOMAIN, mi.gdt.qq.com, REJECT
 DOMAIN, open.e.kuaishou.com, REJECT
+DOMAIN, pagead2.googlesyndication-cn.com, REJECT
+DOMAIN, pagead2.googlesyndication.com, REJECT
+DOMAIN, www.googleadservices.com, REJECT
+DOMAIN-SUFFIX, adservice.google.com, REJECT
 DOMAIN-SUFFIX, miaozhen.com, REJECT
+DOMAIN-KEYWORD, -ad-sign.byteimg.com, REJECT
+DOMAIN-KEYWORD, ads.g.doubleclick, REJECT
+DOMAIN-KEYWORD, asiad.byteactivity, REJECT
 DOMAIN-KEYWORD, pangolin-sdk-toutiao, REJECT
 DOMAIN-KEYWORD, pangolin.snssdk.com, REJECT
 DOMAIN-KEYWORD, pglstatp-toutiao, REJECT
