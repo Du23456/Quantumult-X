@@ -6,18 +6,16 @@
 #!icon = https://pp.myapp.com/ma_icon/0/icon_1029694_1691569132/256
 #!date = 2023-5-10 23:00
 
-^https:\/\/(nr-op|cube)\.elemecdn\.com\/.+\.jpeg\?x-oss-process=image\/resize,m_fill,w_\d{4,},h_\d{4,}\/($|format,webp\/$) url reject
-^https?:\/\/elemecdn.com\/.+\/sitemap url reject
-^https?:\/\/fuss10.elemecdn.com\/.+\/w\/640\/h\/\d{3,4} url reject
-^https?:\/\/fuss10.elemecdn.com\/.+\/w\/750\/h\/\d{3,4} url reject
+# 开屏广告
+^https?:\/\/elemecdn\.com\/.+\/sitemap url reject
+^https?:\/\/fuss10\.elemecdn\.com\/.+\/w\/640\/h\/\d{3,4} url reject
+^https?:\/\/fuss10\.elemecdn\.com\/.+\/w\/750\/h\/\d{3,4} url reject
 ^https?:\/\/fuss10\.elemecdn\.com\/.+?\.mp4 url reject-img
 ^https?:\/\/cube\.elemecdn\.com\/[\w\/]+\.jpeg\?x-oss-process=image\/resize,m_fill,w_1\d{3},h_2\d{3}\/format,webp\/ url reject
 ^https?:\/\/cube\.elemecdn\.com\/[\w\/]+\.jpeg\?x-oss-process=image\/resize,m_fill,w_6\d{2},h_8\d{2}\/format,webp\/ url reject
 ^https?:\/\/cube\.elemecdn\.com\/[\w\/]+\.jpeg\?x-oss-process=image\/resize,m_fill,w_\d{3},h_\d{4}\/format,webp\/ url reject
 ^https?:\/\/cube\.elemecdn\.com\/\w\/\w{2}\/\w+mp4\.mp4\? url reject
-^https?:\/\/elemecdn\.com\/.+?\/sitemap url reject-img
 ^https?:\/\/www1\.elecfans\.com\/www\/delivery\/ url reject
+^https:\/\/(nr-op|cube)\.elemecdn\.com\/.+\.jpeg\?x-oss-process=image\/resize,m_fill,w_\d{4,},h_\d{4,}\/($|format,webp\/$) url reject
 
-^https?:\/\/i\.ys7\.com\/api\/ads url reject
-
-hostname=elemecdn.com,fuss10.elemecdn.com,cube.elemecdn.com,www1.elecfans.com,i.ys7.com
+hostname = elemecdn.com, fuss10.elemecdn.com, cube.elemecdn.com, www1.elecfans.com, nr-op.elemecdn.com
