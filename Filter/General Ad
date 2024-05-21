@@ -1,14 +1,24 @@
 #广告联盟
 
 DOMAIN, ad.zijieapi.com, REJECT
-DOMAIN, i.snssdk.com, REJECT
+DOMAIN, init.supersonicads.com, REJECT
 DOMAIN, is.snssdk.com, REJECT
 DOMAIN, open.e.kuaishou.com, REJECT
+DOMAIN, open.kuaishou.com, REJECT
 DOMAIN, pagead2.googlesyndication-cn.com, REJECT
 DOMAIN, pagead2.googlesyndication.com, REJECT
+DOMAIN, ws.tapjoyads.com, REJECT
 DOMAIN, www.googleadservices.com, REJECT
+DOMAIN-SUFFIX, ads.linkedin.com, REJECT
+DOMAIN-SUFFIX, ads.vungle.com, REJECT
 DOMAIN-SUFFIX, adservice.google.com, REJECT
+DOMAIN-SUFFIX, applovin.com, REJECT
+DOMAIN-SUFFIX, applvn.com, REJECT
+DOMAIN-SUFFIX, appsflyer.com, REJECT
+DOMAIN-SUFFIX, appsflyersdk.com, REJECT
+DOMAIN-SUFFIX, kuaishouzt.com, REJECT
 DOMAIN-SUFFIX, miaozhen.com, REJECT
+DOMAIN-SUFFIX, unityads.unity3d.com, REJECT
 DOMAIN-KEYWORD, -ad-sign.byteimg.com, REJECT
 DOMAIN-KEYWORD, ads.g.doubleclick, REJECT
 DOMAIN-KEYWORD, asiad.byteactivity, REJECT
