@@ -3,4 +3,5 @@
 #!author = RuCu6
 #!date = 2023-11-13 22:26
 
+DOMAIN, huodong.weibo.cn, REJECT
 DOMAIN-SUFFIX, biz.weibo.com, REJECT
