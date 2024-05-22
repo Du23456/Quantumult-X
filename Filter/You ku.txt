@@ -21,3 +21,4 @@ DOMAIN, vali-g1.cp31.ott.cibntv.net, REJECT
 DOMAIN, vali-ugc.cp31.ott.cibntv.net, REJECT
 DOMAIN, yk-ssp.ad.youku.com, REJECT
 DOMAIN, ykad-data.youku.com, REJECT
+DOMAIN, youku-acs.m.taobao.com, REJECT
