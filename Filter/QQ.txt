@@ -1,6 +1,9 @@
 # QQ
-DOMAIN, ipv4.gdt.qq.com, REJECT
+#DOMAIN, ipv4.gdt.qq.com, REJECT
 # QQ空间
-DOMAIN,sq.bls.mdt.qq.com,reject
-DOMAIN,adsmind.gdtimg.com,reject
-DOMAIN,xj-landing.gdtimg.com,reject
+#DOMAIN,sq.bls.mdt.qq.com,reject
+#DOMAIN,xj-landing.gdtimg.com,reject
+
+DOMAIN, adsmind.gdtimg.com, REJECT
+DOMAIN, pgdt.gtimg.cn, REJECT
+DOMAIN-SUFFIX, gdt.qq.com, REJECT
