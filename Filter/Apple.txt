@@ -13,14 +13,7 @@ DOMAIN, iadctest.qwapi.com, REJECT
 DOMAIN, iadmoo.apple.com, REJECT
 DOMAIN, iadworkbench.apple.com, REJECT
 DOMAIN, launch.apple.com, REJECT
-DOMAIN, metrics.apple.com, REJECT
 DOMAIN, qwapi.apple.com, REJECT
-DOMAIN, securemetrics.apple.com, REJECT
-DOMAIN, webproxy-advp.iad-apple.com, REJECT
-DOMAIN, webproxy-advp.iad-apple.com.akadns.net, REJECT
 DOMAIN-SUFFIX, advp.apple.com, REJECT
 DOMAIN-SUFFIX, iad-apple.com, REJECT
 DOMAIN-SUFFIX, iadsdk.apple.com, REJECT
-
-DOMAIN, securemvt.apple.com, REJECT 
-DOMAIN, securemvt.apple.com.cn, REJECT
