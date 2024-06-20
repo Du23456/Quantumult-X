@@ -6,8 +6,9 @@
 #!icon = https://play-lh.googleusercontent.com/hSRuCp9qVkxNYLYibPYyra4bQLYDyHg40TA1Cu6i9Z3HsWEgS1q076VfjacAdQquHw=w480-h960
 #!date = 2023-7-9 18:26
 
-^https?:\/\/api\.mcd\.cn\/bff\/portal\/home\/splash url reject-200
-#微信小程序净化
-^https:\/\/api\.mcd\.cn\/bff\/portal\/home\/hotActivity url reject-dict
+# 开屏广告 首页弹窗
+https:\/\/api\.mcd\.cn\/bff\/portal\/(home\/hotActivity|splash|richpop) url reject
+# 微信小程序净化
+#^https:\/\/api\.mcd\.cn\/bff\/portal\/home\/hotActivity url reject-dict
 
 hostname=api.mcd.cn
