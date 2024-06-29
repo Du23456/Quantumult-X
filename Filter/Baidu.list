@@ -1,0 +1,10 @@
+#!name = 百度
+#!desc = 百度去广告
+#!author = RuCu6
+#!date = 2023-7-5 14:55
+
+#[filter_local]
+DOMAIN, mobads.baidu.com, REJECT
+DOMAIN-SUFFIX, pos.baidu.com, REJECT
+IP-CIDR, 180.76.76.112/32, REJECT
+IP-CIDR, 180.76.76.200/32, REJECT

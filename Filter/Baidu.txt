@@ -1,7 +1,0 @@
-# 更新时间:2023-7-5 14:55
-# > 百度
-
-HOST, mobads.baidu.com, REJECT
-HOST-SUFFIX, pos.baidu.com, REJECT
-IP-CIDR, 180.76.76.112/32, REJECT
-IP-CIDR, 180.76.76.200/32, REJECT
