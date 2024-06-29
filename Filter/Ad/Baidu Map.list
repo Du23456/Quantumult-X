@@ -1,4 +1,9 @@
-#百度地图
+#!name = 百度地图
+#!desc = 百度地图去广告
+#!author = RuCu6
+#!date = 2023-12-8 14:06
+
+#[filter_local]
 DOMAIN, afd.baidu.com, REJECT
 DOMAIN, afdconf.baidu.com, REJECT
 DOMAIN, lc.map.baidu.com, REJECT
