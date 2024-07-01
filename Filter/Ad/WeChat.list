@@ -1,0 +1,10 @@
+#!name = 微信
+#!desc = 微信去广告
+#!author = RuCu6
+#!date = 2023-12-8 14:06
+
+#[filter_local]
+DOMAIN, wxsnsdy.wxs.qq.com, REJECT
+DOMAIN, wxsnsdythumb.wxs.qq.com, REJECT
+# 微信小程序通用规则
+DOMAIN, wxsmsdy.video.qq.com, REJECT

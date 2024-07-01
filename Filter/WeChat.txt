@@ -1,5 +1,0 @@
-# 微信
-DOMAIN, wxsnsdy.wxs.qq.com, REJECT
-DOMAIN, wxsnsdythumb.wxs.qq.com, REJECT
-# 微信小程序通用规则
-DOMAIN, wxsmsdy.video.qq.com, REJECT
