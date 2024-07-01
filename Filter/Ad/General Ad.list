@@ -1,5 +1,9 @@
-#广告联盟
+#!name = 广告联盟
+#!desc = 通用去广告
+#!author = RuCu6
+#!date = 2023-12-8 14:06
 
+#[filter_local]
 DOMAIN, ad.zijieapi.com, REJECT
 DOMAIN, init.supersonicads.com, REJECT
 DOMAIN, is.snssdk.com, REJECT
