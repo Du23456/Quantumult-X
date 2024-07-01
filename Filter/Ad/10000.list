@@ -1,9 +1,11 @@
 #!name = 中国电信
 #!desc = 中国电信去广告
-#!author = fmz200
-#!date = 2023-5-20 22:35
+#!author = Yi Ke 
+#!date = 2024-7-1 12:21
 
-DOMAIN,ad.21cn.com, reject
-DOMAIN,ad.k.21cn.com, reject
-DOMAIN,admarket.21cn.com, reject
-DOMAIN,adshows.21cn.com, reject
+DOMAIN,ad.21cn.com, REJECT
+DOMAIN,ad.k.21cn.com, REJECT
+DOMAIN,admarket.21cn.com, REJECT
+DOMAIN,adshows.21cn.com, REJECT
+IP-CIDR, 122.229.8.47/32, REJECT
+IP-CIDR, 122.229.29.89/32, REJECT
