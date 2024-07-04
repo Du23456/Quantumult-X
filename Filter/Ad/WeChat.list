@@ -6,4 +6,4 @@
 #[filter_local]
 DOMAIN, badjs.weixinbridge.com, REJECT
 # 微信小程序通用规则
-DOMAIN, wxsmsdy.video.qq.com, REJECT
+#DOMAIN, wxsmsdy.video.qq.com, REJECT
