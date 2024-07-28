@@ -6,6 +6,8 @@
 #!icon = https://pp.myapp.com/ma_icon/0/icon_10045746_1691560809/256
 #!date = 2024-7-28 23:00
 
+#[rewrite_local]
 ^https:\/\/res\.kfc\.com\.cn\/advertisement url reject
 
+#[mitm]
 hostname=res.kfc.com.cn
