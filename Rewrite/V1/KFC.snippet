@@ -9,5 +9,11 @@
 #[rewrite_local]
 ^https:\/\/res\.kfc\.com\.cn\/advertisement url reject
 
+# > 肯德基 微信小程序净化
+^https:\/\/orders\.kfc\.com\.cn\/preorder-portal\/api\/v2\/coupon url reject-dict
+^https:\/\/dynamicad\.kfc\.com\.cn\/api url reject-dict
+^https:\/\/res\.kfc\.com\.cn\/CRM\/kfcad\/custom_v2\/wxapp url reject-dict
+^https:\/\/orders\.kfc\.com\.cn\/preorder-portal\/api\/v2\/activity url reject-dict
+
 #[mitm]
 hostname=res.kfc.com.cn
