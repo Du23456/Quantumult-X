@@ -1,10 +1,10 @@
 #!name = 餐饮类微信小程序去广告
-#!desc = 谷歌去广告
+#!desc = 茶颜悦色、奈雪、喜茶、蜜雪冰城、罗森点点、COCO点单、茶百道、老乡鸡、一点点、Manner、M Stand、LINLEE、挪瓦咖啡、古茗
 #!author = fmz200
 #!date = 2024-7-29 14:06
 
-
-# > 茶颜悦色 微信小程序净化
+#[rewrite_local]
+#茶颜悦色 微信小程序净化
 ^https:\/\/miniapp\.sexytea2013\.com\/cms\/slot\/queryByCodes\?codes=INDEX_TOP_BANNER url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/scripts/cyys.js
 
 #奈雪 微信小程序净化
@@ -53,4 +53,5 @@
 #古茗 微信小程序净化
 ^https:\/\/newton\.gumingnc\.com\/newton-buyer\/newton\/buyer\/(ump|touch|external\/front) url script-response-body https://raw.githubusercontent.com/jizhi0520/QX/main/ming.js
 
+#[mitm]
 hostname=miniapp.sexytea2013.com,tm-api.pin-dao.cn,go.heytea.com,mxsa.mxbc.net,lawsonapi.yorentown.com,plt.yorentown.com,coco-com.e.verystar.net,cbd-gateway-service-applets.hualala.com,member.lxjchina.com.cn,cappapi.alittle-tea.com,alittle-tea.oss-cn-shanghai.aliyuncs.com,triangle.wearemanner.com,api.prod.dj.mstand.cn,api.prod.dj.mstand.cn,webapi.qmai.cn,webapi.qmai.cn,images.qmai.cn,newton.gumingnc.com
