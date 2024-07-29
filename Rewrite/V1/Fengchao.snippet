@@ -1,13 +1,49 @@
-#!name = 丰巢（App+小程序）
-#!desc = 丰巢App、微信小程序去广告
+#!name = 快递类小程序去广告
+#!desc = 丰巢(小程序+App)、达达快送、德邦快递、EMS、货拉拉、极兔快递、申通快递、闪送、微快递、中通快递
 #!author = fmz200
-#!date = 2024-7-28 14:06
+#!date = 2024-7-29 21:06
 
 [rewrite_local]
+# > 丰巢App
 ^https?:\/\/consumer\.fcbox\.com\/v\d\/ad\/ url reject
 # > 丰巢 微信小程序净化
 ^https:\/\/webchatapp\.fcbox\.com\/fcboxactivityweb\/api\/v2\/clientPage url reject-dict
 ^https:\/\/dsp\.fcbox\.com url reject-dict
 
+# > 达达快送 微信小程序净化
+^https:\/\/supplier-api\.imdada\.cn\/fe\/public\/ad\/spot\?forwardServiceName=growth-activity url reject-dict
+
+# > 德邦快递 微信小程序净化（删除Top轮播）
+^https:\/\/www\.deppon\.com\/gwapi\/memberService\/eco\/member\/grade\/commonInterface url reject-dict
+
+# > EMS 微信小程序净化 由TEXAS和豆豆提供
+^https:\/\/ump\.ems\.com\.cn\/new-generation-extend\/redis\/pageInfoByChannel url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/ems.js
+
+# > 货拉拉 微信小程序净化
+^https:\/\/qapi\.huolala\.cn\/ads url reject-dict
+^https:\/\/appuser-static\.huolala\.cn\/imgs url reject-dict
+^https:\/\/qapi\.huolala\.cn\/home_new_user url reject-dict
+^https:\/\/qapi\.huolala\.cn\/get_service_list url reject-dict
+
+# > 极兔快递 微信小程序净化
+^https:\/\/applets\.jtexpress\.com\.cn url reject-dict
+
+# > 申通快递 微信小程序净化
+^https:\/\/customer-app\.sto\.cn\/api\/app\/banner\/banner url reject-dict
+^https:\/\/sto-customer-app\.oss-cn-shanghai\.aliyuncs\.com\/images url reject-dict
+
+# > 闪送 微信小程序净化
+^https:\/\/miniprogram\.ishansong\.com\/cms\/faq\/query url reject-dict
+^https:\/\/ads\.ishansong\.com\/advert url reject-dict
+
+# > 微快递 微信小程序净化
+^https:\/\/api\.kuaidihelp\.com\/g_order_core\/v2\/mina\/User\/getBannerList url reject-dict
+
+# > 中通快递 微信小程序净化
+^https:\/\/hdgateway\.zto\.com\/getApolloConfig url reject-dict
+^https:\/\/hdgateway\.zto\.com\/track url reject-dict
+^https:\/\/hdgateway\.zto\.com\/getAdInfo url reject-dict
+^https:\/\/hdgateway\.zto\.com\/listJumperShow url reject-dict
+
 [mitm]
-hostname=webchatapp.fcbox.com, dsp.fcbox.com, consumer.fcbox.com
+hostname=webchatapp.fcbox.com, dsp.fcbox.com, consumer.fcbox.com, supplier-api.imdada.cn, www.deppon.com, ump.ems.com.cn, qapi.huolala.cn, appuser-static.huolala.cn, applets.jtexpress.com.cn, customer-app.sto.cn, sto-customer-app.oss-cn-shanghai.aliyuncs.com, miniprogram.ishansong.com, ads.ishansong.com, api.kuaidihelp.com, hdgateway.zto.com
