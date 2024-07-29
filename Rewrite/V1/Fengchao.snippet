@@ -3,7 +3,7 @@
 #!author = fmz200
 #!date = 2024-7-29 21:06
 
-[rewrite_local]
+#[rewrite_local]
 # > 丰巢App
 ^https?:\/\/consumer\.fcbox\.com\/v\d\/ad\/ url reject
 # > 丰巢 微信小程序净化
@@ -45,5 +45,5 @@
 ^https:\/\/hdgateway\.zto\.com\/getAdInfo url reject-dict
 ^https:\/\/hdgateway\.zto\.com\/listJumperShow url reject-dict
 
-[mitm]
+#[mitm]
 hostname=webchatapp.fcbox.com, dsp.fcbox.com, consumer.fcbox.com, supplier-api.imdada.cn, www.deppon.com, ump.ems.com.cn, qapi.huolala.cn, appuser-static.huolala.cn, applets.jtexpress.com.cn, customer-app.sto.cn, sto-customer-app.oss-cn-shanghai.aliyuncs.com, miniprogram.ishansong.com, ads.ishansong.com, api.kuaidihelp.com, hdgateway.zto.com
