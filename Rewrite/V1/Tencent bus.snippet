@@ -1,11 +1,22 @@
-#!name = 微信腾讯乘车码小程序
-#!desc = 微信腾讯乘车码小程序去广告
+#!name = 乘车码类微信小程序去广告
+#!desc = 腾讯乘车码、石家庄公交乘车码、广州地铁乘车码、掌上公交
 #!author = fmz200
 #!openUrl =
 #!homepage = https://github.com/Du23456/Quantumult-X/tree/main
 #!icon = https://syimg.3dmgame.com/uploadimg/ico/2020/0102/1577959136296544.png
 #!date = 2023-5-10 23:00
    
+# > 乘车码 @jinlvei
 ^https:\/\/ccmsupport-sz\.tenpay\.com\/cgi-bin\/common\/ccm_page_element.cgi url reject
 
-hostname=ccmsupport-sz.tenpay.com
+# > 石家庄公交乘车码 微信小程序净化
+^https:\/\/wechat-api\.i-xiaoma\.com\.cn\/app\/v1\/bus\/wechat\/content url reject-dict
+
+# > 广州地铁乘车码 微信小程序净化
+^https:\/\/apis\.alenable\.com\/mall\/v1\/api\/mall\/skin\/user\/get url reject-dict
+^https:\/\/apis\.alenable\.com\/ycx\/v1\/api\/adPut url reject-dict
+
+# > 掌上公交
+^https?:\/\/wx\.mygolbs\.com\/WxBusServer\/ApiData\.do url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/zhangshanggongjiao.js
+
+hostname = ccmsupport-sz.tenpay.com, wechat-api.i-xiaoma.com.cn, apis.alenable.com, wx.mygolbs.com
