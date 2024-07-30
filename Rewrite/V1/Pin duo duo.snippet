@@ -1,0 +1,14 @@
+#!name=拼多多
+#!desc=拼多多去广告
+#!author=fmz200
+#!date=2023-11-30 19:36:00
+
+#[rewrite_local]
+# > 拼多多
+^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash url reject
+# 多多买菜
+# 开屏广告
+^https?:\/\/mobile\.yangkeduo\.com\/proxy\/api\/api\/express\/post\/waybill\/red_packet\/goods_list$ url response-body "list":\[.+\] response-body "list":[]
+
+#[mitm]
+ hostname = api.pinduoduo.com, api.yangkeduo.com, mobile.yangkeduo.com
