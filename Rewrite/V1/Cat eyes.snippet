@@ -1,7 +1,7 @@
 #!name=猫眼电影(App+小程序)
 #!desc=猫眼电影App、微信小程序去广告
 #!author=fmz200
-#!date=2023-11-30 19:36:00
+#!date=2024-7-30 19:36:00
 
 #[rewrite_local]
 # 开屏广告
@@ -9,11 +9,11 @@
 ^https:\/\/p0\.pipi\.cn\/adAdmin\/\w+\.(jpg|png)\?imageMogr2\/thumbnail\/(860x0|!165x165|!1049x1169) url reject-dict
 
 # > 猫眼电影小程序
-# 弹窗广告+横幅广告 #主机名ad.maoyan.com
+# 弹窗广告+横幅广告
 ^https:\/\/ad\.maoyan\.com\/api\/position\/detail url reject-dict
-# 电竞赛事+热门赛事 #主机名wx.maoyan.com
+# 电竞赛事+热门赛事
 ^https:\/\/wx\.maoyan\.com\/maoyansh\/api\/mobile\/(hotMatchList|eSportsIps) url reject-dict
-# 猫眼放映厅 #主机名vod-movie.maoyan.com
+# 猫眼放映厅
 ^https:\/\/vod-movie\.maoyan\.com\/vod\/video\/onlineMovies\.json url reject-dict
 # 精彩演出
 ^https:\/\/wx\.maoyan\.com\/maoyansh\/myshow\/ajax\/movie\/wonderShow url reject-dict
@@ -31,4 +31,4 @@
 ^https:\/\/wx\.maoyan\.com\/maoyansh\/myshow\/ajax\/ad\/detail url reject-dict
 
 #[mitm]
-hostname = p0.pipi.cn
+hostname = p0.pipi.cn, ad.maoyan.com, wx.maoyan.com, vod-movie.maoyan.com, wx.maoyan.com, api.maoyan.com
