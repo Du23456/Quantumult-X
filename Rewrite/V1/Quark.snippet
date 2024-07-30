@@ -1,0 +1,10 @@
+#!name = 夸克
+#!desc = 夸克去广告
+#!author = fmz200
+#!date = 2024-7-30 19:49
+
+#[rewrite_local]
+^https?:\/\/open-cms-api\.(uc|quark)\.cn\/open-cms url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/quark.js
+
+#[mitm]
+hostname = open-cms-api.uc.cn, open-cms-api.quark.cn
