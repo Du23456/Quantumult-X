@@ -1,8 +1,9 @@
-# 更新时间:2023-5-10 23:00
-# 充电类微信小程序
-# 7⃣️https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cleanup.snippet
+#!name = 充电类微信小程序去广告
+#!desc = 怪兽充电、
+#!author = fmz200、小电充电、街电、搜电充电、来电、美团充电宝
+#!date = 2024-7-30 20:51
 
-#####7⃣️#####
+#[rewrite_local]
 # 怪兽充电 微信小程序
 ^https:\/\/aag\.enmonster\.com\/apa\/index\/advert\/skin url reject
 
@@ -19,4 +20,8 @@
 # 来电 小程序净化
 ^https:\/\/mobile-api\.imlaidian\.com\/api\/args url reject-dict
 
-hostname=aag.enmonster.com,smarket.dian.so,file.dian.so,s.jiediankeji.com,wxs-weixin.sd.zhumanggroup.com,mobile-api.imlaidian.com
+# > 美团充电宝小程序
+^https?:\/\/cdb\.meituan\.com\/marketing\/source\/getPageSlotList url reject-dict
+
+#[mitm]
+hostname=aag.enmonster.com,smarket.dian.so,file.dian.so,s.jiediankeji.com,wxs-weixin.sd.zhumanggroup.com,mobile-api.imlaidian.com,cdb.meituan.com
