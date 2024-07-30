@@ -1,0 +1,38 @@
+#!name=出行类微信小程序去广告
+#!desc=曹操出行、嘀嗒出行、滴滴出行、滴滴打车、花小猪打车、神州租车、松果出行、首汽约车、T3出行、享道出行
+#!author=fmz200
+#!date=2024-7-30 19:36
+
+# > 曹操出行 微信小程序净化
+^https:\/\/minicap\.caocaokeji\.cn\/advert-bss\/pullAdvert url reject-dict
+
+# > 滴滴出行 微信小程序个人中心净化 由TEXAS和豆豆提供
+^https:\/\/common\.diditaxi\.com\.cn\/common\/v5 url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/didi/didi.js
+# > 滴滴打车 小程序净化 感谢#豆豆分享
+^https:\/\/conf\.diditaxi\.com\.cn\/homepage\/v1\/core url reject-dict
+
+# > 嘀嗒出行 小程序净化 感谢#豆豆分享
+^https:\/\/capis(-\d)?\.didapinche\.com\/adbase url reject
+
+# > 花小猪打车 微信小程序净化
+^https:\/\/res\.hongyibo\.com\.cn\/os\/gs\/resapi\/activi
+
+# > 神州租车 微信小程序净化
+^https:\/\/apiproxy\.zuche\.com\/resource\/carrctapi\/home\/marketing url reject-dict
+^https:\/\/apiproxy\.zuche\.com\/resource\/carrctapi\/home\/page\/advertising url reject-dict
+
+# > 松果出行 @keywos
+^https:\/\/api\.songguo7\.com\/(\w{3})?mp\/v2\/misc\/(toast|user_operate_info) url reject-dict
+
+# > 首汽约车 微信小程序净化
+^https:\/\/gw-passenger-wap\.01zhuanche\.com\/gw-passenger-wap\/zhuanche-passenger-token\/commonSkipToken\/common\/getAdList url reject-dict
+
+# > T3出行 微信小程序净化
+^https:\/\/passenger\.t3go\.cn\/(solution\-|common\-)?(passenger\-)?(activity\-|app\-)?api\/notoken\/(trip\/)?api\/(home\/|common\/)?(v[1-3]\/)?(ad\/getNegativescreen|solution\/passenger\/open\/getHomeMenu|leftmenu|getHomeInfoGlobal) url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/T3.js
+^https:\/\/passenger\.t3go\.cn\/passenger-activity-api\/notoken\/api\/v1\/resource\/getSource url reject-dict
+
+# > 享道出行 微信小程序净化
+^https:\/\/passengerapi\.saicmobility\.com\/(ad\/requestAd|pay\/v1\/queryOpenedCouponPackages) url reject-dict
+
+
+hostname = minicap.caocaokeji.cn, common.diditaxi.com.cn, conf.diditaxi.com.cn, capis*.didapinche.com, api.hongyibo.com.cn, apiproxy.zuche.com, api.songguo7.com, gw-passenger-wap.01zhuanche.com, passenger.t3go.cn, 
