@@ -1,12 +1,12 @@
-#!name=猫眼电影(App+小程序)
-#!desc=猫眼电影App、微信小程序去广告
-#!author=fmz200
-#!date=2024-7-30 19:36:00
+#!name= 猫眼电影(App+小程序)
+#!desc= 猫眼电影App、微信小程序去广告
+#!author= RuCu6 fmz200
+#!date= 2024-7-30 19:36:00
 
 #[rewrite_local]
 # 开屏广告
-^https:\/\/p0\.pipi\.cn\/adAdmin\/\w+\.jpg\?imageMogr2\/quality\/ url reject-dict
-^https:\/\/p0\.pipi\.cn\/adAdmin\/\w+\.(jpg|png)\?imageMogr2\/thumbnail\/(860x0|!165x165|!1049x1169) url reject-dict
+^https:\/\/p0\.pipi\.cn\/(adAdmin|mediaplus\/maoyantong_ads_fe)\/\w+\.jpg\?imageMogr2\/quality\/ url reject-dict
+^https:\/\/p0\.pipi\.cn\/(adAdmin|mediaplus\/maoyantong_ads_fe)\/\w+\.(jpg|png)\?imageMogr2\/thumbnail\/(860x0|!165x165|!1049x1169) url reject-dict
 
 # > 猫眼电影小程序
 # 弹窗广告+横幅广告
