@@ -1,0 +1,14 @@
+#!name = 丰巢(App+小程序）
+#!desc = 丰巢App、微信小程序去广告
+#!author = fmz200
+#!date = 2023-12-8 14:06
+
+#[rewrite_local]
+# > 丰巢App
+^https?:\/\/consumer\.fcbox\.com\/v\d\/ad\/ url reject
+# > 丰巢 微信小程序净化
+^https:\/\/webchatapp\.fcbox\.com\/fcboxactivityweb\/api\/v2\/clientPage url reject-dict
+^https:\/\/dsp\.fcbox\.com url reject-dict
+
+#[mitm]
+hostname=consumer.fcbox.com, webchatapp.fcbox.com, dsp.fcbox.com
