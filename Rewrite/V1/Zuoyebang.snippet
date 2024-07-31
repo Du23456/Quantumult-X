@@ -1,0 +1,10 @@
+#!name = 作业帮
+#!desc = 作业帮去广告
+#!author = RuCu6
+#!date = 2023-12-8 14:06
+
+#[rewrite_local]
+^https?:\/\/syh\.zybang\.com\/com\/adx\/impress url reject-200
+
+#[mitm]
+hostname=syh.zybang.com
