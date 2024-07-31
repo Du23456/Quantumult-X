@@ -6,6 +6,7 @@
 #!icon = 
 #!date = 2023-11-12 21:06
 
+#[rewrite_local]
 ^https:\/\/us\.l\.qq\.com\/exapp url reject
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/t_splash_info\/ url reject
 ^https?:\/\/.+?\/music\/common\/upload\/t_splash_info\/ url reject
@@ -13,4 +14,5 @@
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/targeted_ads url reject-img
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/music\/common\/upload\/t_splash_info\/ url reject
 
+#[mitm]
 hostname=us.l.qq.com,y.gting.cn
