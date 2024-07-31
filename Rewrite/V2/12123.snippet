@@ -1,0 +1,10 @@
+#!name = 交管12123
+#!desc = 交管12123去广告
+#!author = RuCu6
+#!date = 2023-12-8 14:06
+
+#[rewrite_local]
+^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$ url reject
+
+#[mitm]
+hostname=gab.122.gov.cn
