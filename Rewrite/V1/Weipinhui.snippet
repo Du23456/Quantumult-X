@@ -1,15 +1,16 @@
-#更新时间:2023-5-10 23:00
-# > 唯品会
+#!name = 唯品会(App+小程序)
+#!desc = 唯品会App、微信小程序去广告
+#!author = RuCu6
+#!date = 2023-12-8 14:06
 
-#####6⃣️#####
+#[rewrite_local]
+^https?:\/\/b\.appsimg\.com\/upload\/momin url reject
 ^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/get url reject-200
+^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/iosAdInfo\/report url reject
 # APP+小程序弹窗广告
 ^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/layout\/productList\/eventData\/v url reject-200
 # 右下角悬浮窗，需手动关闭广告一次
 ^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/coupon\/float_entrance\/get\?api_key url reject-200
-#####3⃣️#####
-https://b.appsimg.com/upload/momin/ url reject
-https://mapi.appvipshop.com/vips-mobile/rest/activity/advertisement/get url reject
-^https:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/iosAdInfo\/report url reject
 
-hostname=mapi.appvipshop.com,b.appsimg.com
+#[mitm]
+hostname = b.appsimg.com, mapi.appvipshop.com
