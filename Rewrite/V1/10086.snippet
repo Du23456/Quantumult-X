@@ -1,27 +1,27 @@
-#!name = 中国移动
-#!desc = 中国移动去广告，建议在App设置中关闭弹窗广告
-#!author = fmz200 zwf234
+#!name = 中国移动+中国移动云盘
+#!desc = 中国移动/中国移动云盘去广告
+#!author = RuCu6 fmz200
 #!openUrl =
 #!homepage = https://github.com/Du23456/Quantumult-X/tree/main
 #!icon = https://pp.myapp.com/ma_icon/0/icon_1105826_1691400763/256
 #!date = 2023-5-10 23:00
 
 #[rewrite_local]
-^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit url reject-200
-# 多个悬浮窗 
-^https:\/\/(client\.app\.coc|h\.app\.coc|app)\.10086\.cn\/biz-orange\/DN\/emotionMarket url reject
-# > 中国移动云盘
+# 中国移动
+^https:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/(explorePage\/getAdverList|init\/startInit) url reject-dict
+
+# 多个悬浮窗 @fmz200
+^https?:\/\/(client\.app\.coc|h\.app\.coc|app)\.10086\.cn\/biz-orange\/DN\/emotionMarket url reject
+
+# 中国移动云盘
+^https:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/ url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cloud139.js
+^https:\/\/jzts\.cmpassport\.com\/personalized\/getPushContent url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cloud139.js
+
+# 中国移动云盘 @fmz200
 ^https?:\/\/mcmm\.caiyun\.feixin\.10086\.cn:80\/mcmm\/api\/IAdvert url reject-200
 ^https?:\/\/mcmm\.caiyun\.feixin\.10086\.cn:80\/mcmm\/api\/v\d\/getAdverts url reject-200
 ^https?:\/\/middle\.yun\.139\.com\/openapi\/cardConfig\/queryCardInfoV3 url reject-200
-^https:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/adv-filter\/AdInfoFilter\/getAdInfos url reject-dict
-
-^https?:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit url reject
-^https?:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v\d\/market_content\.page\.query url reject
-
-^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList url reject-200
-
-^https:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/adv-filter\/AdInfoFilter\/getAdInfos url reject-dict
+^https?:\/\/mrp\.mcloud\.139\.com\/mc\/mc-client-service\/openapi\/letter\/query url reject-dict
 
 #[mitm]
-hostname=client.app.coc.10086.cn, clientaccess.10086.cn, wap.js.10086.cn, ad.mcloud.139.com, mcmm.caiyun.feixin.10086.cn, middle.yun.139.com, 10086.online-cmcc.cn
+hostname = client.app.coc.10086.cn, h.client.app.coc.10086.cn, app.10086.cn, ad.mcloud.139.com, jzts.cmpassport.com, mcmm.caiyun.feixin.10086.cn, mrp.mcloud.139.com, middle.yun.139.com
