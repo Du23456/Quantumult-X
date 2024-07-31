@@ -1,0 +1,23 @@
+#!name = 小米商城
+#!desc = 小米商城去广告
+#!author = RuCu6 fmz200
+#!date = 2023-12-8 14:06
+
+#[rewrite_local]
+# 开屏广告
+^https:\/\/api\.m\.mi\.com\/v1\/(app\/start|order\/expressView) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
+^https:\/\/shop-api\.retail\.mi\.com\/mtop\/navi\/(rec\/merge\/|skywheel\/mishop\/splash) url reject-dict
+# 搜索框,热词,卡片
+^https:\/\/api\.m\.mi\.com\/v1\/app\/popup_info$ url reject-dict
+^https:\/\/api\.m\.mi\.com\/v1\/misearch\/search_input$ url reject-dict
+^https:\/\/api\.m\.mi\.com\/v2\/search\/search_default$ url reject-dict
+# 商品推荐信息流
+^https:\/\/api\.m\.mi\.com\/v1\/home\/page_feed(_v5)?$ url reject-dict
+
+^https?:\/\/api\.m\.mi\.com\/v1\/app\/start url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
+
+# > 小米有品
+^https?:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig url reject-200
+
+#[mitm]
+hostname = api.m.mi.com, shop-api.retail.mi.com, shopapi.io.mi.com
