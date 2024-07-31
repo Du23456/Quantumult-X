@@ -1,0 +1,13 @@
+#!name = 同花顺
+#!desc = 同花顺去广告
+#!author = fmz200
+#!date = 2023-12-8 14:06
+
+#[rewrite_local]
+^https?:\/\/adm\.10jqka\.com\.cn\/interface\/ad\/recommend url reject-200
+^https?:\/\/iphone\.ac\.qq\.com\/.*\/Support\/(getSystemConf|bootScreen) url reject
+# 同花顺至尊版 感谢【梭哈 All in】分享
+^https?:\/\/stat\.10jqka\.com\.cn\/q\?ld=mobile&id=ad url reject-dict
+
+#[mitm]
+hostname = adm.10jqka.com.cn, iphone.ac.qq.com, stat.10jqka.com.cn
