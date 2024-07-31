@@ -1,0 +1,19 @@
+#!name = 斗鱼直播
+#!desc = 斗鱼直播去广告
+#!author = fmz200
+#!date = 2023-12-8 14:06
+
+#[rewrite_local]
+^https?:\/\/daoyu\.sdo\.com\/api\/userCommon\/getAppStartAd url reject
+^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo url reject-200
+^https?:\/\/staticlive\.douyucdn\.cn\/upload\/signs\/ url reject
+^https?:\/\/staticlive\.douyucdn\.cn\/.+\/getStartSend url reject
+^https?:\/\/staticlive\.douyucdn\.cn\/.+?\/getStartSend url reject-img
+^https?:\/\/capi\.douyucdn\.cn\/lapi\/sign\/app(api)?\/getinfo\?client_sys=ios url reject
+^https?:\/\/capi\.douyucdn\.cn\/api\/ios_app\/check_update url reject-img
+^https?:\/\/capi\.douyucdn\.cn\/api\/v1\/getStartSend?client_sys=ios url reject-img
+^https?:\/\/douyucdn\.cn\/.+\/appapi\/getinfo url reject
+^https?:\/\/douyucdn\.cn\/.+?\/appapi\/getinfo url reject-img
+
+#[mitm]
+hostname = daoyu.sdo.com, rtbapi.douyucdn.cn, staticlive.douyucdn.cn, capi.douyucdn.cn, douyucdn.cn
