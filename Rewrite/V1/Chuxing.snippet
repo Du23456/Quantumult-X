@@ -3,6 +3,7 @@
 #!author=fmz200
 #!date=2024-7-30 19:36
 
+#[rewrite_local]
 # > 曹操出行 微信小程序净化
 ^https:\/\/minicap\.caocaokeji\.cn\/advert-bss\/pullAdvert url reject-dict
 
@@ -34,5 +35,5 @@
 # > 享道出行 微信小程序净化
 ^https:\/\/passengerapi\.saicmobility\.com\/(ad\/requestAd|pay\/v1\/queryOpenedCouponPackages) url reject-dict
 
-
+#[mitm]
 hostname = minicap.caocaokeji.cn, common.diditaxi.com.cn, conf.diditaxi.com.cn, capis*.didapinche.com, api.hongyibo.com.cn, apiproxy.zuche.com, api.songguo7.com, gw-passenger-wap.01zhuanche.com, passenger.t3go.cn, 
