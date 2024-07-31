@@ -1,0 +1,11 @@
+#!name = WIFI万能钥匙
+#!desc = WIFI万能钥匙去广告
+#!author = fmz200
+#!date = 2023-12-8 14:06
+
+#[rewrite_local]
+# > 首页弹窗广告
+^http:\/\/cds\.wifi188\.com\/feeds\.sec url reject-dict
+
+#[mitm]
+hostname=cds.wifi188.com
