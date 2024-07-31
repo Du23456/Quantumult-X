@@ -1,0 +1,10 @@
+#!name = 快手
+#!desc = 快手去广告
+#!author = fmz200
+#!date = 2023-12-8 14:06
+
+#[rewrite_local]
+^https?:\/\/open\.e\.kuaishou\.com\/rest\/e\/v\d\/open\/univ$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/adsense.js
+
+#[mitm]
+hostname=open.e.kuaishou.com
