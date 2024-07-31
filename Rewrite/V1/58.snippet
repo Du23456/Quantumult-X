@@ -1,0 +1,14 @@
+#!name = 58同城
+#!desc = 58同城去广告
+#!author = RuCu6
+#!date = 2024-7-31 15:32
+
+#[rewrite_local]
+^https:\/\/app\.58\.com\/api\/home\/(advertising|appadv) url reject
+^https:\/\/app\.58\.com\/api\/home\/invite\/popupAdv url reject
+^https:\/\/app\.58\.com\/api\/log\/ url reject
+^https:\/\/pic\d\.ajkimg\.com\/mat\/\w+\?imageMogr\d\/format\/jpg\/thumbnail\/\d{3}x\d{4}$ url reject
+^https:\/\/.+\.58cdn\.com\.cn\/brandads url reject
+
+#[mitm]
+hostname = *.58cdn.com.cn, app.58.com, pic?.ajkimg.com
