@@ -1,0 +1,11 @@
+#!name = 今日头条
+#!desc = 今日头条去广告
+#!author = fmz200
+#!date = 2023-12-8 14:06
+
+#[rewrite_local]
+^https:\/\/p\d.pstatp.com\/origin url reject
+^https:\/\/pb\d.pstatp.com\/origin url reject
+
+#[mitm]
+hostname=p*.pstatp.com
