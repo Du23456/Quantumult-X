@@ -1,0 +1,10 @@
+#!name = 米家
+#!desc = 米家去广告
+#!author = RuCu6
+#!date = 2023-12-8 14:06
+
+#[rewrite_local]
+^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|carousel\/banners|myTab|openingBanner) url reject-dict
+
+#[mitm]
+hostname = home.mi.com
