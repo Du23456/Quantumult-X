@@ -1,8 +1,8 @@
 #!name = 美颜相机
 #!desc = 美颜相机去广告
 #!author = RuCu6
-#!date = 2023-12-8 14:06
+#!date = 2024-8-1 01:54
 
 #[filter_local]
-HOST, aaid.uyunad.com, REJECT
-HOST, adui.tg.meitu.com, REJECT
+DOMAIN, aaid.uyunad.com, REJECT
+DOMAIN, adui.tg.meitu.com, REJECT
