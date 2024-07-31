@@ -1,0 +1,12 @@
+#!name = 得物
+#!desc = 得物去广告
+#!author = fmz200
+#!date = 2023-12-8 14:06
+
+#[rewrite_local]
+# 开屏广告 【Runestoner】分享
+^https?:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement url reject
+^https?:\/\/cdn\.poizon\.com\/node-common\/.*.jpg url reject-200
+
+#[mitm]
+hostname=app.dewu.com,cdn.poizon.com
