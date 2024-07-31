@@ -1,0 +1,10 @@
+#!name = 美团众包
+#!desc = 美团众包去广告
+#!author = fmz200
+#!date = 2023-12-8 14:06
+
+#[rewrite_local]
+^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage url reject-200
+
+#[mitm]
+hostname=peisongapi.meituan.com
