@@ -1,0 +1,11 @@
+#!name = 网易邮箱
+#!desc = 网易邮箱去广告
+#!author = fmz200
+#!date = 2023-12-8 14:06
+
+#[rewrite_local]
+^https?:\/\/appconf\.mail\.163\.com\/mmad\/ url reject-200
+^https?:\/\/client\.mail\.163\.com\/apptrack\/confinfo\/(searchMultiAds|showAds) url reject
+
+#[mitm]
+hostname = appconf.mail.163.com, client.mail.163.com, analytics.163.com
