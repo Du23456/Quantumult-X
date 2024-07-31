@@ -6,11 +6,12 @@
 #!icon = https://pp.myapp.com/ma_icon/0/icon_1029694_1691569132/256
 #!date = 2023-5-10 23:00
 
-# 饿了么 //elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com
+#[rewrite_local]
 ^https:\/\/elemecdn.com\/.+\/sitemap url reject
 ^https:\/\/fuss10.elemecdn.com\/.+\/w\/640\/h\/\d{3,4} url reject
 ^https:\/\/fuss10.elemecdn.com\/.+\/w\/750\/h\/\d{3,4} url reject
 ^https:\/\/fuss10.elemecdn.com\/.+\.mp4 url reject
 ^https:\/\/www1.elecfans.com\/www\/delivery url reject
 
+#[mitm]
 hostname = elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com
