@@ -1,0 +1,7 @@
+#!name = 阿里云盘
+#!desc = 阿里云盘去广告
+#!author = RuCu6
+#!date = 2024-8-1 01:40
+
+#[filter_local]
+IP-CIDR, 203.107.1.1/24, REJECT
