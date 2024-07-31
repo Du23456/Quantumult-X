@@ -1,0 +1,14 @@
+#!name = 网易新闻
+#!desc = 网易新闻去广告
+#!author = RuCu6 fmz200
+#!date = 2024-7-31 19:10
+
+#[rewrite_local]
+^https:\/\/gw\.m\.163\.com\/nc\/api\/v1\/feed\/dynamic\/headline-list\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/news163.js
+^https:\/\/nex\.163\.com\/q url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/news163.js
+^https:\/\/gw\.m\.163\.com\/nc\/api\/v1\/search\/hot-word url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/news163.js
+
+^https?:\/\/c\.m\.163\.com\/nc\/gl\/ url reject-200
+
+#[mitm]
+hostname = gw.m.163.com, nex.163.com, c.m.163.com
