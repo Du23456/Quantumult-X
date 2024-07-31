@@ -1,0 +1,10 @@
+#!name = 贝壳找房
+#!desc = 贝壳找房去广告
+#!author = fmz200
+#!date = 2023-12-8 14:06
+
+#[rewrite_local]
+^https?:\/\/apps\.api\.ke\.com\/config\/config\/(bootpage|getactivityconfig) url reject
+
+#[mitm]
+hostname = apps.api.ke.com
