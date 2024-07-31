@@ -1,5 +1,5 @@
 #!name = 微信
-#!desc = 微信公众号去广告并解除封禁页面
+#!desc = 微信公众号去广告
 #!author = RuCu6
 #!date = 2024-7-31 19:14
 
@@ -7,8 +7,6 @@
 # 微信公众号去广告
 ^http:\/\/\w+\.wxs\.qq\.com\/\d+\/\d+\/(snscosdownload|snssvpdownload)\/(SH|SZ)\/reserved\/\w+ url reject-dict
 ^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|jsmonitor|masonryfeed|relatedarticle)\? url reject-dict
-# 微信封禁页面
-^https\:\/\/(weixin110\.qq|security\.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/wechat/wechat110.js
 
 #[mitm]
-hostname = mp.weixin.qq.com, weixin110.qq.com, security.wechat.com
+hostname = mp.weixin.qq.com
