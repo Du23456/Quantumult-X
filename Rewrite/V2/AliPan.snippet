@@ -1,0 +1,18 @@
+#!name = 阿里云盘(App+小程序)
+#!desc = 阿里云盘App、微信小程序去广告
+#!author = RuCu6
+#!date = 2024-7-31 14:06
+
+#[rewrite_local]
+^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders url reject-dict
+^https:\/\/(biz)?api\.alipan\.com\/apps\/v\d\/users?\/home\/(news|widgets) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
+^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
+^https:\/\/member\.alipan\.com\/v2\/activity\/sign_in_luckyBottle url reject-dict
+
+^https:\/\/api\.alipan\.com\/apps\/v2\/users\/home\/(news|widgets) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
+
+# 小程序首页上方广告 @fmz200
+^https:\/\/member\.alipan\.com\/v2\/activity\/sign_in_info url reject-dict
+
+#[mitm]
+hostname = *api.alipan.com, member.alipan.com
