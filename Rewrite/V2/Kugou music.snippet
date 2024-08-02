@@ -1,0 +1,10 @@
+#!name = 酷狗音乐
+#!desc = 酷狗音乐去广告
+#!author = RuCu6
+#!date = 2024-8-2 17:25
+
+#[rewrite_local]
+^http:\/\/adserviceretry\.kglink\.cn\/v4\/mobile_splash\? url reject-dict
+
+#[mitm]
+hostname = adserviceretry.kglink.cn
