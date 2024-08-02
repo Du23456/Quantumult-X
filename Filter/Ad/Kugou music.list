@@ -1,0 +1,9 @@
+#!name = 酷狗音乐
+#!desc = 酷狗音乐去广告
+#!author = Rucu6
+#!date = 2024-8-2 17:28
+
+#[filter_local]
+DOMAIN, ads.service.kugou.com, REJECT
+DOMAIN, adserviceretry.kglink.cn, REJECT
+DOMAIN, adserviceretry.kugou.com, REJECT
