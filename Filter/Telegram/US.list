@@ -13,6 +13,3 @@ IP-CIDR,185.76.151.0/24,no-resolve
 IP-CIDR6,2a0a:f280:203::/48,no-resolve
 # DC3-ASN
 IP-ASN,211157,no-resolve
-PROCESS-NAME,nekox.messenger
-PROCESS-NAME,org.telegram.messenger
-PROCESS-NAME,telegram-desktop
