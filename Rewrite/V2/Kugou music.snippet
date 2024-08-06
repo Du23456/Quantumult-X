@@ -1,10 +1,10 @@
 #!name = 酷狗音乐
 #!desc = 酷狗音乐去广告
 #!author = RuCu6
-#!date = 2024-8-3 09:58
+#!date = 2024-8-6 20:59
 
 #[rewrite_local]
-^https:\/\/gateway\.kugou\.com\/adp\/ad\/v1\/mine_top_banner\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/kugou.js
+^https:\/\/gateway\.kugou\.com\/(adp\/ad\/v1\/mine_top_banner|ads\.gateway\/v2\/home_card) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/kugou.js
 ^https?:\/\/adserviceretry\.kglink\.cn\/v\d\/mobile\w+ url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/kugou.js
 
 #[mitm]
