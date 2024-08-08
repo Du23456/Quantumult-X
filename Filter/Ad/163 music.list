@@ -3,11 +3,10 @@
 #!author = RuCu6
 #!date = 2023-9-14
 
-# 网易云音乐
+#[filter_local]
 DOMAIN, iadmat.nosdn.127.net, REJECT
 DOMAIN, iadmatapk.nosdn.127.net, REJECT
 DOMAIN, iadmusicmat.music.126.net, REJECT
 DOMAIN, iadmusicmatvideo.music.126.net, REJECT
 DOMAIN, ipv4.music.163.com, REJECT
 DOMAIN, ipv6.music.163.com, REJECT
-DOMAIN-SUFFIX, 163jiasu.com, REJECT
