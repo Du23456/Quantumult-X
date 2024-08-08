@@ -1,7 +1,0 @@
-#!name = 微博
-#!desc = 微博去除开屏广告，配合对应模块使用
-#!author = RuCu6
-#!date = 2023-11-13 22:26
-
-DOMAIN, huodong.weibo.cn, REJECT
-DOMAIN-SUFFIX, biz.weibo.com, REJECT
