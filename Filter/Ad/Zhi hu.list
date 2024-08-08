@@ -1,4 +1,7 @@
-# > 知乎
+#!name = 知乎
+#!desc = 知乎去广告
+#!author = Rucu6
+#!date = 2024-8-9 00:28
 
 DOMAIN, appcloud.zhihu.com, REJECT
 DOMAIN, appcloud2.in.zhihu.com, REJECT
