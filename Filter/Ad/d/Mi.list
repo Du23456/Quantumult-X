@@ -1,0 +1,7 @@
+#!name = 小米
+#!desc = 小米去广告
+#!author = Rucu6
+#!date = 2024-8-9 00:28
+
+#[filter_local]
+DOMAIN, sdkconfig.ad.xiaomi.com, REJECT
