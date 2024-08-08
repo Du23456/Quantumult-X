@@ -1,0 +1,6 @@
+#!name = 爱奇艺
+#!desc = 爱奇艺去广告（配合对应重写一起使用）
+#!author = RuCu6
+#!date = 2023-9-15 18:06
+
+DOMAIN, api.iqiyi.com, REJECT
