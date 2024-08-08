@@ -1,0 +1,7 @@
+#!name = 彩云天气
+#!desc = 彩云天气去广告
+#!author = RuCu6
+#!date = 2024-8-1 01:40
+
+DOMAIN, abyss.cyapi.cn, REJECT
+DOMAIN, ad.cyapi.cn, REJECT
