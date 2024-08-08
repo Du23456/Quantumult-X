@@ -1,0 +1,9 @@
+#!name = Outlook
+#!desc = Outlook去广告
+#!author = Rucu6
+#!date = 2024-8-9 00:28
+
+#[filter_local]
+DOMAIN, acdn.adnxs.com, REJECT
+DOMAIN, mediation.adnxs.com, REJECT
+DOMAIN, sin3-ib.adnxs.com, REJECT
