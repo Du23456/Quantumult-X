@@ -1,0 +1,10 @@
+#!name = 酷我音乐
+#!desc = 酷我音乐去广告
+#!author = Rucu6
+#!date = 2024-8-9 00:28
+
+#[filter_local]
+DOMAIN, ad.tencentmusic.com, REJECT
+DOMAIN, g.koowo.com, REJECT
+DOMAIN, mobilead.kuwo.cn, REJECT
+DOMAIN, rich.kuwo.cn, REJECT
