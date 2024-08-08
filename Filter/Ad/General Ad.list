@@ -20,6 +20,7 @@ DOMAIN, open.kuaishou.com, REJECT
 DOMAIN, pagead2.googlesyndication-cn.com, REJECT
 DOMAIN, pagead2.googlesyndication.com, REJECT
 DOMAIN, sdk.e.qq.com, REJECT
+DOMAIN, tangram.e.qq.com, REJECT
 DOMAIN, ws.tapjoyads.com, REJECT
 DOMAIN, www.googleadservices.com, REJECT
 DOMAIN, xlog.jd.com, REJECT
