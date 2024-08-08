@@ -1,6 +1,6 @@
 #!name = Speedtest
 #!desc = Speedtest去广告
-#!author = Du23456
+#!author = RuCu6
 #!date = 2023-10-4 18:26
 
 DOMAIN, ads.pubmatic.com, REJECT
