@@ -1,0 +1,13 @@
+DOMAIN-SUFFIX, miaozhen.com, REJECT
+DOMAIN-SUFFIX, ad-sign.byteimg.com, REJECT
+DOMAIN-SUFFIX, tos.pstatp.com, REJECT
+DOMAIN-KEYWORD, asiad.byteactivity, REJECT
+DOMAIN-KEYWORD, pangolin-sdk-toutiao, REJECT
+DOMAIN-KEYWORD, pglstatp-toutiao, REJECT
+DOMAIN-SUFFIX, pangolin.snssdk.com, REJECT
+DOMAIN-SUFFIX, video-cn.snssdk.com, REJECT
+DOMAIN-SUFFIX, getui.com, REJECT
+DOMAIN-SUFFIX, getui.net, REJECT
+DOMAIN-SUFFIX, gepush.com, REJECT
+DOMAIN-SUFFIX, igexin.com, REJECT
+DOMAIN-SUFFIX, log.aliyuncs.com, REJECT
