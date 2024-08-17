@@ -1,9 +1,9 @@
 #!name = 微信
 #!desc = 微信去广告
 #!author = RuCu6
-#!date = 2024-7-4 14:06
+#!date = 2024-8-17 13:37
 
 #[filter_local]
 DOMAIN, badjs.weixinbridge.com, REJECT
-# 微信小程序通用规则
-#DOMAIN, wxsmsdy.video.qq.com, REJECT
+DOMAIN, dns.weixin.qq.com.cn, REJECT
+DOMAIN-SUFFIX, wxs.qq.com, REJECT
