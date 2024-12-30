@@ -1,20 +1,22 @@
 #!name = Apple
 #!desc = Apple去广告
-#!author = RuCu6
-#!date = 2023-9-17 18:30
+#!author = RuCu6,cc63,froggeric
+#!date = 2024-12-31 03:02
 
 #[filter_local]
-DOMAIN, advertising.apple.com, REJECT
 DOMAIN, api-adservices.apple.com, REJECT
-DOMAIN, apple.comscoreresearch.com, REJECT
-DOMAIN, banners.itunes.apple.com, REJECT
-DOMAIN, iad.apple.com, REJECT
-DOMAIN, iadcontent.apple.com, REJECT
-DOMAIN, iadctest.qwapi.com, REJECT
-DOMAIN, iadmoo.apple.com, REJECT
-DOMAIN, iadworkbench.apple.com, REJECT
-DOMAIN, launch.apple.com, REJECT
-DOMAIN, qwapi.apple.com, REJECT
+DOMAIN-SUFFIX, advertising.apple.com, REJECT
+DOMAIN-SUFFIX, banners.itunes.apple.com, REJECT
+DOMAIN-SUFFIX, iad.apple.com, REJECT
+DOMAIN-SUFFIX, iadcontent.apple.com, REJECT
+DOMAIN-SUFFIX, iadctest.qwapi.com, REJECT
+DOMAIN-SUFFIX, iadmoo.apple.com, REJECT
+DOMAIN-SUFFIX, iadworkbench.apple.com, REJECT
+DOMAIN-SUFFIX, launch.apple.com, REJECT
+DOMAIN-SUFFIX, metrics.apple.com, REJECT
+DOMAIN-SUFFIX, qwapi.apple.com, REJECT
+DOMAIN-SUFFIX, securemetrics.apple.com, REJECT
+DOMAIN-SUFFIX, iadsdk.apple.com, REJECT
+DOMAIN-SUFFIX, apple.comscoreresearch.com, REJECT
 DOMAIN-SUFFIX, advp.apple.com, REJECT
 DOMAIN-SUFFIX, iad-apple.com, REJECT
-DOMAIN-SUFFIX, iadsdk.apple.com, REJECT
