@@ -1,4 +1,4 @@
-# 已转阵Surge，此仓库已归档不再更新，点击跳转新仓库
+## 已转阵Surge，此仓库已归档不再更新，[点击这里跳转到新仓库](https://github.com/Du23456/Surge/tree/main)
 
 # Quantumult X 资源
 
