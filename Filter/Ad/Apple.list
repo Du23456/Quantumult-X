@@ -1,11 +1,11 @@
 #!name = Apple
 #!desc = Apple去广告
-#!author = RuCu6,cc63,froggeric
-#!date = 2024-12-31 03:02
+#!author = fmz200,cc63,froggeric
+#!date = 2025-3-10 21:53
 
 #[filter_local]
-DOMAIN, api-adservices.apple.com, REJECT
 DOMAIN-SUFFIX, advertising.apple.com, REJECT
+DOMAIN, api-adservices.apple.com, REJECT
 DOMAIN-SUFFIX, banners.itunes.apple.com, REJECT
 DOMAIN-SUFFIX, iad.apple.com, REJECT
 DOMAIN-SUFFIX, iadcontent.apple.com, REJECT
@@ -16,7 +16,8 @@ DOMAIN-SUFFIX, launch.apple.com, REJECT
 DOMAIN-SUFFIX, metrics.apple.com, REJECT
 DOMAIN-SUFFIX, qwapi.apple.com, REJECT
 DOMAIN-SUFFIX, securemetrics.apple.com, REJECT
-DOMAIN-SUFFIX, iadsdk.apple.com, REJECT
+DOMAIN, webproxy-advp.iad-apple.com, REJECT
+DOMAIN, webproxy-advp.iad-apple.com.akadns.net, REJECT
 DOMAIN-SUFFIX, apple.comscoreresearch.com, REJECT
 DOMAIN-SUFFIX, advp.apple.com, REJECT
-DOMAIN-SUFFIX, iad-apple.com, REJECT
+DOMAIN-SUFFIX, iadsdk.apple.com, REJECT
